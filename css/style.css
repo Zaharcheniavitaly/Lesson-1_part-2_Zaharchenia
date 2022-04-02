@@ -29,17 +29,46 @@ body {
 }
 .header__nav {
 }
-.header__heading {
+.header__nav-wrp{
+   width: 232px;
+   height: 764px;
+   background-image: url(img/svg/icon-close.svg);
+   background-repeat: no-repeat;
+    background-position: right 10px;
+}
+
+.header__nav-close{
+   
+}
+
+.header__nav-close{
+   
+  
+}
+
+.header__menu-heading {
+   font-weight: 700;
+   color: #000000;
+   text-transform: uppercase;
+   margin-bottom: 24px;
 }
 .header__nav-list {
 }
 .header__nav-item {
+   
 }
 .nav-sub-item {
 }
 .nav-sub-item__title {
+   color: #F16D7F;
+   text-transform: uppercase;
 }
 .nav-sub-item__list {
 }
 .nav-sub-item__item {
+
+}
+
+.nav-sub-item__item-i{
+   color: #6F6E6E;
 }
