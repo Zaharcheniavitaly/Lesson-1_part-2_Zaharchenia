@@ -11,53 +11,35 @@ body {
    margin: 0 auto;
 }
 
-.header {
-
-		&__wrapp {
-		}
-
-		&__logo-loupe {
-		}
-
-		&__logo {
-		}
-
-		&__loupe {
-		}
-
-		&__list {
-		}
-
-		&__item {
-		}
-
-		&__button {
-		}
-
-		&__link {
-		}
-
-		&__nav {
-		}
-
-		&__heading {
-		}
-
-		&__nav-list {
-		}
-
-		&__nav-item {
-		}
+.header__wrapp {
+}
+.header__logo-loupe {
+}
+.header__logo {
+}
+.header__loupe {
+}
+.header__list {
+}
+.header__item {
+}
+.header__button {
+}
+.header__link {
+}
+.header__nav {
+}
+.header__heading {
+}
+.header__nav-list {
+}
+.header__nav-item {
 }
 .nav-sub-item {
-
-		&__title {
-		}
-
-		&__list {
-		}
-
-		&__item {
-		}
 }
-
+.nav-sub-item__title {
+}
+.nav-sub-item__list {
+}
+.nav-sub-item__item {
+}
