@@ -45,6 +45,8 @@ justify-content: right;
 }
 .header__button {
    margin-right: 25px;
+   border: none;
+   background-color: transparent;
 }
 .header__link {
 }
