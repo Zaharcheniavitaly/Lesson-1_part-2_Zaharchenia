@@ -21,7 +21,7 @@ body {
 .header{
    background-color: black;
    position: fixed;
-width: 100%;}
+   width: 100%;}
 
 .header__wrapp {
    min-height: 75px;
@@ -33,7 +33,7 @@ width: 100%;}
 .header__logo-loupe {
    display: flex;
    flex-wrap: wrap;
-justify-content: left;
+   justify-content: left;
    align-items: center;
 }
 
@@ -43,10 +43,11 @@ justify-content: left;
 .header__loupe {
    margin-top: 6px;
 }
+
 .header__list {
    display: flex;
    flex-wrap: wrap;
-justify-content: right;
+   justify-content: right;
    align-items: center;
 }
 
@@ -109,17 +110,17 @@ justify-content: right;
 .brand {
    display: flex;
    margin: 0 auto; 
-   max-width: 1600px;
-   
+   max-width: 1600px;   
 }
+
 .brand-wrapp {
    flex-grow: 1;
    display: flex;
    align-items: center;
    margin: 75px 0 65px 0;
    background-color: var(--phone-brand);
-
 }
+
 .brand__img {
    height: 764px;
 }
@@ -143,3 +144,54 @@ text-transform:uppercase;
 }
 
 /*brand style end*/
+
+
+/*sales style start*/
+
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.sales {
+}
+
+.visually-hidden {
+}
+
+.sales__list {
+}
+
+.sales__item {
+}
+
+.sales__item--women {
+}
+
+.sales__text {
+}
+
+.sales__title {
+}
+
+.sales__item--men {
+}
+
+.sales__item--kids {
+}
+
+.sales__item--accesories {
+}
+
+
+
+
+/*sales style end*/
