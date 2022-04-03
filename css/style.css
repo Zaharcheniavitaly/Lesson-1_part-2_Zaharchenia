@@ -208,12 +208,12 @@ background-color: var(--fashion);
       background-repeat: no-repeat;      
       }
 
-      .sales__item--kids {
-    background: url(../img/for-kids-.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: center;
-    }
+.sales__item--kids {
+   background: url(../img/for-kids-.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center;
+}
 
 .sales__item--accesories {
    width: 100%;
