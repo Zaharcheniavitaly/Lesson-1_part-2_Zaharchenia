@@ -209,24 +209,24 @@ background-color: var(--fashion);
       }
 
       .sales__item--kids {
-         background: url(../img/for-kids-.jpg);
-         background-size: contain;
-         background-repeat: no-repeat;
-         text-align: center;
-         }
+    background: url(../img/for-kids-.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
 
-         .sales__item--accesories {
-            width: 100%;
-            margin-top: 30px;
-            padding-top: 65px;
-            background: url(../img/for-accesories-.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            text-align: center;
-            }
+.sales__item--accesories {
+   width: 100%;
+   margin-top: 30px;
+   padding-top: 65px;
+   background: url(../img/for-accesories-.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center;
+   }
 
-.sales__text {
-      font-size: 16px;
+   .sales__text {
+   font-size: 16px;
    line-height: 19px;
    color: #FFFFFF;
 }
