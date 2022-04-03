@@ -1,9 +1,20 @@
+:root {
+   --black: #222222;
+   --phone-brand: #F1E4E6;
+   --fashion: #F16D7F;
+}
+
+img{
+   max-width: 100%;
+   height: auto;
+}
+
 body {
    font-family: 'Lato', sans-serif;
    font-size: 14px;
    line-height: 17px;
    font-weight: 400;
-   color: black;
+   color: var(--black);
 }
 
 .container{
@@ -11,9 +22,11 @@ body {
    margin: 0 auto;
 }
 
+/*header style start*/
 .header{
    background-color: black;
-}
+   position: fixed;
+   width: 100%;}
 
 .header__wrapp {
    min-height: 75px;
@@ -25,7 +38,7 @@ body {
 .header__logo-loupe {
    display: flex;
    flex-wrap: wrap;
-justify-content: left;
+   justify-content: left;
    align-items: center;
 }
 
@@ -35,20 +48,18 @@ justify-content: left;
 .header__loupe {
    margin-top: 6px;
 }
+
 .header__list {
    display: flex;
    flex-wrap: wrap;
-justify-content: right;
+   justify-content: right;
    align-items: center;
 }
-.header__item {
-}
+
 .header__button {
    margin-right: 25px;
    border: none;
    background-color: transparent;
-}
-.header__link {
 }
 
 .header__link-account{
@@ -61,16 +72,14 @@ justify-content: right;
 
 .header__nav-wrp{
    width: 232px;
-   height: 764px;
-   
+   height: 764px;   
 }
 
 .header__nav-close{
    display: block;
-  width: 12px;
-  height: 12px;
-  margin: 16px 17px 9px 203px;
-  
+   width: 12px;
+   height: 12px;
+   margin: 16px 17px 9px 203px;
 }
 
 .header__menu-heading {
@@ -79,22 +88,18 @@ justify-content: right;
    text-transform: uppercase;
    margin-bottom: 4px;
 }
-.header__nav-list {
-}
+
 .header__nav-item {
    margin-top: 20px;
    
 }
-.nav-sub-item {
-  
-}
+
 .nav-sub-item__title {
    color: #F16D7F;
    text-transform: uppercase;
    
 }
-.nav-sub-item__list {
-}
+
 .nav-sub-item__item {
    padding-top: 11px;
 }
@@ -103,3 +108,147 @@ justify-content: right;
    color: #6F6E6E;
    
 }
+/*header style end*/
+
+
+/*brand style start*/
+.brand {
+   display: flex;
+   margin: 0 auto; 
+   max-width: 1600px;   
+}
+
+.brand-wrapp {
+   flex-grow: 1;
+   display: flex;
+   align-items: center;
+   margin: 75px 0 65px 0;
+   background-color: var(--phone-brand);
+}
+
+.brand__img {
+   height: 764px;
+}
+
+.brand__heading {
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+text-transform: uppercase;
+position: relative;
+}
+
+.brand__heading::after{
+position: absolute;
+content: '';
+width: 12px;
+height: 92px;
+top: 5px;
+left: -28px;
+background-color: var(--fashion);
+
+}
+
+.brand__sub-heading {
+   display: block;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+}
+
+.brand__sub-heading-col {
+   color: var(--fashion);
+}
+
+/*brand style end*/
+
+
+/*sales style start*/
+
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.sales {
+}
+
+.sales__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sales__item{
+   padding-top: 105px;
+   width: 360px;
+   height: 260px;
+   text-align: center;
+}
+
+.sales__item--women {
+   background: url(../img/for-women-.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center;
+   }
+
+   .sales__item--men {      
+      background: url(../img/for-men-.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;      
+      }
+
+      .sales__item--kids {
+    background: url(../img/for-kids-.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+
+.sales__item--accesories {
+   width: 100%;
+   margin-top: 30px;
+   padding-top: 65px;
+   background: url(../img/for-accesories-.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center;
+   }
+
+   .sales__text {
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF;
+}
+
+.sales__title {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 32px;
+   color: var(--fashion);
+   text-transform: uppercase;
+}
+
+.sales__item--men {
+}
+
+.sales__item--kids {
+}
+
+.sales__item--accesories {
+}
+
+
+
+
+/*sales style end*/
