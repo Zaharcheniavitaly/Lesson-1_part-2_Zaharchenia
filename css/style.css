@@ -4,6 +4,11 @@
    --fashion: #F16D7F;
 }
 
+img{
+   max-width: 100%;
+   height: auto;
+}
+
 body {
    font-family: 'Lato', sans-serif;
    font-size: 14px;
@@ -126,10 +131,22 @@ body {
 }
 
 .brand__heading {
-   font-weight: 900;
+font-weight: 900;
 font-size: 48px;
 line-height: 58px;
-text-transform:uppercase;
+text-transform: uppercase;
+position: relative;
+}
+
+.brand__heading::after{
+position: absolute;
+content: '';
+width: 12px;
+height: 92px;
+top: 5px;
+left: -28px;
+background-color: var(--fashion);
+
 }
 
 .brand__sub-heading {
@@ -164,22 +181,62 @@ text-transform:uppercase;
 .sales {
 }
 
-.visually-hidden {
-}
-
 .sales__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
 }
 
-.sales__item {
+.sales__item{
+   padding-top: 105px;
+   width: 360px;
+   height: 260px;
+   text-align: center;
 }
 
 .sales__item--women {
-}
+   background: url(../img/for-women-.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center;
+   }
+
+   .sales__item--men {      
+      background: url(../img/for-men-.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;      
+      }
+
+      .sales__item--kids {
+         background: url(../img/for-kids-.jpg);
+         background-size: contain;
+         background-repeat: no-repeat;
+         text-align: center;
+         }
+
+         .sales__item--accesories {
+            width: 100%;
+            margin-top: 30px;
+            padding-top: 65px;
+            background: url(../img/for-accesories-.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            text-align: center;
+            }
 
 .sales__text {
+      font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF;
 }
 
 .sales__title {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 32px;
+   color: var(--fashion);
+   text-transform: uppercase;
 }
 
 .sales__item--men {
