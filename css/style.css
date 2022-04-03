@@ -12,13 +12,12 @@ body {
 }
 
 .header{
-   background-color: #dbced0;
+   background-color: black;
 }
 
 .header__wrapp {
    min-height: 75px;
-   background-color: black;
-   display: flex;
+      display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
@@ -29,6 +28,7 @@ body {
 justify-content: left;
    align-items: center;
 }
+
 .header__logo {
    margin-right: 41px;
 }
@@ -38,17 +38,25 @@ justify-content: left;
 .header__list {
    display: flex;
    flex-wrap: wrap;
-justify-content: left;
+justify-content: right;
    align-items: center;
 }
 .header__item {
 }
 .header__button {
+   margin-right: 25px;
 }
 .header__link {
 }
-.header__nav {
+
+.header__link-account{
+   margin-right: 42px;
 }
+
+.header__nav {
+   display: none;
+}
+
 .header__nav-wrp{
    width: 232px;
    height: 764px;
