@@ -1,9 +1,15 @@
+:root {
+   --black: #222222;
+   --phone-brand: #F1E4E6;
+   --fashion: #F16D7F;
+}
+
 body {
    font-family: 'Lato', sans-serif;
    font-size: 14px;
    line-height: 17px;
    font-weight: 400;
-   color: black;
+   color: var(--black);
 }
 
 .container{
@@ -11,9 +17,11 @@ body {
    margin: 0 auto;
 }
 
+/*header style start*/
 .header{
    background-color: black;
-}
+   position: fixed;
+width: 100%;}
 
 .header__wrapp {
    min-height: 75px;
@@ -41,14 +49,11 @@ justify-content: left;
 justify-content: right;
    align-items: center;
 }
-.header__item {
-}
+
 .header__button {
    margin-right: 25px;
    border: none;
    background-color: transparent;
-}
-.header__link {
 }
 
 .header__link-account{
@@ -61,16 +66,14 @@ justify-content: right;
 
 .header__nav-wrp{
    width: 232px;
-   height: 764px;
-   
+   height: 764px;   
 }
 
 .header__nav-close{
    display: block;
-  width: 12px;
-  height: 12px;
-  margin: 16px 17px 9px 203px;
-  
+   width: 12px;
+   height: 12px;
+   margin: 16px 17px 9px 203px;
 }
 
 .header__menu-heading {
@@ -79,22 +82,18 @@ justify-content: right;
    text-transform: uppercase;
    margin-bottom: 4px;
 }
-.header__nav-list {
-}
+
 .header__nav-item {
    margin-top: 20px;
    
 }
-.nav-sub-item {
-  
-}
+
 .nav-sub-item__title {
    color: #F16D7F;
    text-transform: uppercase;
    
 }
-.nav-sub-item__list {
-}
+
 .nav-sub-item__item {
    padding-top: 11px;
 }
@@ -103,3 +102,44 @@ justify-content: right;
    color: #6F6E6E;
    
 }
+/*header style end*/
+
+
+/*brand style start*/
+.brand {
+   display: flex;
+   margin: 0 auto; 
+   max-width: 1600px;
+   
+}
+.brand-wrapp {
+   flex-grow: 1;
+   display: flex;
+   align-items: center;
+   margin: 75px 0 65px 0;
+   background-color: var(--phone-brand);
+
+}
+.brand__img {
+   height: 764px;
+}
+
+.brand__heading {
+   font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+text-transform:uppercase;
+}
+
+.brand__sub-heading {
+   display: block;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+}
+
+.brand__sub-heading-col {
+   color: var(--fashion);
+}
+
+/*brand style end*/
