@@ -344,21 +344,43 @@ background-color: var(--fashion);
 /*services style end*/
 
 
-.footer {
-}
-.container {
-}
+
+
 .footer__top {
+   max-width: 1600px;
+   min-height: 448px;
+   background: url(../img/footer_bgr-.jpg) center no-repeat;
+   object-fit: cover;
+   margin: 0 auto;
 }
-.footer__bottom {
+.footer__bottom {   
+   background-color: var(--black);
 }
+
+.footer__bottom-copy-messend {
+   height: 79px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;   
+}
+
 .footer__bottom-copy {
+   color: var(--white);
+   line-height: 19px;
 }
-.footer__bottom-nav {
-}
+
 .footer__bottom-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:end;
+   align-items: center;
 }
-.footer__bottom-item {
-}
+
 .footer__bottom-icon {
+   background: var(--white);
+   width: 31px;
+   height: 32px;
+   margin-left: 7.3px;
+   padding: 8px;
 }
