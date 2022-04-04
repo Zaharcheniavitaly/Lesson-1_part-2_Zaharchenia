@@ -129,6 +129,8 @@ body {
 
 .brand__img {
    height: 764px;
+   margin-right: 91px;
+   object-fit: cover;
 }
 
 .brand__heading {
@@ -296,17 +298,14 @@ background-color: var(--fashion);
 }
 
 .catalog__button {
-   margin-top: 18.5px;
-   margin-bottom: 95.5px;
-   text-align: center;
-   }
-
-.catalog__submit {
+   display: block;   
+   margin: 18.5px auto 95.5px auto;
    padding: 14px 38.5px;
    line-height: 19px;
    color: #F26376;
    border: 1px solid #FF6A6A;
    background-color: #FFFFFF;
-}
+   cursor: pointer
+   }
 
 /*catalog style end*/
