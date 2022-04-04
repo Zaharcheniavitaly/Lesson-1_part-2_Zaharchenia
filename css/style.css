@@ -2,6 +2,7 @@
    --black: #222222;
    --phone-brand: #F1E4E6;
    --fashion: #F16D7F;
+   --white: #FBFBFB;
 }
 
 img{
@@ -203,10 +204,10 @@ background-color: var(--fashion);
    background-size: contain;
    }
 
-   .sales__item--men {      
-      background: url(../img/for-men-.jpg) no-repeat;
-      background-size: contain;
-      }
+.sales__item--men {      
+   background: url(../img/for-men-.jpg) no-repeat;
+   background-size: contain;
+   }
 
 .sales__item--kids {
    background: url(../img/for-kids-.jpg) no-repeat;
@@ -239,9 +240,6 @@ background-color: var(--fashion);
 
 
 /*catalog style start*/
-
-.catalog {
-}
 
 .catalog__heading {
    font-size: 30px;
@@ -301,7 +299,7 @@ background-color: var(--fashion);
    line-height: 19px;
    color: #F26376;
    border: 1px solid #FF6A6A;
-   background-color: #FFFFFF;
+   background-color: var(--white);
    cursor: pointer
    }
 
@@ -316,26 +314,31 @@ background-color: var(--fashion);
 }
 
 .services__list {
-   width: 360px;
+   min-height: 341px;
    display: flex;
    flex-wrap: wrap;
-   
    align-items: center;
-
-}
-.services__list-wrapp{
-   width: 360px;
-   height: 341px;
-   justify-content: space-between;
 }
 
-.services__delivery {
+.services__item {
+   max-width: 360px;
+   text-align: center;
 }
 
 .services__title {
+   margin-top: 28px;
+   margin-bottom: 16px;
+}
+
+.services__title-link{
+   font-size: 20px;
+   line-height: 24px;
+   color: var(--white);
 }
 
 .services__text {
+   font-weight: 300;
+   color: var(--white);
 }
 
 /*services style end*/
