@@ -32,7 +32,7 @@ body {
 
 .header__wrapp {
    min-height: 75px;
-      display: flex;
+   display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
@@ -199,10 +199,8 @@ background-color: var(--fashion);
 }
 
 .sales__item--women {
-   background: url(../img/for-women-.jpg);
+   background: url(../img/for-women-.jpg) no-repeat;
    background-size: contain;
-   background-repeat: no-repeat;
-   text-align: center;
    }
 
    .sales__item--men {      
@@ -213,7 +211,6 @@ background-color: var(--fashion);
 .sales__item--kids {
    background: url(../img/for-kids-.jpg) no-repeat;
    background-size: contain;
-   background-repeat: no-repeat;
 }
 
 .sales__item--accesories {
@@ -309,3 +306,36 @@ background-color: var(--fashion);
    }
 
 /*catalog style end*/
+
+
+/*services style start*/
+
+
+.services {
+   background-color: var(--black);
+}
+
+.services__list {
+   width: 360px;
+   display: flex;
+   flex-wrap: wrap;
+   
+   align-items: center;
+
+}
+.services__list-wrapp{
+   width: 360px;
+   height: 341px;
+   justify-content: space-between;
+}
+
+.services__delivery {
+}
+
+.services__title {
+}
+
+.services__text {
+}
+
+/*services style end*/
