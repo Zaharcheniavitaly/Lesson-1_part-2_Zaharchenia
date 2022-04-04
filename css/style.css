@@ -26,7 +26,9 @@ body {
 .header{
    background-color: black;
    position: fixed;
-   width: 100%;}
+   width: 100%;
+   z-index: 1;
+}
 
 .header__wrapp {
    min-height: 75px;
@@ -195,6 +197,7 @@ background-color: var(--fashion);
    width: 360px;
    height: 260px;
    text-align: center;
+   text-transform: uppercase;
 }
 
 .sales__item--women {
@@ -235,7 +238,6 @@ background-color: var(--fashion);
    font-weight: 700;
    line-height: 32px;
    color: var(--fashion);
-   text-transform: uppercase;
 }
 
 .sales__item--men {
