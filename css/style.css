@@ -402,25 +402,29 @@ background-color: var(--fashion);
    font-size: 18px;
    line-height: 30px;
 }
+
 .footer__top-button-send {
    margin-top: 32px;
+   display: inline-block;
+   height: 49px;
 }
 
 .footer__top-input {
-   width: 256px;
    height: 49px;
-   background: url(../img/bg-input.png);
    padding: 7px 64px 7px 22px;
    border: 0;
+   border-radius: 25% 0 0 25%;
+   background: #E1E1E1;
    color: var(--black);
+   opacity: .6;
 }
 
 .footer__top-button {
-   width: 100px;
+   background-color: var(--fashion);
    height: 49px;
-   background: url(../img/bg-button.png) no-repeat;
    margin-left: -2px;
    border: 0;
+   border-radius: 0 25% 25% 0;
    cursor: pointer;
 }
 
