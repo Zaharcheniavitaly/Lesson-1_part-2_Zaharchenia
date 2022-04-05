@@ -410,27 +410,24 @@ background-color: var(--fashion);
 }
 
 .footer__top-input {
+   width: 256px;
    height: 49px;
+   background: url(../img/bg-input.png);
    padding: 7px 64px 7px 22px;
    border: 0;
-   border-radius: 25% 0 0 25%;
-   background: #E1E1E1;
    color: var(--black);
-   opacity: .6;
 }
 
 .footer__top-button {
-   background-color: var(--fashion);
+   width: 100px;
    height: 49px;
+   background-image: url(../img/bg-button.png);
    margin-left: -2px;
    border: 0;
-   border-radius: 0 25% 25% 0;
    cursor: pointer;
 }
 
 .footer__top-button-text {
-   display: flex;
-   align-items: center;
    color: var(--white);
    padding: 7px;
    border: 0;
