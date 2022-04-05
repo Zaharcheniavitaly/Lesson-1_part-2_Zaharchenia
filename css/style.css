@@ -424,19 +424,14 @@ background-color: var(--fashion);
    background-image: url(../img/bg-button.png);
    margin-left: -2px;
    border: 0;
+   color: var(--white);
+   padding: 7px;
    cursor: pointer;
 }
 
 .footer__top-button:hover, :focus, :active{
    opacity: .6;
 }
-
-.footer__top-button-text {
-   color: var(--white);
-   padding: 7px;
-   border: 0;
-}
-
 
 .footer__bottom {   
    background-color: var(--black);
