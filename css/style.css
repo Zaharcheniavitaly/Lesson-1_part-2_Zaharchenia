@@ -382,7 +382,7 @@ background-color: var(--fashion);
    text-align: center;
 }
 
-.footer__top-form{
+.footer__top-form {
    display: flex;
    flex-direction: column;
    text-align: center;
@@ -404,6 +404,7 @@ background-color: var(--fashion);
 }
 
 .footer__top-button-send {
+   margin-top: 32px;
    display: inline-block;
    height: 49px;
 }
