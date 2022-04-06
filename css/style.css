@@ -441,11 +441,11 @@ background-color: var(--fashion);
    cursor: pointer;
 }
 
-.footer__connection {   
+.footer__copy {   
    background-color: var(--black);
 }
 
-.footer__connection-copy-messend {
+.footer__copy-copy-messend {
    height: 79px;
    display: flex;
    flex-wrap: wrap;
@@ -453,19 +453,19 @@ background-color: var(--fashion);
    align-items: center;   
 }
 
-.footer__connection-copy {
+.footer__copy-copy {
    color: var(--white);
    line-height: 19px;
 }
 
-.footer__connection-list {
+.footer__copy-list {
    display: flex;
    flex-wrap: wrap;
    justify-content:end;
    align-items: center;
 }
 
-.footer__connection-icon {
+.footer__copy-icon {
    background: var(--white);
    width: 31px;
    height: 32px;
@@ -473,7 +473,7 @@ background-color: var(--fashion);
    padding: 8px;
 }
 
-.footer__connection-icon:hover{
+.footer__copy-icon:hover{
    background-color: var(--fashion);
 }
 
