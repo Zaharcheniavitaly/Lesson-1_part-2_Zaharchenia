@@ -434,7 +434,7 @@ background-color: var(--fashion);
    width: 100px;
    height: 49px;
    background-image: url(../img/bg-button.png);
-   margin-left: -2px;
+   margin-left: -3px;
    border: 0;
    color: var(--white);
    padding: 7px;
