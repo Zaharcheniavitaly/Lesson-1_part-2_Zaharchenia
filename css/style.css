@@ -356,7 +356,7 @@ background-color: var(--fashion);
 /*services style end*/
 
 
-
+/*footer style start*/
 
 .footer__subscription {
    max-width: 1600px;
@@ -476,3 +476,8 @@ background-color: var(--fashion);
 .footer__connection-icon:hover{
    background-color: var(--fashion);
 }
+
+/*footer style end*/
+
+
+/*registration style start*/
