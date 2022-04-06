@@ -23,6 +23,18 @@ body {
    margin: 0 auto;
 }
 
+a:hover, :focus, :active{
+   opacity: .6;
+}
+
+button:hover, :focus, :active{
+   opacity: .6;
+}
+
+input:hover, :focus{
+   outline: none;
+}
+
 /*header style start*/
 .header{
    background-color: black;
@@ -38,6 +50,7 @@ body {
    justify-content: space-between;
    align-items: center;
 }
+
 .header__logo-loupe {
    display: flex;
    flex-wrap: wrap;
@@ -150,7 +163,6 @@ height: 92px;
 top: 5px;
 left: -28px;
 background-color: var(--fashion);
-
 }
 
 .brand__sub-heading {
@@ -346,7 +358,7 @@ background-color: var(--fashion);
 
 
 
-.footer__top {
+.footer__subscription {
    max-width: 1600px;
    
    background: url(../img/footer_bgr-.jpg) center no-repeat;
@@ -354,7 +366,7 @@ background-color: var(--fashion);
    margin: 0 auto;
 }
 
-.footer__top-wrapp{
+.footer__subscription-wrapp{
    max-width: 1140px;
    min-height: 448px;
    margin: 0 auto;
@@ -364,17 +376,17 @@ background-color: var(--fashion);
    align-items: center;
 }
 
-.footer__top-img-text-wrapp{
+.footer__subscription-img-text-wrapp{
       display: flex;
    flex-direction: column;
    align-items: center;
 }
 
-.footer__top-pic{
+.footer__subscription-pic{
    width: 96px;
 }
 
-.footer__top-text{
+.footer__subscription-text{
    width: 360px;
    margin-top: 30px;
    font-size: 20px;
@@ -382,13 +394,13 @@ background-color: var(--fashion);
    text-align: center;
 }
 
-.footer__top-form {
+.footer__subscription-form {
    display: flex;
    flex-direction: column;
    text-align: center;
 }
 
-.footer__top-form-title {
+.footer__subscription-form-title {
    width: 557px;
    font-weight: 700;
    font-size: 24px;
@@ -397,19 +409,19 @@ background-color: var(--fashion);
    text-transform: uppercase;
 }
 
-.footer__top-form-subtitle {
+.footer__subscription-form-subtitle {
    display: block;
    font-size: 18px;
    line-height: 30px;
 }
 
-.footer__top-button-send {
+.footer__subscription-button-send {
    margin-top: 32px;
    display: inline-block;
    height: 49px;
 }
 
-.footer__top-input {
+.footer__subscription-input {
    width: 256px;
    height: 49px;
    background: url(../img/bg-input.png);
@@ -418,7 +430,7 @@ background-color: var(--fashion);
    color: var(--black);
 }
 
-.footer__top-button {
+.footer__subscription-button {
    width: 100px;
    height: 49px;
    background-image: url(../img/bg-button.png);
@@ -429,15 +441,11 @@ background-color: var(--fashion);
    cursor: pointer;
 }
 
-.footer__top-button:hover, :focus, :active{
-   opacity: .6;
-}
-
-.footer__bottom {   
+.footer__connection {   
    background-color: var(--black);
 }
 
-.footer__bottom-copy-messend {
+.footer__connection-copy-messend {
    height: 79px;
    display: flex;
    flex-wrap: wrap;
@@ -445,19 +453,19 @@ background-color: var(--fashion);
    align-items: center;   
 }
 
-.footer__bottom-copy {
+.footer__connection-copy {
    color: var(--white);
    line-height: 19px;
 }
 
-.footer__bottom-list {
+.footer__connection-list {
    display: flex;
    flex-wrap: wrap;
    justify-content:end;
    align-items: center;
 }
 
-.footer__bottom-icon {
+.footer__connection-icon {
    background: var(--white);
    width: 31px;
    height: 32px;
@@ -465,6 +473,6 @@ background-color: var(--fashion);
    padding: 8px;
 }
 
-.footer__bottom-icon:hover{
+.footer__connection-icon:hover{
    background-color: var(--fashion);
 }
