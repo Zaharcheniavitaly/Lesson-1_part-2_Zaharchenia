@@ -148,8 +148,10 @@
    <!--header end -->
 
    <!--registration start -->
-   <section class="registration__header container">
-      <h2 class="registration__title">registration</h2>
+   <section class="registration__header">
+      <div class="container">
+         <h2 class="registration__title">registration</h2>
+      </div>
    </section>
 
    <section class="registration__form container">
@@ -222,11 +224,9 @@
                      and promotion</span> </h3>
 
                <fieldset class="footer__subscription-button-send">
-                  <p>
-                     <input type="email" class="footer__subscription-input" placeholder="Enter Your Emai">
-                     <button type="submit" class="footer__subscription-button">Subscribe</button>
-                  </p>
-
+                  <label class="visually-hidden" for="email">email</label>
+                  <input type="email" class="footer__subscription-input" placeholder="Enter Your Emai">
+                  <button type="submit" class="footer__subscription-button">Subscribe</button>
                </fieldset>
 
             </form>

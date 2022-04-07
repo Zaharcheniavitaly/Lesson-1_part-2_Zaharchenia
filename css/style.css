@@ -424,6 +424,16 @@ background-color: var(--fashion);
    display: inline-block;
    height: 49px;
 }
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0);
+ }
 
 .footer__subscription-input {
    width: 256px;
