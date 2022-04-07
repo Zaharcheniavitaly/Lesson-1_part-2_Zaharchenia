@@ -69,6 +69,7 @@ input:hover, :focus{
    margin-top: 6px;
 }
 
+<<<<<<< HEAD
  /*style header__form-loupe start*/
 
 .visually-hidden {
@@ -128,6 +129,8 @@ input:hover, :focus{
 
  /*style header__form-loupe end*/
 
+=======
+>>>>>>> parent of 7e550c8 (header loupe)
 .header__list {
    display: flex;
    flex-wrap: wrap;
