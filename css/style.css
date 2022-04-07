@@ -63,6 +63,9 @@ input:hover, :focus{
    margin-right: 41px;
 }
 .header__loupe {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
    margin-top: 6px;
 }
 
@@ -79,13 +82,13 @@ input:hover, :focus{
    clip: rect(0 0 0 0);
  }
 
- form {
+ .header__form-loupe {
    position: relative;
    width: 300px;
    margin: 0 auto;
    height: 42px;
  }
- input {
+ .header__form-loupe {
    height: 42px;
    width: 0;
    padding: 0 42px 0 15px;
@@ -99,12 +102,14 @@ input:hover, :focus{
    right: 0;
    z-index: 2;
  }
- input:focus {
+
+.header__form-loupe:focus {
    width: 300px;
    z-index: 1;
    border-bottom: 2px solid #F9F0DA;
  }
- button {
+
+ .header__loupe-button {
    background: #683B4D;
    border: none;
    height: 42px;
@@ -114,7 +119,7 @@ input:hover, :focus{
    right: 0;
    cursor: pointer;
  }
- button:before {
+.header__loupe-button {
    content: "\f002";
    font-family: FontAwesome;
    font-size: 16px;
