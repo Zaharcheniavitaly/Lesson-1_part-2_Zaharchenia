@@ -28,7 +28,7 @@ a:hover, a:focus, a:active{
 }
 
 button:hover, button:focus, button:active{
-   opacity: .6;
+   opacity: .8;
 }
 
 input:hover, :focus{
@@ -576,33 +576,23 @@ background-color: var(--fashion);
    border: 0;
    margin-top: 29px;
    padding-top: 17px;
+   padding-right: 36px;
    padding-bottom: 17px;
    padding-left: 29px;
    text-transform: uppercase;
    color: var(--white);
    background-color: var(--fashion);
    text-align: left; 
-   position: relative;  
-}
-
-.registration__form-button::after{
-   width: 17px;
-   height: 10px;
-   content: '';
    background-image: url(../img/svg/arrow.png);
    background-repeat: no-repeat;
-   position: absolute;   
-   top: 20px;
-   left: 120px;
+   background-position: 80%;
+
 }
-
-
 
 .registration__form-button:hover, .registration__form-button:focus{
    background-image: url(../img/svg/arrow.png);
    background-repeat: no-repeat;
-   background-position: 130px 50%;
-   
+   background-position: 90%;   
 }
 
 
