@@ -586,13 +586,13 @@ background-color: var(--fashion);
    background-image: url(../img/svg/arrow.png);
    background-repeat: no-repeat;
    background-position: 80%;
-
+   transition: .2s all;
 }
 
 .registration__form-button:hover, .registration__form-button:focus{
    background-image: url(../img/svg/arrow.png);
    background-repeat: no-repeat;
-   background-position: 90%;   
+   background-position: 85%;   
 }
 
 
