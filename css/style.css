@@ -86,6 +86,8 @@ input:hover, :focus{
    margin-right: 42px;
 }
 
+
+/* burger-menu start*/
 .header__nav {
    display: none;
 }
