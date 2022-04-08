@@ -23,11 +23,11 @@ body {
    margin: 0 auto;
 }
 
-a:hover, :focus, :active{
+a:hover, a:focus, a:active{
    opacity: .6;
 }
 
-button:hover, :focus, :active{
+button:hover, button:focus, button:active{
    opacity: .6;
 }
 
@@ -513,3 +513,152 @@ background-color: var(--fashion);
    text-transform: uppercase;
    color: var(--fashion);
 }
+
+.registration__form{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:left;
+   padding-top: 64px;
+   padding-bottom: 96px;
+}
+
+.registration__form-legend{
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+   margin-bottom: 20.5px;
+}
+
+.registration__form-input{
+   display: block;
+   width: 360px;
+   margin-bottom: 20.5px;
+   padding: 12.5px 0 16px 17px;
+   font-weight: 300;
+   font-size: 13px;
+   line-height: 16px;
+   color: #B1B1B1;
+}
+
+[type="radio"]{
+  display:inline-block;
+  text-align: center;
+  margin: 0%;
+  vertical-align: middle;
+}
+
+.radio-female{
+   margin-left: 20px;
+}
+
+.label-radio{
+   font-weight: 300;
+   font-size: 11px;
+   line-height: 13px;   
+   color: var(--black);  
+}
+
+.registration__form-login{
+   margin-top: 34px;
+}
+
+.registration__form-login-text{
+   max-width: 360px;
+   font-weight: 300;
+   font-size: 13px;
+   line-height: 16px;   
+   color: #B1B1B1;
+}
+
+.registration__form-button{
+   display: inline-block;
+   width: 167px;
+   border: 0;
+   margin-top: 29px;
+   padding-top: 17px;
+   padding-bottom: 17px;
+   padding-left: 29px;
+   text-transform: uppercase;
+   color: var(--white);
+   background-color: var(--fashion);
+   text-align: left; 
+   position: relative;  
+}
+
+.registration__form-button::after{
+   width: 17px;
+   height: 10px;
+   content: '';
+   background: url(../img/svg/arrow.png) no-repeat 90% center;
+   position: absolute;
+   
+   top: 20px;
+   right: 20px;
+}
+
+
+
+.registration__form-button-arrow:hover, .registration__form-button:focus{
+   background: url(../img/svg/arrow.png) no-repeat right center;
+}
+
+
+
+.registration__loyalty{
+   max-width: 652px;
+   margin-left: 128px;
+}
+
+.registration__loyalty-title {
+   font-weight: 300;
+   margin-bottom: 22px;
+   font-size: 24px;
+   line-height: 29px;
+   text-transform: uppercase;
+}
+.registration__loyalty-text-list{
+   font-weight: 300;
+   margin-bottom: 21px;
+   font-size: 24px;
+   line-height: 29px;
+}
+
+.registration__loyalty-list {   
+   
+}
+
+.registration__loyalty-item{
+   position: relative;
+}
+
+.registration__loyalty-item::before{
+   width: 20px;
+   height: 16px;
+   position: absolute;
+   content: '';
+   top: 5px;
+   left: -43px;
+   background: url(../img/svg/marker-loyalty.svg) no-repeat;
+   background-size: 20px 16px;
+}
+
+.registration__loyalty-text, .registration__loyalty-item {
+   font-weight: 300;
+   
+   font-size: 24px;
+   line-height: 29px;   
+}
+
+.registration__loyalty-text{
+   margin-bottom: 21px;
+}
+
+.registration__loyalty-item{
+   margin-bottom: 16px;
+   left: 43px;
+}
+
+
+
+
+/*registration style end*/
