@@ -589,17 +589,20 @@ background-color: var(--fashion);
    width: 17px;
    height: 10px;
    content: '';
-   background: url(../img/svg/arrow.png) no-repeat center;
-   background-position: left;
+   background-image: url(../img/svg/arrow.png);
+   background-repeat: no-repeat;
    position: absolute;   
    top: 20px;
-   right: 20px;
+   left: 120px;
 }
 
 
 
-.registration__form-button-arrow:hover{
-   background: url(../img/svg/arrow.png) no-repeat right center;
+.registration__form-button:hover, .registration__form-button:focus{
+   background-image: url(../img/svg/arrow.png);
+   background-repeat: no-repeat;
+   background-position: 130px 50%;
+   
 }
 
 
