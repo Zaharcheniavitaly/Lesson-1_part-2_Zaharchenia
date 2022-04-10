@@ -25,10 +25,12 @@ body {
 
 a:hover, a:focus, a:active{
    opacity: .6;
+   transition: .2s all;
 }
 
 button:hover, button:focus, button:active{
    opacity: .8;
+   transition: .2s all;
 }
 
 input:hover, :focus{
