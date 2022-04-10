@@ -89,12 +89,14 @@ input:hover, :focus{
 
 /* burger-menu start*/
 .header__nav {
-   display: none;
+  /* display: none;*/
 }
 
 .header__nav-wrp{
    width: 232px;
-   height: 764px;   
+   height: 764px;  
+   background-color:var(--white);
+
 }
 
 .header__nav-close{
@@ -126,9 +128,13 @@ input:hover, :focus{
 }
 
 .nav-sub-item__item-i{
-   color: #6F6E6E;
-   
+   color: #6F6E6E;   
 }
+
+/* burger-menu end*/
+
+
+
 /*header style end*/
 
 
