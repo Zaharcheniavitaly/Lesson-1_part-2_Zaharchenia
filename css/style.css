@@ -31,6 +31,7 @@ a:hover, a:focus, a:active{
 button:hover, button:focus, button:active{
    opacity: .8;
    transition: .2s all;
+   cursor: pointer;;
 }
 
 input:hover, :focus{
@@ -78,11 +79,7 @@ input:hover, :focus{
    align-items: center;
 }
 
-.header__button {
-   margin-right: 25px;
-   border: none;
-   background-color: transparent;
-}
+
 
 .header__link-account{
    margin-right: 42px;
@@ -96,6 +93,14 @@ input:hover, :focus{
    height: 100%;
    position: relative;
    margin: 0 auto;
+}
+
+.header__button-burger {
+   border: none;
+   background-color: transparent;
+   position: absolute;
+   top: 25px;
+   right: 367px;
 }
 
 .header__nav {
@@ -114,14 +119,14 @@ box-shadow: 0 0 60px rgba(197, 196, 196, 0.5);
    background-color:var(--white);
    position: relative;
 }
-
-.header__nav-close{
-   display: block;
-   width: 12px;
-   height: 12px;
+.header__buttom-close{
+   border: 0;
+   margin: 0;
+   padding: 0;
    position: absolute;
    top: 16px;
    right: 17px;
+   background-color: transparent;
 }
 
 .header__menu-heading {
@@ -149,8 +154,14 @@ box-shadow: 0 0 60px rgba(197, 196, 196, 0.5);
    padding-top: 11px;
 }
 
-.nav-sub-item__item-i{
+.nav-sub-item__item-link{
    color: #6F6E6E;   
+}
+
+.nav-sub-item__item-link:hover, 
+.nav-sub-item__item-link:focus, 
+.nav-sub-item__item-link:active{
+   color: var(--fashion);
 }
 
 /* burger-menu end*/
@@ -346,7 +357,6 @@ background-color: var(--fashion);
    color: #F26376;
    border: 1px solid #FF6A6A;
    background-color: var(--white);
-   cursor: pointer
    }
 
 /*catalog style end*/
@@ -482,7 +492,6 @@ background-color: var(--fashion);
    border: 0;
    color: var(--white);
    padding: 7px;
-   cursor: pointer;
 }
 
 .footer__copy {   
