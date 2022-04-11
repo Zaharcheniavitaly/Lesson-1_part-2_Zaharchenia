@@ -108,7 +108,7 @@ input:hover, :focus{
    position: absolute;
    top: 75px;
    right: 0;
-   box-shadow: 0 0 60px rgba(197, 196, 196, 0.5);
+   box-shadow: 0 0 60px rgba(25, 24, 24, 0.7);
    transition: .2s all;
 }
 
