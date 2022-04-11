@@ -348,7 +348,7 @@ background-color: var(--fashion);
 
 .catalog__card-overlay{
    width: 100%;
-   min-height: 581px;
+   min-height: 420px;
    position: absolute;
    top: 0;
    background: rgba(58, 56, 56, 0.86);   
@@ -356,6 +356,7 @@ background-color: var(--fashion);
 
 .button-overlay{
    display: flex;
+   justify-content: center;
    text-align: center;
    margin: 0 auto;
    border: 1px solid #FFFFFF;
@@ -378,6 +379,21 @@ background-color: var(--fashion);
 .catalog__card:hover .catalog__card-overlay,
 .catalog__card:hover:before {
   display: block;
+  display: flex;
+}
+
+.btn-basket-img{
+   padding-top: 10.8px;
+   padding-right: 11px;
+   padding-bottom: 8px;
+   padding-left: 13px;
+}
+
+.btn-text{
+   padding-top: 13.7px;
+   padding-right: 12.3px;
+   padding-bottom: 12.3px;
+   color: var(--white);
 }
 
 /*button-overlay end*/
