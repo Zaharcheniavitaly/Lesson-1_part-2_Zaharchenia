@@ -9,7 +9,7 @@
    display: flex;
    align-items: center;
    margin: 75px 0 65px 0;
-   background-color: var(--phone-brand);
+   background-color: $phone-brand;
 }
 
 .brand__img {
@@ -33,7 +33,7 @@ width: 12px;
 height: 92px;
 top: 5px;
 left: -28px;
-background-color: var(--pink);
+background-color: $pink;
 }
 
 .brand__sub-heading {
@@ -44,5 +44,5 @@ background-color: var(--pink);
 }
 
 .brand__sub-heading-col {
-   color: var(--pink);
+   color: $pink;
 }
