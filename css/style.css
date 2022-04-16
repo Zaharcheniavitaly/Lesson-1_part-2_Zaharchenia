@@ -24,7 +24,7 @@ a:hover, a:focus, a:active {
 }
 
 button:hover, button:focus, button:active {
-  opacity: .8;
+  opacity: .7;
   -webkit-transition: .2s all;
   transition: .2s all;
   cursor: pointer;

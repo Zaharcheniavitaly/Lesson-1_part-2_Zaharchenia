@@ -53,15 +53,15 @@
    top: 50%;  
    left: 50%;
    transform: translate(-50%, -50%);
-   }
+}
    
-   .catalog__card-overlay{
+.catalog__card-overlay{
    display: none;
-   }
+}
 
 .catalog__button-overlay{
    display: none;
-   }
+}
    
    
    .catalog__card:hover .catalog__button-overlay,
@@ -121,4 +121,4 @@
    color: $pink;
    border: 1px solid $pink;
    background-color: $white;
-   }
+}
