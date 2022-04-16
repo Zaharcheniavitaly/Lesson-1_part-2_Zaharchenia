@@ -11,7 +11,7 @@
    font-size: 24px;
    line-height: 29px;
    text-transform: uppercase;
-   color: var(--pink);
+   color: $pink;
 }
 
 .registration__form{
@@ -37,7 +37,7 @@
    font-weight: 300;
    font-size: 13px;
    line-height: 16px;
-   color: var(--light-gray);
+   color: $light-gray;
 }
 
 .registration__form-login{
@@ -49,7 +49,7 @@
    font-weight: 300;
    font-size: 13px;
    line-height: 16px;   
-   color: var(--light-gray);
+   color: $light-gray;
 }
 
 .registration__form-button{
@@ -62,8 +62,8 @@
    padding-bottom: 17px;
    padding-left: 29px;
    text-transform: uppercase;
-   color: var(--white);
-   background-color: var(--pink);
+   color: $white;
+   background-color: $pink;
    text-align: left; 
    background-image: url(../img/svg/arrow.png);
    background-repeat: no-repeat;
@@ -112,8 +112,7 @@
 }
 
 .registration__loyalty-text, .registration__loyalty-item {
-   font-weight: 300;
-   
+   font-weight: 300;   
    font-size: 24px;
    line-height: 29px;   
 }
