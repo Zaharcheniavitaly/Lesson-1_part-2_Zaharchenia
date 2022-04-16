@@ -66,6 +66,20 @@ input:hover, :focus {
   margin: -1px;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
 .brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,42 +138,6 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-.btn-basket-img {
-  padding-top: 10.8px;
-  padding-right: 11px;
-  padding-bottom: 8px;
-  padding-left: 13px;
-}
-
-.btn-text {
-  padding-top: 13.7px;
-  padding-right: 12.3px;
-  padding-bottom: 12.3px;
-  color: #FFFFFF;
-}
-
-.button-overlay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  margin: 0 auto;
-  border: 1px solid #FFFFFF;
-  background-color: transparent;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.button-overlay {
-  display: none;
-}
-
 .catalog__heading {
   font-size: 30px;
   line-height: 36px;
@@ -170,7 +148,7 @@ input:hover, :focus {
 .catalog__text {
   margin-bottom: 48px;
   text-align: center;
-  color: var(--text-catalog);
+  color: 9F9F9F;
 }
 
 .catalog__list {
@@ -189,7 +167,7 @@ input:hover, :focus {
   width: 360px;
   min-height: 581px;
   margin-bottom: 30px;
-  background: var(--F8F8F8);
+  background: F8F8F8;
 }
 
 /*button-overlay start*/
@@ -214,7 +192,7 @@ input:hover, :focus {
           justify-content: center;
   text-align: center;
   margin: 0 auto;
-  border: 1px solid var(--white);
+  border: 1px solid #FFFFFF;
   background-color: transparent;
   position: absolute;
   top: 50%;
@@ -231,7 +209,7 @@ input:hover, :focus {
   display: none;
 }
 
-.catalog__card:hover .button-overlay,
+.catalog__card:hover .catalog__button-overlay,
 .catalog__card:hover .catalog__card-overlay,
 .catalog__card:hover:before {
   display: block;
@@ -251,7 +229,7 @@ input:hover, :focus {
   padding-top: 13.7px;
   padding-right: 12.3px;
   padding-bottom: 12.3px;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 /*button-overlay end*/
@@ -270,14 +248,14 @@ input:hover, :focus {
   margin-bottom: 18px;
   margin-left: 16.5px;
   font-weight: 300;
-  color: var(--dark-gray);
+  color: #5D5D5D;
 }
 
 .catalog__card-price {
   margin-left: 18px;
   font-size: 16px;
   line-height: 19px;
-  color: var(--pink);
+  color: #F16D7F;
 }
 
 .catalog__button {
@@ -285,9 +263,9 @@ input:hover, :focus {
   margin: 18.5px auto 95.5px auto;
   padding: 14px 38.5px;
   line-height: 19px;
-  color: var(--pink);
-  border: 1px solid var(--pink);
-  background-color: var(--white);
+  color: #F16D7F;
+  border: 1px solid #F16D7F;
+  background-color: #FFFFFF;
 }
 
 .footer__subscription {

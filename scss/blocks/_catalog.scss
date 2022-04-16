@@ -10,7 +10,7 @@
 .catalog__text {
    margin-bottom: 48px;
    text-align: center;
-   color: var(--text-catalog);
+   color: $text-catalog;
 }
 
 .catalog__list {
@@ -25,7 +25,7 @@
    width: 360px;
    min-height: 581px;
    margin-bottom: 30px;
-   background: var(--F8F8F8);
+   background: $F8F8F8;
 }
 
 /*button-overlay start*/
@@ -47,7 +47,7 @@
    justify-content: center;
    text-align: center;
    margin: 0 auto;
-   border: 1px solid var(--white);
+   border: 1px solid $white;
    background-color: transparent;
    position: absolute;
    top: 50%;  
@@ -64,7 +64,7 @@
    }
    
    
-   .catalog__card:hover .button-overlay,
+   .catalog__card:hover .catalog__button-overlay,
 .catalog__card:hover .catalog__card-overlay,
 .catalog__card:hover:before {
   display: block;
@@ -82,7 +82,7 @@
    padding-top: 13.7px;
    padding-right: 12.3px;
    padding-bottom: 12.3px;
-   color: var(--white);
+   color: $white;
 }
 
 /*button-overlay end*/
@@ -103,14 +103,14 @@
    margin-bottom: 18px;
    margin-left: 16.5px;
    font-weight: 300;
-   color: var(--dark-gray);
+   color: $dark-gray;
 }
 
 .catalog__card-price {
    margin-left: 18px;
    font-size: 16px;
    line-height: 19px;
-   color: var(--pink);
+   color: $pink;
 }
 
 .catalog__button {
@@ -118,7 +118,7 @@
    margin: 18.5px auto 95.5px auto;
    padding: 14px 38.5px;
    line-height: 19px;
-   color: var(--pink);
-   border: 1px solid var(--pink);
-   background-color: var(--white);
+   color: $pink;
+   border: 1px solid $pink;
+   background-color: $white;
    }
