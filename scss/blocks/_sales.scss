@@ -18,12 +18,12 @@
 .sales__item--women {
    background: url(../img/for-women-.jpg) no-repeat;
    background-size: contain;
-   }
+}
 
 .sales__item--men {      
    background: url(../img/for-men-.jpg) no-repeat;
    background-size: contain;
-   }
+}
 
 .sales__item--kids {
    background: url(../img/for-kids-.jpg) no-repeat;
@@ -37,17 +37,17 @@
    margin-bottom: 96px;
    background: url(../img/for-accesories-.jpg) no-repeat;
    background-size: contain;
-   }
+}
 
    .sales__text {
    font-size: 16px;
    line-height: 19px;
-   color:var(--white);
+   color:$white;
 }
 
 .sales__title {
    font-size: 24px;
    font-weight: 700;
    line-height: 32px;
-   color: var(--pink);
+   color: $pink;
 }
