@@ -18,8 +18,8 @@
    .catalog__card:hover .button-overlay,
 .catalog__card:hover .catalog__card-overlay,
 .catalog__card:hover:before {
-  display: block;
-  display: flex;
+   display: block;
+   display: flex;
 }
 
 .catalog__card-title {
@@ -37,14 +37,14 @@
    margin-bottom: 18px;
    margin-left: 16.5px;
    font-weight: 300;
-   color: var(--dark-gray);
+   color: $dark-gray;
 }
 
 .catalog__card-price {
    margin-left: 18px;
    font-size: 16px;
    line-height: 19px;
-   color: var(--pink);
+   color: $pink;
 }
 
 .catalog__button {
@@ -52,7 +52,7 @@
    margin: 18.5px auto 95.5px auto;
    padding: 14px 38.5px;
    line-height: 19px;
-   color: var(--pink);
-   border: 1px solid var(--pink);
-   background-color: var(--white);
+   color: $pink;
+   border: 1px solid $pink;
+   background-color: $white;
    }
