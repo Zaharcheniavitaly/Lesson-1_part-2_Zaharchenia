@@ -9,7 +9,7 @@ body {
    font-size: 14px;
    line-height: 17px;
    font-weight: 400;
-   color: var(--black);
+   color: $black;
 }
 
 .container{
@@ -47,5 +47,5 @@ input:hover, :focus{
    font-weight: 300;
    font-size: 11px;
    line-height: 13px;   
-   color: var(--black);  
+   color: $black;  
 }
