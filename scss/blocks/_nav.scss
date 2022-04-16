@@ -1,0 +1,24 @@
+
+.nav-sub-item__title {
+   color: var(--pink);
+   text-transform: uppercase;
+}
+
+.nav-sub-item__list{
+   padding-top: 1px;
+   padding-left: 21px;
+}
+
+.nav-sub-item__item {
+   padding-top: 11px;
+}
+
+.nav-sub-item__item-link{
+   color: var(--grey-pink);   
+}
+
+.nav-sub-item__item-link:hover, 
+.nav-sub-item__item-link:focus, 
+.nav-sub-item__item-link:active{
+   color: var(--pink);
+}
