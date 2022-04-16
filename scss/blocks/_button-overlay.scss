@@ -3,7 +3,7 @@
    justify-content: center;
    text-align: center;
    margin: 0 auto;
-   border: 1px solid var(--white);
+   border: 1px solid $white;
    background-color: transparent;
    position: absolute;
    top: 50%;  
@@ -11,6 +11,6 @@
    transform: translate(-50%, -50%);
    }
 
-   .button-overlay{
-      display: none;
+.button-overlay{
+   display: none;
     }
