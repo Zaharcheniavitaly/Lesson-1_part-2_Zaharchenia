@@ -1,6 +1,5 @@
-/*header style start*/
 .header{
-   background-color: var(--black);
+   background-color: $black;
    position: fixed;
    width: 100%;
    top: 0;
@@ -39,14 +38,9 @@
    align-items: center;
 }
 
-
-
 .header__link-account{
    margin-right: 42px;
 }
-
-
-/* burger-menu start*/
 
 .header__wrapper-burger{
    max-width: 1600px;
@@ -61,7 +55,7 @@
    position: absolute;
    top: 25px;
    right: 367px;
-   }
+}
 
 .header__nav {
    display: none;
@@ -84,9 +78,10 @@
    height: 764px;
    padding-top: 37px;
    padding-left: 34px;  
-   background-color: var(--white);
+   background-color: $white;
    position: relative;
 }
+
 .header__buttom-close{
    border: 0;
    margin: 0;
@@ -104,6 +99,5 @@
 }
 
 .header__nav-item {
-   margin-top: 20px;
-   
+   margin-top: 20px;   
 }
