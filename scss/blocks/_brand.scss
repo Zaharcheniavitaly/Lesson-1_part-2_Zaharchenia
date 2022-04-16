@@ -1,48 +1,56 @@
 .brand {
    display: flex;
    margin: 0 auto; 
-   max-width: 1600px;   
+   max-width: 1600px;
+
+   &-wrapp {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      margin: 75px 0 65px 0;
+      background-color: $phone-brand;
+   }
+
+   &__img {
+      height: 764px;
+      margin-right: 91px;
+      object-fit: cover;
+   }
+
+   &__heading {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 58px;
+      text-transform: uppercase;
+      position: relative;
+      }
+
+   &__heading::after{
+      position: absolute;
+      content: '';
+      width: 12px;
+      height: 92px;
+      top: 5px;
+      left: -28px;
+      background-color: $pink;
+      }
+
+   &__sub-heading {
+      display: block;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px;
+      }
+
+   &__sub-heading-col {
+      color: $pink;
+      }
+
 }
 
-.brand-wrapp {
-   flex-grow: 1;
-   display: flex;
-   align-items: center;
-   margin: 75px 0 65px 0;
-   background-color: $phone-brand;
-}
 
-.brand__img {
-   height: 764px;
-   margin-right: 91px;
-   object-fit: cover;
-}
 
-.brand__heading {
-font-weight: 900;
-font-size: 48px;
-line-height: 58px;
-text-transform: uppercase;
-position: relative;
-}
 
-.brand__heading::after{
-position: absolute;
-content: '';
-width: 12px;
-height: 92px;
-top: 5px;
-left: -28px;
-background-color: $pink;
-}
 
-.brand__sub-heading {
-   display: block;
-   font-weight: 700;
-   font-size: 32px;
-   line-height: 38px;
-}
 
-.brand__sub-heading-col {
-   color: $pink;
-}
+
