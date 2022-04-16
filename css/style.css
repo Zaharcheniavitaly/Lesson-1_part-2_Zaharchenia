@@ -369,7 +369,7 @@ background-color: var(--pink);
    .catalog__card-overlay{
    display: none;
    }
-   
+
    .button-overlay{
      display: none;
    }
@@ -616,9 +616,6 @@ background-color: var(--pink);
    margin-top: 75px;
    padding-top: 59px;
    background: #F8F3F4;
-}
-
-.header-wrap {
 }
 
 .registration__title {
