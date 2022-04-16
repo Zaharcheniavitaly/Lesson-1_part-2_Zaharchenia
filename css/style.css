@@ -1,7 +1,7 @@
 :root {
    --black: #222222;
    --phone-brand: #F1E4E6;
-   --fashion: #F16D7F;
+   --pink: #F16D7F;
    --white: #FFFFFF;;
 }
 
@@ -149,7 +149,7 @@ input:hover, :focus{
 }
 
 .nav-sub-item__title {
-   color: var(--fashion);
+   color: var(--pink);
    text-transform: uppercase;
 }
 
@@ -169,7 +169,7 @@ input:hover, :focus{
 .nav-sub-item__item-link:hover, 
 .nav-sub-item__item-link:focus, 
 .nav-sub-item__item-link:active{
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 /* burger-menu end*/
@@ -215,7 +215,7 @@ width: 12px;
 height: 92px;
 top: 5px;
 left: -28px;
-background-color: var(--fashion);
+background-color: var(--pink);
 }
 
 .brand__sub-heading {
@@ -226,7 +226,7 @@ background-color: var(--fashion);
 }
 
 .brand__sub-heading-col {
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 /*brand style end*/
@@ -298,7 +298,7 @@ background-color: var(--fashion);
    font-size: 24px;
    font-weight: 700;
    line-height: 32px;
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 /*sales style end*/
@@ -421,7 +421,7 @@ background-color: var(--fashion);
    margin-left: 18px;
    font-size: 16px;
    line-height: 19px;
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 .catalog__button {
@@ -602,7 +602,7 @@ background-color: var(--fashion);
 }
 
 .footer__copy-icon:hover{
-   background-color: var(--fashion);
+   background-color: var(--pink);
 }
 
 /*footer style end*/
@@ -625,7 +625,7 @@ background-color: var(--fashion);
    font-size: 24px;
    line-height: 29px;
    text-transform: uppercase;
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 .registration__form{
@@ -695,7 +695,7 @@ background-color: var(--fashion);
    padding-left: 29px;
    text-transform: uppercase;
    color: var(--white);
-   background-color: var(--fashion);
+   background-color: var(--pink);
    text-align: left; 
    background-image: url(../img/svg/arrow.png);
    background-repeat: no-repeat;
