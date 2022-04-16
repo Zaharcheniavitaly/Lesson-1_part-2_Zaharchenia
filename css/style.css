@@ -369,6 +369,7 @@ background-color: var(--pink);
    .catalog__card-overlay{
    display: none;
    }
+   
    .button-overlay{
      display: none;
    }
