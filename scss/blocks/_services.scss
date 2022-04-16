@@ -1,0 +1,31 @@
+.services {
+   background-color: var(--black);
+}
+
+.services__list {
+   min-height: 341px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.services__item {
+   max-width: 360px;
+   text-align: center;
+}
+
+.services__title {
+   margin-top: 28px;
+   margin-bottom: 16px;
+}
+
+.services__title-link {
+   font-size: 20px;
+   line-height: 24px;
+   color: var(--white);
+}
+
+.services__text {
+   font-weight: 300;
+   color: var(--white);
+}
