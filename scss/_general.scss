@@ -1,0 +1,33 @@
+
+img{
+   max-width: 100%;
+   height: auto;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+   font-size: 14px;
+   line-height: 17px;
+   font-weight: 400;
+   color: var(--black);
+}
+
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+a:hover, a:focus, a:active{
+   opacity: .6;
+   transition: .2s all;
+}
+
+button:hover, button:focus, button:active{
+   opacity: .8;
+   transition: .2s all;
+   cursor: pointer;;
+}
+
+input:hover, :focus{
+   outline: none;
+}

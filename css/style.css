@@ -1,8 +1,13 @@
 :root {
    --black: #222222;
    --phone-brand: #F1E4E6;
-   --fashion: #F16D7F;
-   --white: #FFFFFF;;
+   --pink: #F16D7F;
+   --white: #FFFFFF;
+   --light-gray: #B1B1B1;
+   --grey-pink: #6F6E6E;
+   --text-catalog: 9F9F9F;
+   --F8F8F8: F8F8F8;
+   --dark-gray: #5D5D5D;
 }
 
 img{
@@ -40,7 +45,7 @@ input:hover, :focus{
 
 /*header style start*/
 .header{
-   background-color: black;
+   background-color: var(--black);
    position: fixed;
    width: 100%;
    top: 0;
@@ -124,7 +129,7 @@ input:hover, :focus{
    height: 764px;
    padding-top: 37px;
    padding-left: 34px;  
-   background-color:var(--white);
+   background-color: var(--white);
    position: relative;
 }
 .header__buttom-close{
@@ -149,7 +154,7 @@ input:hover, :focus{
 }
 
 .nav-sub-item__title {
-   color: var(--fashion);
+   color: var(--pink);
    text-transform: uppercase;
 }
 
@@ -163,13 +168,13 @@ input:hover, :focus{
 }
 
 .nav-sub-item__item-link{
-   color: #6F6E6E;   
+   color: var(--grey-pink);   
 }
 
 .nav-sub-item__item-link:hover, 
 .nav-sub-item__item-link:focus, 
 .nav-sub-item__item-link:active{
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 /* burger-menu end*/
@@ -215,7 +220,7 @@ width: 12px;
 height: 92px;
 top: 5px;
 left: -28px;
-background-color: var(--fashion);
+background-color: var(--pink);
 }
 
 .brand__sub-heading {
@@ -226,7 +231,7 @@ background-color: var(--fashion);
 }
 
 .brand__sub-heading-col {
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 /*brand style end*/
@@ -291,14 +296,14 @@ background-color: var(--fashion);
    .sales__text {
    font-size: 16px;
    line-height: 19px;
-   color: #FFFFFF;
+   color:var(--white);
 }
 
 .sales__title {
    font-size: 24px;
    font-weight: 700;
    line-height: 32px;
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 /*sales style end*/
@@ -316,7 +321,7 @@ background-color: var(--fashion);
 .catalog__text {
    margin-bottom: 48px;
    text-align: center;
-   color: #9F9F9F;
+   color: var(--text-catalog);
 }
 
 .catalog__list {
@@ -331,19 +336,13 @@ background-color: var(--fashion);
    width: 360px;
    min-height: 581px;
    margin-bottom: 30px;
-   background: #F8F8F8;;
+   background: var(--F8F8F8);
 }
 
 /*button-overlay start*/
 
 .catalog__card-wrp {   
    position: relative;
-}
-
-.t-img{
-  background: green;
-  width: 360px;
-  min-height: 581px;
 }
 
 .catalog__card-overlay{
@@ -359,7 +358,7 @@ background-color: var(--fashion);
    justify-content: center;
    text-align: center;
    margin: 0 auto;
-   border: 1px solid #FFFFFF;
+   border: 1px solid var(--white);
    background-color: transparent;
    position: absolute;
    top: 50%;  
@@ -368,7 +367,7 @@ background-color: var(--fashion);
    }
    
    .catalog__card-overlay{
-     display: none;
+   display: none;
    }
    .button-overlay{
      display: none;
@@ -414,14 +413,14 @@ background-color: var(--fashion);
    margin-bottom: 18px;
    margin-left: 16.5px;
    font-weight: 300;
-   color: #5D5D5D;
+   color: var(--dark-gray);
 }
 
 .catalog__card-price {
    margin-left: 18px;
    font-size: 16px;
    line-height: 19px;
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 .catalog__button {
@@ -429,8 +428,8 @@ background-color: var(--fashion);
    margin: 18.5px auto 95.5px auto;
    padding: 14px 38.5px;
    line-height: 19px;
-   color: #F26376;
-   border: 1px solid #FF6A6A;
+   color: var(--pink);
+   border: 1px solid var(--pink);
    background-color: var(--white);
    }
 
@@ -602,7 +601,7 @@ background-color: var(--fashion);
 }
 
 .footer__copy-icon:hover{
-   background-color: var(--fashion);
+   background-color: var(--pink);
 }
 
 /*footer style end*/
@@ -625,7 +624,7 @@ background-color: var(--fashion);
    font-size: 24px;
    line-height: 29px;
    text-transform: uppercase;
-   color: var(--fashion);
+   color: var(--pink);
 }
 
 .registration__form{
@@ -651,14 +650,14 @@ background-color: var(--fashion);
    font-weight: 300;
    font-size: 13px;
    line-height: 16px;
-   color: #B1B1B1;
+   color: var(--light-gray);
 }
 
 [type="radio"]{
-  display:inline-block;
-  text-align: center;
-  margin: 0%;
-  vertical-align: middle;
+   display:inline-block;
+   text-align: center;
+   margin: 0%;
+   vertical-align: middle;
 }
 
 .radio-female{
@@ -681,7 +680,7 @@ background-color: var(--fashion);
    font-weight: 300;
    font-size: 13px;
    line-height: 16px;   
-   color: #B1B1B1;
+   color: var(--light-gray);
 }
 
 .registration__form-button{
@@ -695,7 +694,7 @@ background-color: var(--fashion);
    padding-left: 29px;
    text-transform: uppercase;
    color: var(--white);
-   background-color: var(--fashion);
+   background-color: var(--pink);
    text-align: left; 
    background-image: url(../img/svg/arrow.png);
    background-repeat: no-repeat;
@@ -728,10 +727,6 @@ background-color: var(--fashion);
    margin-bottom: 21px;
    font-size: 24px;
    line-height: 29px;
-}
-
-.registration__loyalty-list {   
-   
 }
 
 .registration__loyalty-item{
