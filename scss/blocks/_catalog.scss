@@ -59,16 +59,16 @@
    display: none;
    }
 
-   .catalog__button-overlay{
-     display: none;
+.catalog__button-overlay{
+   display: none;
    }
    
    
    .catalog__card:hover .catalog__button-overlay,
 .catalog__card:hover .catalog__card-overlay,
 .catalog__card:hover:before {
-  display: block;
-  display: flex;
+   display: block;
+   display: flex;
 }
 
 .catalog__btn-basket-img{

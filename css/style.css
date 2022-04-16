@@ -620,6 +620,11 @@ input:hover, :focus {
   color: #B1B1B1;
 }
 
+.registration__form-input:hover, .registration__form-input:focus {
+  color: #F16D7F;
+  border: 2px solid #F16D7F;
+}
+
 .registration__form-login {
   margin-top: 34px;
 }

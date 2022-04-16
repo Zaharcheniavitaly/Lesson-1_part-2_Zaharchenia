@@ -40,6 +40,11 @@
    color: $light-gray;
 }
 
+.registration__form-input:hover, .registration__form-input:focus{
+   color: $pink;
+   border: 2px solid $pink;
+}
+
 .registration__form-login{
    margin-top: 34px;
 }
