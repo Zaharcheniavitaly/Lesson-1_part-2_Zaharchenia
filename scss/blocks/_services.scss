@@ -1,5 +1,5 @@
 .services {
-   background-color: var(--black);
+   background-color: $black;
 }
 
 .services__list {
@@ -22,10 +22,10 @@
 .services__title-link {
    font-size: 20px;
    line-height: 24px;
-   color: var(--white);
+   color: $white;
 }
 
 .services__text {
    font-weight: 300;
-   color: var(--white);
+   color: $white;
 }
