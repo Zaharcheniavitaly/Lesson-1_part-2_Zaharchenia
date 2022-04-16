@@ -1,0 +1,128 @@
+
+.footer__subscription {
+   max-width: 1600px;
+   
+   background: url(../img/footer_bgr-.jpg) center no-repeat;
+   object-fit: cover;
+   margin: 0 auto;
+}
+
+.footer__subscription-wrapp{
+   max-width: 1140px;
+   min-height: 448px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-between;
+   align-items: center;
+}
+
+.footer__subscription-img-text-wrapp{
+      display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer__subscription-pic{
+   width: 96px;
+}
+
+.footer__subscription-text{
+   width: 360px;
+   margin-top: 30px;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+}
+
+.footer__subscription-form {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.footer__subscription-form-title {
+   width: 557px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 40px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.footer__subscription-form-subtitle {
+   display: block;
+   font-size: 18px;
+   line-height: 30px;
+}
+
+.footer__subscription-button-send {
+   margin-top: 32px;
+   display: inline-block;
+   height: 49px;
+}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0);
+ }
+
+.footer__subscription-input {
+   width: 256px;
+   height: 49px;
+   background: url(../img/bg-input.png);
+   padding: 7px 64px 7px 22px;
+   border: 0;
+   color: var(--black);
+}
+
+.footer__subscription-button {
+   width: 100px;
+   height: 49px;
+   background-image: url(../img/bg-button.png);
+   margin-left: -3px;
+   border: 0;
+   color: var(--white);
+   padding: 7px;
+}
+
+.footer__copy {   
+   background-color: var(--black);
+}
+
+.footer__copy-copy-messend {
+   height: 79px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;   
+}
+
+.footer__copy-copy {
+   color: var(--white);
+   line-height: 19px;
+}
+
+.footer__copy-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:end;
+   align-items: center;
+}
+
+.footer__copy-icon {
+   background: var(--white);
+   width: 31px;
+   height: 32px;
+   margin-left: 7.3px;
+   padding: 8px;
+}
+
+.footer__copy-icon:hover{
+   background-color: var(--pink);
+}
