@@ -1,53 +1,60 @@
-.sales__list {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   align-items: center;
+.sales{
+
+   &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 360px;
+      height: 260px;
+      text-align: center;
+      text-transform: uppercase;
+   }
+   
+   &__item--women {
+      background: url(../img/for-women-.jpg) no-repeat;
+      background-size: contain;
+   }
+   
+   &__item--men {      
+      background: url(../img/for-men-.jpg) no-repeat;
+      background-size: contain;
+   }
+   
+   &__item--kids {
+      background: url(../img/for-kids-.jpg) no-repeat;
+      background-size: contain;
+   }
+   
+   &__item--accesories {
+      width: 100%;
+      height: 180px;
+      margin-top: 30px;
+      margin-bottom: 96px;
+      background: url(../img/for-accesories-.jpg) no-repeat;
+      background-size: contain;
+   }
+   
+      &__text {
+      font-size: 16px;
+      line-height: 19px;
+      color:$white;
+   }
+   
+   &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      color: $pink;
+   }
 }
 
-.sales__item{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   width: 360px;
-   height: 260px;
-   text-align: center;
-   text-transform: uppercase;
-}
 
-.sales__item--women {
-   background: url(../img/for-women-.jpg) no-repeat;
-   background-size: contain;
-}
 
-.sales__item--men {      
-   background: url(../img/for-men-.jpg) no-repeat;
-   background-size: contain;
-}
 
-.sales__item--kids {
-   background: url(../img/for-kids-.jpg) no-repeat;
-   background-size: contain;
-}
-
-.sales__item--accesories {
-   width: 100%;
-   height: 180px;
-   margin-top: 30px;
-   margin-bottom: 96px;
-   background: url(../img/for-accesories-.jpg) no-repeat;
-   background-size: contain;
-}
-
-   .sales__text {
-   font-size: 16px;
-   line-height: 19px;
-   color:$white;
-}
-
-.sales__title {
-   font-size: 24px;
-   font-weight: 700;
-   line-height: 32px;
-   color: $pink;
-}
