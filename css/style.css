@@ -574,6 +574,30 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
+.nav-sub-item__title {
+  color: #F16D7F;
+  text-transform: uppercase;
+}
+
+.nav-sub-item__list {
+  padding-top: 1px;
+  padding-left: 21px;
+}
+
+.nav-sub-item__item {
+  padding-top: 11px;
+}
+
+.nav-sub-item__item-link {
+  color: #6F6E6E;
+}
+
+.nav-sub-item__item-link:hover,
+.nav-sub-item__item-link:focus,
+.nav-sub-item__item-link:active {
+  color: #F16D7F;
+}
+
 .registration__heading {
   width: 100%;
   height: 148px;

@@ -4,9 +4,8 @@
    width: 100%;
    top: 0;
    z-index: 1;
-}
-
-.header__wrapp {
+   
+&__wrapp {
    min-height: 75px;
    display: flex;
    flex-wrap: wrap;
@@ -14,42 +13,42 @@
    align-items: center;
 }
 
-.header__logo-loupe {
+&__logo-loupe {
    display: flex;
    flex-wrap: wrap;
    justify-content: left;
    align-items: center;
 }
 
-.header__logo {
+&__logo {
    margin-right: 41px;
 }
-.header__loupe {
+&__loupe {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    margin-top: 6px;
 }
 
-.header__list {
+&__list {
    display: flex;
    flex-wrap: wrap;
    justify-content: right;
    align-items: center;
 }
 
-.header__link-account{
+&__link-account{
    margin-right: 42px;
 }
 
-.header__wrapper-burger{
+&__wrapper-burger{
    max-width: 1600px;
    height: 100%;
    position: relative;
    margin: 0 auto;
 }
 
-.header__button-burger {
+&__button-burger {
    border: none;
    background-color: transparent;
    position: absolute;
@@ -57,7 +56,7 @@
    right: 367px;
 }
 
-.header__nav {
+&__nav {
    display: none;
    position: absolute;
    top: 75px;
@@ -66,14 +65,14 @@
    transition: .2s all;
 }
 
-.header__button-burger:hover + .header__nav,
-.header__button-burger:focus + .header__nav,
-.header__button-burger:active + .header__nav{
+.&__button-burger:hover + &__nav,
+&__button-burger:focus + &__nav,
+&__button-burger:active + &__nav{
    display: block;
    transition: .2s all;
 }
 
-.header__nav-wrp{
+&__nav-wrp{
    width: 232px;
    height: 764px;
    padding-top: 37px;
@@ -82,7 +81,7 @@
    position: relative;
 }
 
-.header__buttom-close{
+&__buttom-close{
    border: 0;
    margin: 0;
    padding: 0;
@@ -92,12 +91,42 @@
    background-color: transparent;
 }
 
-.header__menu-heading {
+&__menu-heading {
    font-weight: 700;
    text-transform: uppercase;
    margin-bottom: 4px;
 }
 
-.header__nav-item {
+&__nav-item {
    margin-top: 20px;   
 }
+}
+
+
+.nav-sub-item{
+   &__title {
+      color: $pink;
+      text-transform: uppercase;
+   }
+   
+   &__list{
+      padding-top: 1px;
+      padding-left: 21px;
+   }
+   
+   &__item {
+      padding-top: 11px;
+   }
+   
+   &__item-link{
+      color: $grey-pink;   
+   }
+   
+   &__item-link:hover, 
+   &__item-link:focus, 
+   &__item-link:active{
+      color: $pink;
+   }
+
+}
+
