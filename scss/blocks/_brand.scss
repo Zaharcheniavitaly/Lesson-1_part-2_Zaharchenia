@@ -19,9 +19,7 @@
    }
 
    &__heading {
-      font-weight: 900;
-      font-size: 48px;
-      line-height: 58px;
+      @include font(48px, 58px, 900);
       text-transform: uppercase;
       position: relative;
       }
@@ -38,10 +36,8 @@
 
    &__sub-heading {
       display: block;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 38px;
-      }
+    @include font(32px, 38px, 700);
+   }
 
    &__sub-heading-col {
       color: $pink;
