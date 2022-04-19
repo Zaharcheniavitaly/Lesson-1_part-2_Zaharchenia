@@ -63,3 +63,12 @@ input:hover, :focus{
    clip-path: inset(50%);
    margin: -1px;
 }
+
+@media (max-width: 768px){
+   .container{
+      max-width: 64.5%;
+   }
+
+
+
+}

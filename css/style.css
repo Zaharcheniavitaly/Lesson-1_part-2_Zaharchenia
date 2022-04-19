@@ -63,6 +63,12 @@ input:hover, :focus {
   margin: -1px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 64.5%;
+  }
+}
+
 .brand {
   display: flex;
   margin: 0 auto;
@@ -184,6 +190,7 @@ input:hover, :focus {
 }
 
 .catalog__btn-basket-img {
+  display: block;
   padding-top: 10.8px;
   padding-right: 11px;
   padding-bottom: 8px;
@@ -474,6 +481,12 @@ input:hover, :focus {
 
 .nav-sub-item__item-link:hover, .nav-sub-item__item-link:focus, .nav-sub-item__item-link:active {
   color: #F16D7F;
+}
+
+@media (max-width: 768px) {
+  __wrapper-burger {
+    max-width: 735px;
+  }
 }
 
 .registration__heading {
