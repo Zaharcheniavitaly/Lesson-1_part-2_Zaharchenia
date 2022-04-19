@@ -65,7 +65,7 @@
    transition: .2s all;
 }
 
-.&__button-burger:hover + &__nav,
+&__button-burger:hover + &__nav,
 &__button-burger:focus + &__nav,
 &__button-burger:active + &__nav{
    display: block;
