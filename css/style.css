@@ -184,6 +184,7 @@ input:hover, :focus {
 }
 
 .catalog__btn-basket-img {
+  background-image: url(../img/svg/btn-basket.svg);
   padding-top: 10.8px;
   padding-right: 11px;
   padding-bottom: 8px;
