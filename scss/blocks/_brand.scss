@@ -1,0 +1,53 @@
+.brand {
+   display: flex;
+   margin: 0 auto; 
+   max-width: 1600px;
+
+
+   &-wrapp {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      margin: 75px 0 65px 0;
+      background-color: $phone-brand;
+   }
+
+   &__img {
+      height: 764px;
+      margin-right: 91px;
+      object-fit: cover;
+   }
+
+   &__heading {
+      @include font(48px, 58px, 900);
+      text-transform: uppercase;
+      position: relative;
+      }
+
+   &__heading::after{
+      position: absolute;
+      content: '';
+      width: 12px;
+      height: 92px;
+      top: 5px;
+      left: -28px;
+      background-color: $pink;
+      }
+
+   &__sub-heading {
+      display: block;
+    @include font(32px, 38px, 700);
+   }
+
+   &__sub-heading-col {
+      color: $pink;
+   }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+.header{
+   background-color: $black;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 1;
+   
+&__wrapp {
+   min-height: 75px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+&__logo-loupe {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: left;
+   align-items: center;
+}
+
+&__logo {
+   margin-right: 41px;
+}
+&__loupe {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 6px;
+}
+
+&__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: right;
+   align-items: center;
+}
+
+&__link-account{
+   margin-right: 42px;
+}
+
+&__wrapper-burger{
+   max-width: 1600px;
+   height: 100%;
+   position: relative;
+   margin: 0 auto;
+}
+
+&__button-burger {
+   border: none;
+   background-color: transparent;
+   position: absolute;
+   top: 25px;
+   right: 367px;
+}
+
+&__nav {
+   display: none;
+   position: absolute;
+   top: 75px;
+   right: 0;
+   box-shadow: 0 0 60px rgba(25, 24, 24, 0.7);
+   transition: .2s all;
+}
+
+&__button-burger:hover + &__nav,
+&__button-burger:focus + &__nav,
+&__button-burger:active + &__nav{
+   display: block;
+   transition: .2s all;
+}
+
+&__nav-wrp{
+   width: 232px;
+   height: 764px;
+   padding-top: 37px;
+   padding-left: 34px;  
+   background-color: $white;
+   position: relative;
+}
+
+&__buttom-close{
+   border: 0;
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   top: 16px;
+   right: 17px;
+   background-color: transparent;
+}
+
+&__menu-heading {
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 4px;
+}
+
+&__nav-item {
+   margin-top: 20px;   
+}
+}
+
+
+.nav-sub-item{
+   &__title {
+      color: $pink;
+      text-transform: uppercase;
+   }
+   
+   &__list{
+      padding-top: 1px;
+      padding-left: 21px;
+   }
+   
+   &__item {
+      padding-top: 11px;
+   }
+   
+   &__item-link{
+      color: $grey-pink;   
+   }
+   
+   &__item-link:hover, 
+   &__item-link:focus, 
+   &__item-link:active{
+      color: $pink;
+   }
+
+}
+

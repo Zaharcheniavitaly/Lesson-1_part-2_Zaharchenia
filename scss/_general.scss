@@ -9,7 +9,7 @@ body {
    font-size: 14px;
    line-height: 17px;
    font-weight: 400;
-   color: var(--black);
+   color: $black;
 }
 
 .container{
@@ -17,17 +17,49 @@ body {
    margin: 0 auto;
 }
 
+
 a:hover, a:focus, a:active{
    opacity: .6;
    transition: .2s all;
 }
 
 button:hover, button:focus, button:active{
-   opacity: .8;
+   opacity: .7;
    transition: .2s all;
    cursor: pointer;;
 }
 
 input:hover, :focus{
    outline: none;
+}
+
+[type="radio"]{
+   display:inline-block;
+   text-align: center;
+   margin: 0%;
+   vertical-align: middle;
+}
+
+.radio-female{
+   margin-left: 20px;
+}
+
+.label-radio{
+   font-weight: 300;
+   font-size: 11px;
+   line-height: 13px;   
+   color: $black;  
+}
+
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
 }

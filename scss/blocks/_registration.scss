@@ -1,0 +1,131 @@
+.registration{
+
+   &__heading {
+      @include regitrat_cart_heading
+   }
+   
+   &__title {
+      @include regitrat_cart_title;
+   }
+   
+   &__form{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:left;
+      padding-top: 64px;
+      padding-bottom: 96px;
+   }
+   
+   &__form-legend{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 20.5px;
+   }
+   
+   &__form-input{
+      display: block;
+      width: 360px;
+      margin-bottom: 20.5px;
+      padding: 12.5px 0 16px 17px;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: $light-gray;
+   }
+   
+   &__form-input:hover, &__form-input:focus{
+      color: $pink;
+      border: 2px solid $pink;
+   }
+   
+   &__form-login{
+      margin-top: 34px;
+   }
+   
+   &__form-login-text{
+      max-width: 360px;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;   
+      color: $light-gray;
+   }
+   
+   &__form-button{
+      display: inline-block;
+      width: 167px;
+      border: 0;
+      margin-top: 29px;
+      padding-top: 17px;
+      padding-right: 36px;
+      padding-bottom: 17px;
+      padding-left: 29px;
+      text-transform: uppercase;
+      color: $white;
+      background-color: $pink;
+      text-align: left; 
+      background-image: url(../img/svg/arrow.png);
+      background-repeat: no-repeat;
+      background-position: 80%;
+      transition: .2s all;
+   }
+   
+   &__form-button:hover, &__form-button:focus{
+      background-image: url(../img/svg/arrow.png);
+      background-repeat: no-repeat;
+      background-position: 85%;   
+   }
+   
+   &__loyalty{
+      max-width: 652px;
+      margin-left: 128px;
+   }
+   
+   &__loyalty-title {
+      font-weight: 300;
+      margin-bottom: 22px;
+      font-size: 24px;
+      line-height: 29px;
+      text-transform: uppercase;
+   }
+   &__loyalty-text-list{
+      font-weight: 300;
+      margin-bottom: 21px;
+      font-size: 24px;
+      line-height: 29px;
+   }
+   
+   &__loyalty-item{
+      position: relative;
+   }
+   
+   &__loyalty-item::before{
+      width: 20px;
+      height: 16px;
+      position: absolute;
+      content: '';
+      top: 5px;
+      left: -43px;
+      background: url(../img/svg/marker-loyalty.svg) no-repeat;
+      background-size: 20px 16px;
+   }
+   
+   &__loyalty-text, &__loyalty-item {
+      font-weight: 300;   
+      font-size: 24px;
+      line-height: 29px;   
+   }
+   
+   &__loyalty-text{
+      margin-bottom: 21px;
+   }
+   
+   &__loyalty-item{
+      margin-bottom: 16px;
+      left: 43px;
+   }
+
+}
+
+
+
