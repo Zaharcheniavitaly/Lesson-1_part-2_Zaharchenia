@@ -1,9 +1,10 @@
 .cart{
     &__heading{
-        @include regitrat_cart_heading
+        @include regitrat_cart_heading;
     }
+    
     &__title {
-        @include regitrat_cart_title
+        @include regitrat_cart_title;
     }
     
 
