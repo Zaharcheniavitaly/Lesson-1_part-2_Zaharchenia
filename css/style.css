@@ -122,10 +122,10 @@ input:hover, :focus {
 
 @media (max-width: 768px) {
   .brand {
-    max-width: 48%;
+    max-width: 768px;
   }
   __img {
-    height: 48%;
+    height: 367px;
     margin-right: 91px;
     object-fit: cover;
   }
