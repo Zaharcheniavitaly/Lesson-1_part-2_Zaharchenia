@@ -3,6 +3,7 @@
    margin: 0 auto; 
    max-width: 1600px;
 
+
    &-wrapp {
       flex-grow: 1;
       display: flex;
@@ -44,8 +45,9 @@
 
    &__sub-heading-col {
       color: $pink;
-      }
+   }
 }
+
 
 
 
