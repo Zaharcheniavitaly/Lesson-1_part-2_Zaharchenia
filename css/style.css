@@ -176,7 +176,7 @@ input:hover, :focus {
   width: 360px;
   min-height: 581px;
   margin-bottom: 30px;
-  background: F8F8F8;
+  background: #F8F8F8;
 }
 
 .catalog__card-wrp {
@@ -266,6 +266,17 @@ input:hover, :focus {
   color: #F16D7F;
   border: 1px solid #F16D7F;
   background-color: #FFFFFF;
+}
+
+.catalog__button:hover, .catalog__button:focus, .catalog__button:active {
+  background-color: #F16D7F;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .catalog__button {
+    margin: 3px auto 65px auto;
+  }
 }
 
 .footer__subscription {
