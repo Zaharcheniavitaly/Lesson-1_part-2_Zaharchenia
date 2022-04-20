@@ -69,6 +69,12 @@ input:hover, :focus {
   }
 }
 
+@media (max-width: 375px) {
+  .container {
+    max-width: 343px;
+  }
+}
+
 .brand {
   display: flex;
   margin: 0 auto;
@@ -540,6 +546,15 @@ input:hover, :focus {
 @media (max-width: 768px) {
   .header__wrapper-burger {
     max-width: 735px;
+  }
+  .header__button-burger {
+    right: 169px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__wrapper-burger {
+    max-width: 343px;
   }
   .header__button-burger {
     right: 169px;

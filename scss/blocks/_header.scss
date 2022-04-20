@@ -142,3 +142,24 @@
       }
    }
 }
+
+@media (max-width: 375px){
+
+   .header{
+      &__wrapper-burger{
+         max-width: 343px;    
+      } 
+      
+      &__button-burger {
+         right: 169px;
+      }
+
+      &__link-account{
+         display: none;
+      }
+
+      &__link-basket{
+         display: none;
+      }
+   }
+}
