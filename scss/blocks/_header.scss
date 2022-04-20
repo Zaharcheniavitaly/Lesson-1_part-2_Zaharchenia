@@ -135,7 +135,7 @@
    .header{
 
    &__wrapper-burger{
-      max-width: 735px;    
+      max-width: 768px;    
       } 
       
    &__button-burger {
@@ -149,15 +149,14 @@
 @media (max-width: 375px){
 
    .header{
-
    &__wrapper-burger{
       max-width: 343px;    
    } 
       
    &__button-burger {
-      right: 28px;
-   }
-
+      right: 26px;
+      }
+   
    &__link-account{
       display: none;
    }
@@ -166,4 +165,5 @@
       display: none;
    }
    }
+   
 }

@@ -545,7 +545,7 @@ input:hover, :focus {
 
 @media (max-width: 768px) {
   .header__wrapper-burger {
-    max-width: 735px;
+    max-width: 768px;
   }
   .header__button-burger {
     right: 169px;
@@ -557,7 +557,13 @@ input:hover, :focus {
     max-width: 343px;
   }
   .header__button-burger {
-    right: 169px;
+    right: 26px;
+  }
+  .header__link-account {
+    display: none;
+  }
+  .header__link-basket {
+    display: none;
   }
 }
 
