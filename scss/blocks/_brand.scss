@@ -74,6 +74,24 @@
    } 
 }
 
+@media (max-width: 375px){
+
+   .brand{
+      display: flex;
+      margin: 0 auto; 
+      max-width: 1600px;
+      
+      &__img {
+         display: none;
+      }
+
+      &-wrapp {
+         width: 100%;
+         height: 363px;
+   }
+   
+}
+
 
 
 
