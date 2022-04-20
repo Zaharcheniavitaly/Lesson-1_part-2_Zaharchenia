@@ -57,4 +57,34 @@
 
 
 
+@media (max-width: 768px){
+
+   .sales{
+
+      &__item{
+         max-width: 232.09px; 
+         height: 167px;        
+      }
+
+      &__item--accesories {
+         max-width: 735px;
+         height: 116px;
+         margin-top: 20px;
+         margin-bottom: 155px;
+      }
+      
+      &__title {
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 32px;
+         color: $pink;
+      }
+   }
+
+   
+
+}
+
+
+
 

@@ -708,6 +708,25 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
+@media (max-width: 768px) {
+  .sales__item {
+    max-width: 232.09px;
+    height: 167px;
+  }
+  .sales__item--accesories {
+    max-width: 735px;
+    height: 116px;
+    margin-top: 20px;
+    margin-bottom: 155px;
+  }
+  .sales__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #F16D7F;
+  }
+}
+
 .services {
   background-color: #222222;
 }
