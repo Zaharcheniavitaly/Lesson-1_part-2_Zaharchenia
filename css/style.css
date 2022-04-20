@@ -770,6 +770,16 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
+@media (max-width: 768px) {
+  .services__list {
+    flex-direction: column;
+    height: 610px;
+  }
+  .services__item {
+    margin-top: 48px;
+  }
+}
+
 .cart__heading {
   width: 100%;
   height: 148px;
