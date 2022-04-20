@@ -131,8 +131,17 @@
 
 @media (max-width: 768px){
 
-   &__wrapper-burger{
-      max-width: 735px;      
+   .header{
+
+      &__wrapper-burger{
+         max-width: 735px;    
+      } 
+      
+      &__button-burger {
+         right: 169px;
+      }
    }
+
+   
 
 }

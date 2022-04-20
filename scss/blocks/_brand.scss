@@ -49,15 +49,29 @@
 
    .brand {
       max-width: 768px;
+
+      &__img {
+         height: 367px;
+         margin-right: 67px;
+         object-fit: cover;
+      }
+
+      &__heading {
+         @include font(44px, 53px, 900);
+         }
+
+      &__sub-heading {
+         @include font(24px, 29px);
+         } 
+
+      &__heading::after{
+         top: 0;      
+         }
+
+         &-wrapp {
+            margin-bottom: 20px;
+         }
    } 
-
-   &__img {
-      height: 367px;
-      margin-right: 91px;
-      object-fit: cover;
-   }
-      
-
 }
 
 
