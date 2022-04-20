@@ -129,37 +129,41 @@
    }
 }
 
+
 @media (max-width: 768px){
 
    .header{
 
-      &__wrapper-burger{
-         max-width: 735px;    
+   &__wrapper-burger{
+      max-width: 735px;    
       } 
       
-      &__button-burger {
-         right: 169px;
+   &__button-burger {
+      right: 169px;
       }
    }
 }
 
+
+
 @media (max-width: 375px){
 
    .header{
-      &__wrapper-burger{
-         max-width: 343px;    
-      } 
+
+   &__wrapper-burger{
+      max-width: 343px;    
+   } 
       
-      &__button-burger {
-         right: 169px;
-      }
+   &__button-burger {
+      right: 26px;
+   }
 
-      &__link-account{
-         display: none;
-      }
+   &__link-account{
+      display: none;
+   }
 
-      &__link-basket{
-         display: none;
-      }
+   &__link-basket{
+      display: none;
+   }
    }
 }
