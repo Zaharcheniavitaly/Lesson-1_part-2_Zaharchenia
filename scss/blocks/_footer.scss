@@ -122,6 +122,20 @@
 @media (max-width: 768px){
 
    .footer{
+      &__subscription {
+      max-width: 768px;   
+      background-size: cover;
+      background-position: -400px 0;  
+      }
+
+   &__subscription-wrapp{
+      min-height: 693px;
+      padding-top: 53.6px;
+      padding-bottom: 140px;
+      flex-direction: column;
+   }
+
+  
 
    
    }

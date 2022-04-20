@@ -396,6 +396,20 @@ input:hover, :focus {
   background-color: #F16D7F;
 }
 
+@media (max-width: 768px) {
+  .footer__subscription {
+    max-width: 768px;
+    background-size: cover;
+    background-position: -400px 0;
+  }
+  .footer__subscription-wrapp {
+    min-height: 693px;
+    padding-top: 53.6px;
+    padding-bottom: 140px;
+    flex-direction: column;
+  }
+}
+
 .header {
   background-color: #222222;
   position: fixed;
