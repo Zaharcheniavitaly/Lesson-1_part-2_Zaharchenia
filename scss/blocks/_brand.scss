@@ -45,6 +45,24 @@
 }
 
 
+@media (max-width: 375px){
+
+   .brand {
+   max-width: 375px;   
+
+   &__img {
+      display: none;
+   }
+
+   &-wrapp {
+      width: 100%;
+      height: 363px;
+}
+}
+
+}
+
+
 @media (max-width: 768px){
 
    .brand {
@@ -74,20 +92,5 @@
    } 
 }
 
-@media (max-width: 375px){
 
-   .brand {
-   max-width: 375px;   
-
-   &__img {
-      display: none;
-   }
-
-   &-wrapp {
-      width: 100%;
-      height: 363px;
-}
-}
-
-}
 
