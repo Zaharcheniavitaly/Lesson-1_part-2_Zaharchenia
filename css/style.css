@@ -116,7 +116,7 @@ input:hover, :focus {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .brand {
-    max-width: 768px;
+    max-width: 1024px;
   }
   .brand__img {
     height: 367px;
@@ -544,16 +544,22 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .header__wrapper-burger {
     max-width: 768px;
   }
   .header__button-burger {
     right: 169px;
   }
+  .header__logo-loupe {
+    margin-left: 32px;
+  }
+  .header__list {
+    margin-right: 32px;
+  }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .header__wrapper-burger {
     max-width: 375px;
   }

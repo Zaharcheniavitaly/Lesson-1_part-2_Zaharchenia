@@ -130,7 +130,7 @@
 }
 
 
-@media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 1024px){
 
    .header{
 
@@ -141,12 +141,23 @@
    &__button-burger {
       right: 169px;
       }
+
+		&__logo-loupe {
+			margin-left: 32px;
+		}
+
+		&__list {
+			margin-right: 32px;
+		}
+
+
+
    }
 }
 
 
 
-@media (max-width: 375px){
+@media (min-width: 375px) and (max-width: 667px){
 
    .header{
    &__wrapper-burger{
