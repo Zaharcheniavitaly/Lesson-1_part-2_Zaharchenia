@@ -19,17 +19,17 @@
    
    &__item--women {
       background: url(../img/for-women-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
    &__item--men {      
       background: url(../img/for-men-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
    &__item--kids {
       background: url(../img/for-kids-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
    &__item--accesories {
@@ -38,7 +38,7 @@
       margin-top: 30px;
       margin-bottom: 96px;
       background: url(../img/for-accesories-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
       &__text {
@@ -62,8 +62,8 @@
    .sales{
 
       &__item{
-         max-width: 232px; 
-         height: 167px;        
+         max-width: 32%;
+			height: 167px; 
       }
 
       &__item--accesories {
