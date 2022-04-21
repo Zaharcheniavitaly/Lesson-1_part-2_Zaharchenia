@@ -439,7 +439,7 @@ input:hover, :focus {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer__subscription {
-    max-width: 768px;
+    max-width: 1024px;
     background-size: cover;
     background-position: -400px 0;
   }
@@ -894,7 +894,7 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .services__list {
     flex-direction: column;
     height: 610px;
