@@ -47,6 +47,20 @@
 }
 
 
+@media (min-width: 375px) and (max-width: 668px){
+
+	.services{
+		min-height: 610px;
+		padding-top: 2px;
+
+		&__item {
+			margin-top: 46px;
+		}
+	}
+
+	
+}
+
 
 
 
