@@ -165,13 +165,13 @@ input:hover, :focus {
   .brand-wrapp {
     width: 100%;
     height: 363px;
+    justify-content: center;
   }
   .brand__heading {
     font-size: 38px;
     line-height: 45px;
     font-weight: 900;
     font-style: normal;
-    margin-left: 83px;
   }
   .brand__sub-heading {
     font-size: 20px;

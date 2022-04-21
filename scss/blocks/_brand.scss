@@ -90,11 +90,11 @@
    &-wrapp {
       width: 100%;
       height: 363px;
+		justify-content: center
 }
 
 &__heading {
 	@include font(38px, 45px, 900);
-	margin-left: 83px;
 	}
 
 &__sub-heading {
