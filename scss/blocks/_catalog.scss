@@ -119,6 +119,38 @@
       background-color: $white;
    }
 
+   &__button:hover, &__button:focus, &__button:active{
+      background-color: $pink;
+      color: $white;
+      } 
+
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+   .catalog{
+
+   &__button {
+      margin: 3px auto 65px auto;         
+      }
+   }
+}
+
+@media (min-width: 375px) and (max-width: 668px){
+
+	.catalog{
+
+		&__card {
+			margin-bottom: 16px;         
+		}
+
+		&__button {
+			margin: 41px auto 96px auto;
+		}
+	}
+
+}
+
 
 

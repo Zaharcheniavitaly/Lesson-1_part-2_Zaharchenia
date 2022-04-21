@@ -19,17 +19,17 @@
    
    &__item--women {
       background: url(../img/for-women-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
    &__item--men {      
       background: url(../img/for-men-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
    &__item--kids {
       background: url(../img/for-kids-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
    &__item--accesories {
@@ -38,7 +38,7 @@
       margin-top: 30px;
       margin-bottom: 96px;
       background: url(../img/for-accesories-.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
    }
    
       &__text {
@@ -53,6 +53,59 @@
       line-height: 32px;
       color: $pink;
    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+   .sales{
+
+      &__item{
+         max-width: 32%;
+			height: 167px; 
+      }
+
+      &__item--accesories {
+         max-width: 100%;
+         min-height: 116px;
+         margin-top: 20px;
+         margin-bottom: 155px;
+      }
+      
+      &__title {
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 32px;
+         color: $pink;
+      }
+   }
+}
+
+
+
+@media (min-width: 375px) and (max-width: 667px){
+
+	.sales{
+		
+		&__item--women {      
+			margin-bottom: 32px;
+		}
+		
+		&__item--men {      
+			margin-bottom: 32px;
+		}
+		
+		&__item--kids {
+			margin-bottom: 32px;
+		}
+
+		&__item--accesories {
+			margin-top: 0;
+			margin-bottom: 64px;		
+		}		
+	}
+
 }
 
 

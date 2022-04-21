@@ -127,6 +127,53 @@
    &__item-link:active{
       color: $pink;
    }
-
 }
 
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+   .header{
+
+   &__wrapper-burger{
+      max-width: 768px;    
+      } 
+      
+   &__button-burger {
+      right: 169px;
+      }
+
+		&__logo-loupe {
+			margin-left: 16px;
+		}
+
+		&__list {
+			margin-right: 16px;
+		}
+   }
+}
+
+
+
+@media (min-width: 375px) and (max-width: 668px){
+
+   .header{
+
+	&__wrapper-burger{
+      max-width: 667px;    
+   } 
+      
+   &__button-burger {
+      right: 16px;
+      }
+   
+   &__link-account{
+      display: none;
+   }
+
+   &__link-basket{
+      display: none;
+   }
+
+   }
+   
+}

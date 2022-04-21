@@ -63,3 +63,20 @@ input:hover, :focus{
    clip-path: inset(50%);
    margin: -1px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.container{
+		margin: 0 16px;
+	}
+
+}
+
+@media (min-width: 375px) and (max-width: 668px){
+	.container{
+		margin: 0 16px;
+	}
+
+}
+
+
+
