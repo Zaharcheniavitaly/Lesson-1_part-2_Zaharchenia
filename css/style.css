@@ -65,13 +65,13 @@ input:hover, :focus {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 735px;
+    width: 735px;
   }
 }
 
 @media (max-width: 375px) {
   .container {
-    max-width: 343px;
+    width: 343px;
   }
 }
 
@@ -567,16 +567,19 @@ input:hover, :focus {
 
 @media (max-width: 375px) {
   .header__wrapper-burger {
-    max-width: 343px;
+    max-width: 375px;
   }
   .header__button-burger {
-    right: 26px;
+    right: 6px;
   }
   .header__link-account {
     display: none;
   }
   .header__link-basket {
     display: none;
+  }
+  .header__wrapper-burger {
+    max-width: 375px;
   }
 }
 

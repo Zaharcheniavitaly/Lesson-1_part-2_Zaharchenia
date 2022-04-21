@@ -66,13 +66,13 @@ input:hover, :focus{
 
 @media (max-width: 768px){
    .container{
-      max-width: 735px;
+      width: 735px;
    }
 }
 
 
 @media (max-width: 375px){
    .container{
-      max-width: 343px;
+      width: 343px;
    }
 }

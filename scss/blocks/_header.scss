@@ -150,11 +150,11 @@
 
    .header{
    &__wrapper-burger{
-      max-width: 343px;    
+      max-width: 375px;    
    } 
       
    &__button-burger {
-      right: 26px;
+      right: 6px;
       }
    
    &__link-account{
@@ -164,6 +164,11 @@
    &__link-basket{
       display: none;
    }
+
+	&__wrapper-burger{
+		max-width: 375px;
+	}
+
    }
    
 }
