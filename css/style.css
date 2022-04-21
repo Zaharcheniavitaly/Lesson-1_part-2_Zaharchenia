@@ -305,9 +305,18 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .catalog__button {
     margin: 3px auto 65px auto;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 668px) {
+  .catalog__card {
+    margin-bottom: 16px;
+  }
+  .catalog__button {
+    margin: 41px auto 96px auto;
   }
 }
 
@@ -808,6 +817,16 @@ input:hover, :focus {
 @media (min-width: 375px) and (max-width: 667px) {
   .sales__item--women {
     margin-bottom: 32px;
+  }
+  .sales__item--men {
+    margin-bottom: 32px;
+  }
+  .sales__item--kids {
+    margin-bottom: 32px;
+  }
+  .sales__item--accesories {
+    margin-top: 0;
+    margin-bottom: 64px;
   }
 }
 

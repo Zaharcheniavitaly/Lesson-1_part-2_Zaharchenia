@@ -88,21 +88,23 @@
 
 	.sales{
 		
+		&__item--women {      
+			margin-bottom: 32px;
+		}
+		
 		&__item--men {      
-			background: url(../img/for-men-.jpg) no-repeat;
-			background-size: cover;
+			margin-bottom: 32px;
 		}
 		
 		&__item--kids {
-			background: url(../img/for-kids-.jpg) no-repeat;
-			background-size: cover;
+			margin-bottom: 32px;
 		}
-		
-		
+
+		&__item--accesories {
+			margin-top: 0;
+			margin-bottom: 64px;		
+		}		
 	}
-	
-
-
 
 }
 
