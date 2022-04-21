@@ -63,18 +63,6 @@ input:hover, :focus {
   margin: -1px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 735px;
-  }
-}
-
-@media (max-width: 375px) {
-  .container {
-    width: 343px;
-  }
-}
-
 .brand {
   display: flex;
   margin: 0 auto;
@@ -126,7 +114,7 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .brand {
     max-width: 768px;
   }
@@ -155,7 +143,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 667px) {
   .brand {
     max-width: 375px;
   }
