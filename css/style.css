@@ -348,7 +348,7 @@ input:hover, :focus {
 }
 
 .footer__subscription-text {
-  width: 360px;
+  max-width: 360px;
   margin-top: 30px;
   font-size: 20px;
   line-height: 24px;
@@ -362,7 +362,7 @@ input:hover, :focus {
 }
 
 .footer__subscription-form-title {
-  width: 557px;
+  max-width: 557px;
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
@@ -437,7 +437,7 @@ input:hover, :focus {
   background-color: #F16D7F;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .footer__subscription {
     max-width: 768px;
     background-size: cover;
@@ -448,6 +448,29 @@ input:hover, :focus {
     padding-top: 53.6px;
     padding-bottom: 140px;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 668px) {
+  .footer__subscription {
+    background-size: cover;
+    background-position: -399px 0px;
+  }
+  .footer__subscription-wrapp {
+    min-height: 550px;
+    justify-content: center;
+  }
+  .footer__subscription-text {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 16px 0 16px;
+  }
+  .footer__subscription-form-subtitle {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .footer__subscription-button-send {
+    margin-top: 25px;
   }
 }
 
@@ -598,7 +621,7 @@ input:hover, :focus {
     max-width: 667px;
   }
   .header__button-burger {
-    right: 230px;
+    right: 16px;
   }
   .header__link-account {
     display: none;

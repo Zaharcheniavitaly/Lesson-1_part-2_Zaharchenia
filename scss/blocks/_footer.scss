@@ -28,7 +28,7 @@
    }
    
    &__subscription-text{
-      width: 360px;
+      max-width: 360px;
       margin-top: 30px;
       font-size: 20px;
       line-height: 24px;
@@ -42,7 +42,7 @@
    }
    
    &__subscription-form-title {
-      width: 557px;
+      max-width: 557px;
       font-weight: 700;
       font-size: 24px;
       line-height: 40px;
@@ -118,7 +118,7 @@
    }
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 1024px){
 
    .footer{
       &__subscription {
@@ -134,4 +134,39 @@
       flex-direction: column;
       }   
    }
+}
+
+@media (min-width: 375px) and (max-width: 668px){
+
+	.footer{
+
+		&__subscription {
+			background-size: cover;
+			background-position: -399px 0px;
+		}
+
+		&__subscription-wrapp{
+			min-height: 550px;
+			justify-content: center;			
+		}
+
+		&__subscription-text{
+			font-size: 18px;
+			line-height: 22px;
+			padding: 0 16px 0 16px;
+		}
+	
+		&__subscription-form-subtitle {
+			font-size: 14px;
+			line-height: 21px;
+		}
+
+		&__subscription-button-send {
+			margin-top: 25px;
+		}
+
+	}
+
+	
+
 }
