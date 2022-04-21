@@ -57,12 +57,12 @@
 
 
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: $table-min-width) and (max-width: $table-max-width){
 
    .sales{
 
-      &__item{
-         max-width: 32%;
+		&__item{
+         max-width: 31.5%;
 			height: 167px; 
       }
 
@@ -84,9 +84,13 @@
 
 
 
-@media (min-width: 375px) and (max-width: 667px){
+@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
 
 	.sales{
+
+		&__list {
+			justify-content: center;			
+		}
 		
 		&__item--women {      
 			margin-bottom: 32px;

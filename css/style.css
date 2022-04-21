@@ -195,7 +195,7 @@ input:hover, :focus {
 .catalog__text {
   margin-bottom: 48px;
   text-align: center;
-  color: 9F9F9F;
+  color: #9F9F9F;
 }
 
 .catalog__list {
@@ -314,6 +314,9 @@ input:hover, :focus {
 @media (min-width: 375px) and (max-width: 668px) {
   .catalog__card {
     margin-bottom: 16px;
+  }
+  .catalog__list {
+    justify-content: center;
   }
   .catalog__button {
     margin: 41px auto 96px auto;
@@ -829,7 +832,7 @@ input:hover, :focus {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .sales__item {
-    max-width: 32%;
+    max-width: 31.5%;
     height: 167px;
   }
   .sales__item--accesories {
@@ -846,7 +849,10 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 375px) and (max-width: 668px) {
+  .sales__list {
+    justify-content: center;
+  }
   .sales__item--women {
     margin-bottom: 32px;
   }
@@ -908,6 +914,9 @@ input:hover, :focus {
   .services {
     min-height: 610px;
     padding-top: 2px;
+  }
+  .services__list {
+    justify-content: center;
   }
   .services__item {
     margin-top: 46px;
