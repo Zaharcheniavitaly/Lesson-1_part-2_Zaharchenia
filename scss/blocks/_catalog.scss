@@ -142,7 +142,11 @@
 	.catalog{
 
 		&__card {
-			margin-bottom: 16px;         
+			margin-bottom: 16px; 
+		}
+
+		&__list {
+			justify-content: center;
 		}
 
 		&__button {

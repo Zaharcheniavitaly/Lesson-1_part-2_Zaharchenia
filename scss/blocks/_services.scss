@@ -53,6 +53,10 @@
 		min-height: 610px;
 		padding-top: 2px;
 
+		&__list {
+			justify-content: center;
+		}
+
 		&__item {
 			margin-top: 46px;
 		}
