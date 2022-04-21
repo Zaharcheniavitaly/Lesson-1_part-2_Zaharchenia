@@ -155,7 +155,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .brand {
     max-width: 667px;
   }
@@ -311,7 +311,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .catalog__card {
     margin-bottom: 16px;
   }
@@ -451,7 +451,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .footer__subscription {
     background-size: cover;
     background-position: -399px 0px;
@@ -625,7 +625,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .header__wrapper-burger {
     max-width: 667px;
   }
@@ -904,7 +904,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .services {
     min-height: 610px;
     padding-top: 2px;
