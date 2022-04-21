@@ -764,14 +764,14 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .sales__item {
-    max-width: 232.09px;
+    max-width: 232px;
     height: 167px;
   }
   .sales__item--accesories {
-    max-width: 735px;
-    height: 116px;
+    max-width: 100%;
+    min-height: 116px;
     margin-top: 20px;
     margin-bottom: 155px;
   }
