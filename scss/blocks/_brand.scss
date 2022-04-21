@@ -78,10 +78,10 @@
 
 
 
-@media (min-width: 375px) and (max-width: 667px){
+@media (min-width: 375px) and (max-width: 668px){
 
    .brand {
-   max-width: 375px;   
+   max-width: 667px; 
 
    &__img {
       display: none;
@@ -91,6 +91,16 @@
       width: 100%;
       height: 363px;
 }
+
+&__heading {
+	@include font(38px, 45px, 900);
+	}
+
+&__sub-heading {
+	@include font(20px, 24px);
+	}
+
+
 }
 
 }

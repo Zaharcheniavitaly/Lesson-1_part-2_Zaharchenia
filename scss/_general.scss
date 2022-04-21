@@ -71,5 +71,12 @@ input:hover, :focus{
 
 }
 
+@media (min-width: 375px) and (max-width: 668px){
+	.container{
+		margin: 0 16px;
+	}
+
+}
+
 
 
