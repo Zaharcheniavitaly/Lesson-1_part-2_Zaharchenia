@@ -171,6 +171,7 @@ input:hover, :focus {
     line-height: 45px;
     font-weight: 900;
     font-style: normal;
+    margin-left: 83px;
   }
   .brand__sub-heading {
     font-size: 20px;
@@ -801,6 +802,12 @@ input:hover, :focus {
     font-weight: 700;
     line-height: 32px;
     color: #F16D7F;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .sales__item--women {
+    margin-bottom: 32px;
   }
 }
 

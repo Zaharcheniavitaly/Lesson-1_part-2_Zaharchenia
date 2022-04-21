@@ -86,6 +86,22 @@
 
 @media (min-width: 375px) and (max-width: 667px){
 
+	.sales{
+		
+		&__item--men {      
+			background: url(../img/for-men-.jpg) no-repeat;
+			background-size: cover;
+		}
+		
+		&__item--kids {
+			background: url(../img/for-kids-.jpg) no-repeat;
+			background-size: cover;
+		}
+		
+		
+	}
+	
+
 
 
 }
