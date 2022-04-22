@@ -54,9 +54,9 @@
       height: 341px;
       }
       
-      &__item {
-			width: 90%;
-      }
+   &__item {
+		width: 31.5%;
+   }
    }
 }
 
@@ -67,16 +67,14 @@
 		min-height: 610px;
 		padding-top: 2px;
 
-		&__list {
-			justify-content: center;
-		}
-
-		&__item {
-			margin-top: 46px;
-		}
+	&__list {
+		justify-content: center;
 	}
 
-	
+	&__item {
+		margin-top: 46px;
+	}
+	}	
 }
 
 

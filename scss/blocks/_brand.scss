@@ -46,7 +46,7 @@
 
 
 
-@media (max-width: $table-max-width) {
+@media (min-width: $table-min-width) and (max-width: $table-max-width) {
 
    .brand {
       max-width: 1024px;
