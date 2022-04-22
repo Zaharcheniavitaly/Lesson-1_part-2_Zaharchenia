@@ -925,6 +925,7 @@ input:hover, :focus {
 @media (max-width: 767px) {
   .sales__list {
     justify-content: center;
+    flex-direction: column;
   }
   .sales__item {
     max-width: 100%;
@@ -932,12 +933,15 @@ input:hover, :focus {
   }
   .sales__item--women {
     margin-bottom: 32px;
+    width: 100%;
   }
   .sales__item--men {
     margin-bottom: 32px;
+    width: 100%;
   }
   .sales__item--kids {
     margin-bottom: 32px;
+    width: 100%;
   }
   .sales__item--accesories {
     margin-top: 0;
