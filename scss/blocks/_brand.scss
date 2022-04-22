@@ -105,13 +105,10 @@
 
 
 
-
-
-
 @media (max-width: $mobile-max-width){
 
    .brand {
-   max-width: 667px; 
+   max-width: 767px; 
 
    &__img {
       display: none;
