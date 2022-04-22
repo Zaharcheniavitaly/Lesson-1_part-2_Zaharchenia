@@ -1,5 +1,4 @@
 .catalog{
-
    &__heading {
       font-size: 30px;
       line-height: 36px;
@@ -81,9 +80,6 @@
       color: $white;
    }
    
-   /*button-overlay end*/
-   
-   
    &__card-title {
       margin-top: 25px;
       margin-bottom: 12.65px;
@@ -127,7 +123,7 @@
 }
 
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width){
+@media (max-width: $table-max-width){
 
    .catalog{
 
@@ -137,7 +133,16 @@
    }
 }
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+@media (max-width: $table-S-max-width){
+
+   .catalog{
+   &__card {
+		width: 31.5%;
+	}
+   }
+}
+
+@media (max-width: $mobile-max-width){
 
 	.catalog{
 

@@ -152,20 +152,12 @@
    }
 }
 
-@media (max-width: $table-max-width){
-	.header{	
-	&__button-burger {
-		right: 367px;
+@media (max-width: $table-S-max-width){
+	.header{
+		&__button-burger {
+			right: 180px;
+		}
 	}
-}
-}
-
-&__button-burger {
-   border: none;
-   background-color: transparent;
-   position: absolute;
-   top: 25px;
-   right: 367px;
 }
 
 @media (max-width: $mobile-max-width){

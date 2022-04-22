@@ -222,10 +222,6 @@ input:hover, :focus {
   }
 }
 
-.catalog {
-  /*button-overlay end*/
-}
-
 .catalog__heading {
   font-size: 30px;
   line-height: 36px;
@@ -346,13 +342,19 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .catalog__button {
     margin: 3px auto 65px auto;
   }
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media (max-width: 1140px) {
+  .catalog__card {
+    width: 31.5%;
+  }
+}
+
+@media (max-width: 667px) {
   .catalog__card {
     margin-bottom: 16px;
   }
@@ -663,7 +665,7 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .header__wrapper-burger {
     max-width: 768px;
   }
@@ -678,7 +680,13 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media (max-width: 1140px) {
+  .header__button-burger {
+    right: 180px;
+  }
+}
+
+@media (max-width: 667px) {
   .header__wrapper-burger {
     max-width: 667px;
   }
@@ -900,9 +908,8 @@ input:hover, :focus {
   }
   .sales__item--accesories {
     max-width: 100%;
-    min-height: 116px;
     margin-top: 20px;
-    margin-bottom: 155px;
+    margin-bottom: 65px;
   }
 }
 
