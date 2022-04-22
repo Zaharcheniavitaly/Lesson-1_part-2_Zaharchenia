@@ -880,7 +880,7 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .sales__item {
     max-width: 31.5%;
     height: 167px;
@@ -891,15 +891,22 @@ input:hover, :focus {
     margin-top: 20px;
     margin-bottom: 155px;
   }
-  .sales__title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    color: #F16D7F;
+}
+
+@media (max-width: 1140px) {
+  .sales__item {
+    max-width: 31.5%;
+    height: 167px;
+  }
+  .sales__item--accesories {
+    max-width: 100%;
+    min-height: 116px;
+    margin-top: 20px;
+    margin-bottom: 155px;
   }
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media (max-width: 667px) {
   .sales__list {
     justify-content: center;
   }

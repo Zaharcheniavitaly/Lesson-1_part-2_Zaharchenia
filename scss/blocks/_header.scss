@@ -130,7 +130,7 @@
 }
 
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width){
+@media (max-width: $table-max-width){
 
    .header{
 
@@ -152,9 +152,23 @@
    }
 }
 
+@media (max-width: $table-max-width){
+	.header{	
+	&__button-burger {
+		right: 367px;
+	}
+}
+}
 
+&__button-burger {
+   border: none;
+   background-color: transparent;
+   position: absolute;
+   top: 25px;
+   right: 367px;
+}
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+@media (max-width: $mobile-max-width){
 
    .header{
 

@@ -57,7 +57,7 @@
 
 
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width){
+@media (max-width: $table-max-width){
 
    .sales{
 
@@ -73,18 +73,31 @@
          margin-bottom: 155px;
       }
       
-      &__title {
-         font-size: 24px;
-         font-weight: 700;
-         line-height: 32px;
-         color: $pink;
-      }
    }
 }
 
 
+@media (max-width: $table-S-max-width){
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+   .sales{
+
+		&__item{
+         max-width: 31.5%;
+			height: 167px; 
+      }
+
+      &__item--accesories {
+         max-width: 100%;
+         min-height: 116px;
+         margin-top: 20px;
+         margin-bottom: 155px;
+      }
+      
+   }
+}
+
+
+@media (max-width: $mobile-max-width){
 
 	.sales{
 
