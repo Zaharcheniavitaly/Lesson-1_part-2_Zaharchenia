@@ -31,7 +31,7 @@
 }
 
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width){
+@media (max-width: $table-max-width){
 
    .services{
 
@@ -46,8 +46,22 @@
    }
 }
 
+@media (max-width: $table-S-max-width){
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+   .services{
+
+   &__list {
+      height: 341px;
+      }
+      
+      &__item {
+			width: 90%;
+      }
+   }
+}
+
+
+@media (max-width: $mobile-max-width){
 
 	.services{
 		min-height: 610px;

@@ -86,11 +86,11 @@
       }
 
       &__heading {
-         @include font(44px, 53px, 900);
+         @include font(48px, 58px, 900);
          }
 
       &__sub-heading {
-         @include font(24px, 29px);
+         @include font(32px, 38px);
          } 
 
       &__heading::after{
