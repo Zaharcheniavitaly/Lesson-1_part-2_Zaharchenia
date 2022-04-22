@@ -64,14 +64,16 @@ input:hover, :focus{
    margin: -1px;
 }
 
-@media (max-width: $table-max-width){
+
+
+@media (max-width: $table-S-max-width){
 	.container{
 		margin: 0 16px;
 	}
 
 }
 
-@media (max-width: $table-S-max-width){
+@media (max-width: $table-max-width){
 	.container{
 		margin: 0 16px;
 	}
@@ -85,11 +87,7 @@ input:hover, :focus{
 
 }
 
-@media (max-width: $mobile-S-max-width){
-	.container{
-		margin: 0 16px;
-	}
-}
+
 	
 
 

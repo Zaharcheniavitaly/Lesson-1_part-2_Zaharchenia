@@ -63,19 +63,13 @@ input:hover, :focus {
   margin: -1px;
 }
 
-@media (max-width: 1024px) {
-  .container {
-    margin: 0 16px;
-  }
-}
-
 @media (max-width: 1140px) {
   .container {
     margin: 0 16px;
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 1024px) {
   .container {
     margin: 0 16px;
   }
@@ -197,9 +191,9 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .brand {
-    max-width: 667px;
+    max-width: 767px;
   }
   .brand__img {
     display: none;
@@ -361,7 +355,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .catalog__card {
     margin-bottom: 16px;
   }
@@ -513,7 +507,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .footer__subscription {
     background-size: cover;
     background-position: -399px 0px;
@@ -693,9 +687,9 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .header__wrapper-burger {
-    max-width: 667px;
+    max-width: 767px;
   }
   .header__button-burger {
     right: 16px;
@@ -920,7 +914,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .sales__list {
     justify-content: center;
   }
@@ -991,7 +985,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .services {
     min-height: 610px;
     padding-top: 2px;
