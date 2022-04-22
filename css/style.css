@@ -481,7 +481,7 @@ input:hover, :focus {
   background-color: #F16D7F;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .footer__subscription {
     max-width: 1024px;
     background-size: cover;
@@ -495,7 +495,16 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media (max-width: 1140px) {
+  .footer__subscription {
+    max-width: 1140px;
+  }
+  .footer__subscription-wrapp {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 667px) {
   .footer__subscription {
     background-size: cover;
     background-position: -399px 0px;

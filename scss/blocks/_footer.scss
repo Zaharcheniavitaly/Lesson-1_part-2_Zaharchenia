@@ -118,7 +118,7 @@
    }
 }
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width){
+@media (max-width: $table-max-width){
 
    .footer{
       &__subscription {
@@ -136,7 +136,20 @@
    }
 }
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+@media (max-width: $table-S-max-width){
+
+   .footer{
+      &__subscription {
+      max-width: 1140px;   
+      }
+
+   &__subscription-wrapp{
+      margin: 0 16px;
+      }
+   }
+}
+
+@media (max-width: $mobile-max-width){
 
 	.footer{
 
