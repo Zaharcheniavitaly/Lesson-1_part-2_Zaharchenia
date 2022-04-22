@@ -46,7 +46,7 @@
 
 
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width) {
+@media (max-width: $table-max-width) {
 
    .brand {
       max-width: 1024px;
@@ -80,7 +80,7 @@
       max-width: 1140px;
 
       &__img {
-         width: 70%;
+         width: 50%;
          margin-right: 67px;
          object-fit: cover;
       }
@@ -105,7 +105,7 @@
 
 
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+@media (max-width: $mobile-max-width){
 
    .brand {
    max-width: 667px; 
