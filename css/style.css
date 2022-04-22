@@ -366,6 +366,9 @@ input:hover, :focus {
   .catalog__button {
     margin: 41px auto 96px auto;
   }
+  .catalog__card-overlay {
+    height: 100%;
+  }
 }
 
 .footer__subscription {
