@@ -167,13 +167,18 @@
 
 		&__subscription-wrapp{
 			min-height: 550px;
-			justify-content: center;			
+			justify-content: center;
+			padding-bottom: 109px;			
 		}
 
 		&__subscription-text{
 			font-size: 18px;
 			line-height: 22px;
 			padding: 0 16px 0 16px;
+		}
+
+		&__subscription-form {
+		margin-top: 59px;
 		}
 	
 		&__subscription-form-subtitle {
@@ -195,6 +200,12 @@
 		&__copy-list {
 			margin-bottom: 40px;
 		}
+
+		&__subscription-input {
+			width: 242px;
+			
+		}
 	}
+
 
 }

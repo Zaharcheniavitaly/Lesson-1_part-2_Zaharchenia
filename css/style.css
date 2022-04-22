@@ -358,6 +358,7 @@ input:hover, :focus {
 @media (max-width: 767px) {
   .catalog__card {
     margin-bottom: 16px;
+    width: 100%;
   }
   .catalog__list {
     justify-content: center;
@@ -515,11 +516,15 @@ input:hover, :focus {
   .footer__subscription-wrapp {
     min-height: 550px;
     justify-content: center;
+    padding-bottom: 109px;
   }
   .footer__subscription-text {
     font-size: 18px;
     line-height: 22px;
     padding: 0 16px 0 16px;
+  }
+  .footer__subscription-form {
+    margin-top: 59px;
   }
   .footer__subscription-form-subtitle {
     font-size: 14px;
@@ -536,6 +541,9 @@ input:hover, :focus {
   }
   .footer__copy-list {
     margin-bottom: 40px;
+  }
+  .footer__subscription-input {
+    width: 242px;
   }
 }
 
@@ -918,6 +926,10 @@ input:hover, :focus {
   .sales__list {
     justify-content: center;
   }
+  .sales__item {
+    max-width: 100%;
+    min-height: 247px;
+  }
   .sales__item--women {
     margin-bottom: 32px;
   }
@@ -930,6 +942,8 @@ input:hover, :focus {
   .sales__item--accesories {
     margin-top: 0;
     margin-bottom: 64px;
+    min-height: 111px;
+    object-fit: cover;
   }
 }
 
@@ -987,14 +1001,18 @@ input:hover, :focus {
 
 @media (max-width: 767px) {
   .services {
-    min-height: 610px;
-    padding-top: 2px;
+    height: 610px;
   }
   .services__list {
     justify-content: center;
+    padding-bottom: 65px;
   }
   .services__item {
     margin-top: 46px;
+  }
+  .services__title {
+    margin-top: 24px;
+    margin-bottom: 14px;
   }
 }
 

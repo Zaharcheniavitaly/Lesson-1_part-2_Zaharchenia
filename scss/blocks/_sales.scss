@@ -107,6 +107,11 @@
 		&__list {
 			justify-content: center;			
 		}
+
+		&__item{
+         max-width: 100%;
+			min-height: 247px; 
+      }
 		
 		&__item--women {      
 			margin-bottom: 32px;
@@ -122,7 +127,9 @@
 
 		&__item--accesories {
 			margin-top: 0;
-			margin-bottom: 64px;		
+			margin-bottom: 64px;
+			min-height: 111px;
+			object-fit: cover;		
 		}		
 	}
 
