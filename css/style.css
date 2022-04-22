@@ -126,7 +126,7 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .brand {
     max-width: 1024px;
   }
@@ -155,7 +155,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .brand {
     max-width: 667px;
   }
@@ -305,13 +305,13 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .catalog__button {
     margin: 3px auto 65px auto;
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .catalog__card {
     margin-bottom: 16px;
   }
@@ -440,7 +440,7 @@ input:hover, :focus {
   background-color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .footer__subscription {
     max-width: 1024px;
     background-size: cover;
@@ -454,7 +454,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .footer__subscription {
     background-size: cover;
     background-position: -399px 0px;
@@ -613,7 +613,7 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .header__wrapper-burger {
     max-width: 768px;
   }
@@ -628,7 +628,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .header__wrapper-burger {
     max-width: 667px;
   }
@@ -830,7 +830,7 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .sales__item {
     max-width: 31.5%;
     height: 167px;
@@ -849,7 +849,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .sales__list {
     justify-content: center;
   }
@@ -900,7 +900,7 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .services__list {
     flex-direction: column;
     height: 610px;
@@ -910,7 +910,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .services {
     min-height: 610px;
     padding-top: 2px;
