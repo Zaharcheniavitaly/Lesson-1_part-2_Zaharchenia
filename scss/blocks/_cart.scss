@@ -1,11 +1,10 @@
 .cart{
-    &__heading{
-        @include regitrat_cart_heading;
-    }
+   &__heading{
+      @include registrat_cart_heading;
+   }
     
-    &__title {
-        @include regitrat_cart_title;
-    }
-    
+	&__title {
+   	@include registrat_cart_title;
+   }
 
 }
