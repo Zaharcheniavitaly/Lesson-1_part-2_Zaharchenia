@@ -75,8 +75,32 @@
    } 
 }
 
-@media (max-width: $tableS-max-width){
+@media (max-width: $table-S-max-width){
+	.brand {
+      max-width: 1140px;
 
+      &__img {
+         width: 70%;
+         margin-right: 67px;
+         object-fit: cover;
+      }
+
+      &__heading {
+         @include font(44px, 53px, 900);
+         }
+
+      &__sub-heading {
+         @include font(24px, 29px);
+         } 
+
+      &__heading::after{
+         top: 0;      
+         }
+
+         &-wrapp {
+            margin-bottom: 20px;
+         }
+   } 
 }
 
 

@@ -69,6 +69,12 @@ input:hover, :focus {
   }
 }
 
+@media (max-width: 1140px) {
+  .container {
+    margin: 0 16px;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 668px) {
   .container {
     margin: 0 16px;
@@ -132,6 +138,35 @@ input:hover, :focus {
   }
   .brand__img {
     height: 367px;
+    margin-right: 67px;
+    object-fit: cover;
+  }
+  .brand__heading {
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .brand__sub-heading {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .brand__heading::after {
+    top: 0;
+  }
+  .brand-wrapp {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .brand {
+    max-width: 1140px;
+  }
+  .brand__img {
+    width: 70%;
     margin-right: 67px;
     object-fit: cover;
   }
