@@ -1,11 +1,11 @@
 .registration{
 
    &__heading {
-      @include regitrat_cart_heading
+      @include registrat_cart_heading
    }
    
    &__title {
-      @include regitrat_cart_title;
+      @include registrat_cart_title;
    }
    
    &__form{
