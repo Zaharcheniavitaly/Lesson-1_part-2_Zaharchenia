@@ -129,6 +129,16 @@
    }
 }
 
+//media
+
+@media (max-width: $table-S-max-width){
+	.header{
+		&__button-burger {
+			right: 180px;
+		}
+	}
+}
+
 
 @media (max-width: $table-max-width){
 
@@ -152,13 +162,10 @@
    }
 }
 
-@media (max-width: $table-S-max-width){
-	.header{
-		&__button-burger {
-			right: 180px;
-		}
-	}
-}
+
+
+
+
 
 @media (max-width: $mobile-max-width){
 

@@ -55,26 +55,7 @@
    }
 }
 
-
-
-@media (max-width: $table-max-width){
-
-   .sales{
-
-		&__item{
-         max-width: 31.5%;
-			height: 167px; 
-      }
-
-      &__item--accesories {
-         max-width: 100%;
-         min-height: 116px;
-         margin-top: 20px;
-         margin-bottom: 155px;
-      }
-      
-   }
-}
+//media
 
 
 @media (max-width: $table-S-max-width){
@@ -94,6 +75,29 @@
       
    }
 }
+
+
+
+@media (max-width: $table-max-width){
+
+   .sales{
+
+		&__item{
+         max-width: 31.5%;
+			height: 167px; 
+      }
+
+      &__item--accesories {
+         max-width: 100%;
+         min-height: 116px;
+         margin-top: 20px;
+         margin-bottom: 96px;
+      }
+      
+   }
+}
+
+
 
 
 @media (max-width: $mobile-max-width){

@@ -118,6 +118,21 @@
    }
 }
 
+//media
+
+@media (max-width: $table-S-max-width){
+
+   .footer{
+      &__subscription {
+      max-width: 1140px;   
+      }
+
+   &__subscription-wrapp{
+      margin: 0 16px;
+      }
+   }
+}
+
 @media (max-width: $table-max-width){
 
    .footer{
@@ -136,18 +151,10 @@
    }
 }
 
-@media (max-width: $table-S-max-width){
 
-   .footer{
-      &__subscription {
-      max-width: 1140px;   
-      }
 
-   &__subscription-wrapp{
-      margin: 0 16px;
-      }
-   }
-}
+
+
 
 @media (max-width: $mobile-max-width){
 
