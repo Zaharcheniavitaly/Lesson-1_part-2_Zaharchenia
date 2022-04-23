@@ -75,7 +75,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
     margin: 0 8px;
   }
@@ -191,7 +191,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .brand {
     max-width: 767px;
   }
@@ -355,7 +355,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .catalog__card {
     margin-bottom: 16px;
     width: 100%;
@@ -511,7 +511,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer__subscription {
     background-size: cover;
     background-position: -399px 0px;
@@ -698,7 +698,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header__wrapper-burger {
     max-width: 767px;
   }
@@ -748,7 +748,8 @@ input:hover, :focus {
 
 .registration__form-input {
   display: block;
-  width: 360px;
+  max-width: 360px;
+  width: 100%;
   margin-bottom: 20.5px;
   padding: 12.5px 0 16px 17px;
   font-weight: 300;
@@ -821,6 +822,8 @@ input:hover, :focus {
 
 .registration__loyalty-item {
   position: relative;
+  margin-bottom: 16px;
+  left: 43px;
 }
 
 .registration__loyalty-item::before {
@@ -844,11 +847,6 @@ input:hover, :focus {
   margin-bottom: 21px;
 }
 
-.registration__loyalty-item {
-  margin-bottom: 16px;
-  left: 43px;
-}
-
 @media (max-width: 1140px) {
   .registration__loyalty {
     width: 57%;
@@ -863,7 +861,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .registration__form {
     flex-direction: column;
   }
@@ -964,7 +962,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .sales__list {
     justify-content: center;
     flex-direction: column;
@@ -1045,7 +1043,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .services {
     height: 610px;
   }
