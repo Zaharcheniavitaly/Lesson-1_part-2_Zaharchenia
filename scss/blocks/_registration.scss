@@ -128,4 +128,53 @@
 }
 
 
+@media (max-width: $table-S-max-width){
+	
+	.registration{
+		&__loyalty{
+			width: 57%;
+			margin-left: 50px;
+		}
+	}
+	
+}
 
+@media (max-width: $table-max-width){
+	.registration{
+		&__loyalty{
+			width: 47%;
+			margin-left: 23px;
+		}
+	}
+
+}
+
+@media (max-width: $mobile-max-width){
+	.registration{
+		&__form {
+			flex-direction: column;
+		}
+
+		&__title {
+			text-align: center;
+		}
+
+		&__form{
+			align-items: center;
+			padding-top: 40px;
+		}
+		&__form-button{
+			margin-top: 39px;
+			margin-bottom: 40px;
+		}
+
+		&__loyalty{
+			width: 100%;
+			max-width: 358px;
+			margin-left: 0;
+		}
+
+	}
+	
+
+}

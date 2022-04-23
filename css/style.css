@@ -75,9 +75,9 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .container {
-    margin: 0 16px;
+    margin: 0 8px;
   }
 }
 
@@ -191,7 +191,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .brand {
     max-width: 767px;
   }
@@ -355,7 +355,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .catalog__card {
     margin-bottom: 16px;
     width: 100%;
@@ -511,7 +511,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .footer__subscription {
     background-size: cover;
     background-position: -399px 0px;
@@ -698,7 +698,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header__wrapper-burger {
     max-width: 767px;
   }
@@ -709,6 +709,9 @@ input:hover, :focus {
     display: none;
   }
   .header__link-basket {
+    display: none;
+  }
+  .header__item {
     display: none;
   }
 }
@@ -846,6 +849,42 @@ input:hover, :focus {
   left: 43px;
 }
 
+@media (max-width: 1140px) {
+  .registration__loyalty {
+    width: 57%;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .registration__loyalty {
+    width: 47%;
+    margin-left: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration__form {
+    flex-direction: column;
+  }
+  .registration__title {
+    text-align: center;
+  }
+  .registration__form {
+    align-items: center;
+    padding-top: 40px;
+  }
+  .registration__form-button {
+    margin-top: 39px;
+    margin-bottom: 40px;
+  }
+  .registration__loyalty {
+    width: 100%;
+    max-width: 358px;
+    margin-left: 0;
+  }
+}
+
 .sales__list {
   display: flex;
   flex-wrap: wrap;
@@ -925,7 +964,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .sales__list {
     justify-content: center;
     flex-direction: column;
@@ -1006,7 +1045,7 @@ input:hover, :focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .services {
     height: 610px;
   }
