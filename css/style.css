@@ -65,19 +65,25 @@ input:hover, :focus {
 
 @media (max-width: 1140px) {
   .container {
-    margin: 0 16px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 16px;
   }
 }
 
 @media (max-width: 1024px) {
   .container {
-    margin: 0 16px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 16px;
   }
 }
 
 @media (max-width: 767px) {
   .container {
-    margin: 0 8px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 8px;
   }
 }
 
@@ -214,6 +220,9 @@ input:hover, :focus {
     line-height: 24px;
     font-weight: 400;
     font-style: normal;
+  }
+  .brand__heading::after {
+    top: -5px;
   }
 }
 

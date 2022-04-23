@@ -68,21 +68,27 @@ input:hover, :focus{
 
 @media (max-width: $table-S-max-width){
 	.container{
-		margin: 0 16px;
+		width: 95%;
+		margin: 0 auto;
+		padding: 0 16px;
 	}
 
 }
 
 @media (max-width: $table-max-width){
 	.container{
-		margin: 0 16px;
+		width: 95%;
+		margin: 0 auto;
+		padding: 0 16px;
 	}
 
 }
 
 @media (max-width: $mobile-max-width){
 	.container{
-		margin: 0 8px;
+		width: 95%;
+		margin: 0 auto;
+		padding: 0 8px;
 	}
 
 }

@@ -127,6 +127,12 @@
 &__sub-heading {
 	@include font(20px, 24px);
 	}
+
+	&__heading::after{
+      
+      top: -5px;
+      
+      }
 }
 
 }
