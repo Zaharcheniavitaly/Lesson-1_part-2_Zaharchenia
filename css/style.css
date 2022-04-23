@@ -703,7 +703,7 @@ input:hover, :focus {
     max-width: 767px;
   }
   .header__button-burger {
-    right: 16px;
+    right: 70px;
   }
   .header__link-account {
     display: none;
