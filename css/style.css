@@ -1089,7 +1089,6 @@ input:hover, :focus {
 
 .cart__form {
   margin-top: 96px;
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1098,6 +1097,7 @@ input:hover, :focus {
 .cart__form-shopping {
   max-width: 652px;
   min-height: 306px;
+  margin-bottom: 40px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -1117,6 +1117,7 @@ input:hover, :focus {
 }
 
 .cart__form-legend {
+  margin-bottom: 42px;
   font-size: 24px;
   line-height: 29px;
   text-transform: uppercase;
@@ -1134,16 +1135,49 @@ input:hover, :focus {
   border: none;
 }
 
+.cart__form-input-color {
+  font-size: 22px;
+  color: #6F6E6E;
+}
+
+.cart__form-input-number {
+  max-width: 43px;
+  min-height: 24px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .cart__form-price, .cart__form-input {
   font-size: 22px;
   line-height: 26px;
 }
 
-.cart__form-input::-moz-placeholder {
-  color: red;
+.cart__form-input::-webkit-input-placeholder {
+  color: #F16D7F;
+}
+
+.cart__form-input-size::-webkit-input-placeholder {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.cart__form-number {
+  margin-right: 24px;
+}
+
+.cart__form-label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.cart__form-adress {
+  max-width: 360px;
 }
 
 .cart__form-adress-title {
+  margin-bottom: 20px;
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
@@ -1151,7 +1185,6 @@ input:hover, :focus {
 }
 
 .cart__form-input-adress, .cart__form-adress-input-quote {
-  display: block;
   max-width: 360px;
   width: 100%;
   margin-bottom: 20.5px;
