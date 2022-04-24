@@ -1086,4 +1086,90 @@ input:hover, :focus {
   text-transform: uppercase;
   color: #F16D7F;
 }
+
+.cart__form {
+  margin-top: 96px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cart__form-shopping {
+  max-width: 652px;
+  min-height: 306px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cart__form-img {
+  max-width: 262px;
+  min-height: 100%;
+}
+
+.cart__form-shirt {
+  max-width: 390px;
+  margin-top: 22px;
+  margin-left: 31px;
+}
+
+.cart__form-legend {
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.cart__form-icon-close {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 28px;
+  right: 22px;
+}
+
+.cart__form-input, .cart__form-input-size, .cart__form-input-color, .cart__form-input-size {
+  border: none;
+}
+
+.cart__form-price, .cart__form-input {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.cart__form-input::-moz-placeholder {
+  color: red;
+}
+
+.cart__form-adress-title {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.cart__form-input-adress, .cart__form-adress-input-quote {
+  display: block;
+  max-width: 360px;
+  width: 100%;
+  margin-bottom: 20.5px;
+  padding: 12.5px 0 16px 17px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.cart__form-adress-input-quote {
+  max-width: 101px;
+  padding: 11px 15px;
+}
+
+.cart__form-input-adress:hover, .cart__form-input:focus {
+  color: #F16D7F;
+  border: 2px solid #F16D7F;
+  opacity: .6;
+}
 /*# sourceMappingURL=style.css.map */

@@ -159,8 +159,82 @@
 		</div>
 	</section>
 
-	<section class="cart__form">
+	<section class="cart__form-shopp container">
 		<h2 class="visually-hidden">сard order</h2>
+
+		<form class="cart__form" action="#!">
+			<div class="cart__form-shopping">
+				<div>
+					<a href="#!">
+						<img class="cart__form-img" src="img/bike.jpg" alt="bike">
+					</a>
+				</div>
+
+				<button class="cart__form-icon-close">
+					<img class="cart__form-icon-close-img" src="img/svg/icon-close-cart.svg" alt="icon-close">
+				</button>
+
+
+				<fieldset class="cart__form-shirt">
+					<legend class="cart__form-legend">mango people t-shirt</legend>
+
+					<label>
+						<span class="cart__form-price">Price:</span>
+						<input class=" cart__form-input" type="text" required placeholder="$300">
+					</label> <br>
+
+					<label>
+						<span class="cart__form-price">Color:</span>
+						<select class="cart__form-input-color" name="color">
+							<option selected value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</label><br>
+
+					<label>
+						<span class="cart__form-price">Size:</span>
+						<input class=" cart__form-input-size" type="number" required placeholder="XI">
+					</label><br>
+
+					<label>
+						<span class="cart__form-price">Quantity:</span>
+						<input class=" cart__form-input-number" type="number" required placeholder="2">
+					</label>
+				</fieldset>
+
+
+
+			</div>
+
+			<fieldset class="cart__form-adress">
+				<legend class="cart__form-adress-title">shipping adress</legend>
+				<label>
+					<span class="visually-hidden">text</span>
+					<input class="cart__form-input-adress" type="text" required placeholder="Bangladesh">
+				</label>
+
+				<label>
+					<span class="visually-hidden">text</span>
+					<input class="cart__form-input-adress" type="text" required placeholder="State">
+				</label>
+
+				<label>
+					<span class="visually-hidden">text</span>
+					<input class="cart__form-input-adress" type="text" required placeholder="Postcode / Zip">
+				</label>
+
+				<label>
+					<span class="visually-hidden">text</span>
+					<input class="cart__form-adress-input-quote" type="text" required placeholder="GET A QUOTE">
+				</label>
+
+
+			</fieldset>
+
+
+
+		</form>
 
 	</section>
 

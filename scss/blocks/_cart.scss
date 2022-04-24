@@ -7,4 +7,109 @@
 		@include registrat_cart_title;
    }
 
+	&__form{
+		margin-top: 96px;
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+	}
+
+	&__form-shopping{
+		max-width: 652px;
+		min-height: 306px;
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
+	&__form-img{
+		max-width: 262px;
+		min-height: 100%;
+	}
+
+	&__form-shirt{
+		max-width: 390px;
+		margin-top: 22px;	
+		margin-left: 31px;	
+	}
+
+	&__form-legend{
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+	}
+
+	
+
+	&__form-icon-close{
+		border: 0;
+		background-color: transparent;
+		position: absolute;
+		top: 28px;
+		right: 22px;
+	}
+
+	&__form-input, 
+	&__form-input-size,
+	&__form-input-color,
+	&__form-input-size{
+		border: none;
+	}
+
+	&__form-price, 
+	&__form-input{
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	&__form-input::-webkit-input-placeholder { 
+		color: $pink;
+	}
+	
+	
+
+
+
+	&__form-adress-title{
+		font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+		text-transform: uppercase;
+	}
+
+	&__form-input-adress, 
+	&__form-adress-input-quote{
+      display: block;
+      max-width: 360px;
+		width: 100%;
+      margin-bottom: 20.5px;
+      padding: 12.5px 0 16px 17px;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: $light-gray;		
+		}
+
+		&__form-adress-input-quote{
+			max-width: 101px;
+			padding: 11px 15px;
+   }
+
+	&__form-input-adress:hover, &__form-input:focus{
+      color: $pink;
+      border: 2px solid $pink;
+		opacity: .6;
+   }
+
+	
+
+	
+
+	
+
 }
+
