@@ -166,7 +166,92 @@
 		opacity: .6;
    }
 
-	
+	&__form-label-total{
+		display: block;
+		text-align: right;
+		margin-bottom: 12px;
+		font-size: 11px;
+		line-height: 13px;
+		color: #4A4A4A;
+	}
+
+	&__form-total{
+		text-transform: uppercase;
+	}
+
+	&__form-input-total{
+		margin-top: 39px;
+		margin-left: 30px;
+		max-width: 60px;
+		border: none;
+		
+		background: #F5F3F3;
+		
+	}
+
+	&__form-label-grand{
+		display: block;
+		text-align: right;
+		margin-bottom: 12px;
+	}
+
+	&__form-grand{
+		max-width: 360px;
+		min-height: 214px;
+		margin-top: 45px;
+		background: #F5F3F3;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;		
+	}
+
+	&__form-input-grand{
+		margin-top: 12px;
+		margin-left: 30px;
+		max-width: 60px;
+		border: none;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+		text-transform: uppercase;
+		background: #F5F3F3;		
+		color: #222222;
+				
+	}
+
+	&__form-input-grand::-webkit-input-placeholder { 
+		color: $pink;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	&__form-buttom-grand{
+		display: block;
+		margin: 17px auto 42px auto;
+		padding: 15px 42px;
+		font-weight: 300;
+		font-size: 14px;line-height: 17px;
+		text-transform: uppercase;
+		color: $grey-pink;
+		border: 1px solid $grey-pink;
+		background-color: #FFFFFF;
+	}
+
+	&__form-buttom-grand:hover,
+	&__form-buttom-grand:focus, 
+	&__form-buttom-grand:active{
+		background-color: $pink;
+		color: $white;
+		border: $pink;
+	}
+
+	&__hr{
+		max-width: 275px;
+		margin-top: 21px;
+		background: #E2E2E2;
+	}
 
 	
 
