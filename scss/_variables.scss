@@ -9,10 +9,13 @@ $F8F8F8: #F8F8F8;
 $dark-gray: #5D5D5D;
 
 
-$desktop-width: 1140px;
+$mobile-min-width: 375px;
+$mobile-max-width: 767px;
 
 $table-min-width: 768px;
 $table-max-width: 1024px;
 
-$mobile-min-width: 375px;
-$mobile-max-width: 668px;
+$table-S-min-width: 1025px;
+$table-S-max-width: 1140px;
+
+

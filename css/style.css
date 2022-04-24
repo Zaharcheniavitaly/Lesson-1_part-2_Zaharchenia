@@ -63,15 +63,27 @@ input:hover, :focus {
   margin: -1px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1140px) {
   .container {
-    margin: 0 16px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 16px;
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (max-width: 1024px) {
   .container {
-    margin: 0 16px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 8px;
   }
 }
 
@@ -126,12 +138,42 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1140px) {
+  .brand {
+    max-width: 1140px;
+  }
+  .brand__img {
+    width: 50%;
+    margin-right: 67px;
+    object-fit: cover;
+  }
+  .brand__heading {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .brand__sub-heading {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .brand__heading::after {
+    top: 0;
+  }
+  .brand-wrapp {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
   .brand {
     max-width: 1024px;
   }
   .brand__img {
-    height: 367px;
+    width: 50%;
+    height: 100%;
     margin-right: 67px;
     object-fit: cover;
   }
@@ -155,9 +197,9 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (max-width: 767px) {
   .brand {
-    max-width: 667px;
+    max-width: 767px;
   }
   .brand__img {
     display: none;
@@ -179,10 +221,9 @@ input:hover, :focus {
     font-weight: 400;
     font-style: normal;
   }
-}
-
-.catalog {
-  /*button-overlay end*/
+  .brand__heading::after {
+    top: -5px;
+  }
 }
 
 .catalog__heading {
@@ -305,21 +346,37 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1140px) {
+  .catalog__card {
+    width: 31.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .catalog__card {
+    width: 48%;
+  }
+  .catalog__card-img {
+    width: 100%;
+  }
   .catalog__button {
     margin: 3px auto 65px auto;
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (max-width: 767px) {
   .catalog__card {
     margin-bottom: 16px;
+    width: 100%;
   }
   .catalog__list {
     justify-content: center;
   }
   .catalog__button {
     margin: 41px auto 96px auto;
+  }
+  .catalog__card-overlay {
+    min-height: 100%;
   }
 }
 
@@ -440,7 +497,16 @@ input:hover, :focus {
   background-color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1140px) {
+  .footer__subscription {
+    max-width: 1140px;
+  }
+  .footer__subscription-wrapp {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 1024px) {
   .footer__subscription {
     max-width: 1024px;
     background-size: cover;
@@ -454,7 +520,7 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (max-width: 767px) {
   .footer__subscription {
     background-size: cover;
     background-position: -399px 0px;
@@ -462,11 +528,15 @@ input:hover, :focus {
   .footer__subscription-wrapp {
     min-height: 550px;
     justify-content: center;
+    padding-bottom: 109px;
   }
   .footer__subscription-text {
     font-size: 18px;
     line-height: 22px;
     padding: 0 16px 0 16px;
+  }
+  .footer__subscription-form {
+    margin-top: 59px;
   }
   .footer__subscription-form-subtitle {
     font-size: 14px;
@@ -483,6 +553,9 @@ input:hover, :focus {
   }
   .footer__copy-list {
     margin-bottom: 40px;
+  }
+  .footer__subscription-input {
+    width: 200px;
   }
 }
 
@@ -613,7 +686,13 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1140px) {
+  .header__button-burger {
+    right: 180px;
+  }
+}
+
+@media (max-width: 1024px) {
   .header__wrapper-burger {
     max-width: 768px;
   }
@@ -628,17 +707,20 @@ input:hover, :focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (max-width: 767px) {
   .header__wrapper-burger {
-    max-width: 667px;
+    max-width: 767px;
   }
   .header__button-burger {
-    right: 16px;
+    right: 70px;
   }
   .header__link-account {
     display: none;
   }
   .header__link-basket {
+    display: none;
+  }
+  .header__item {
     display: none;
   }
 }
@@ -675,7 +757,8 @@ input:hover, :focus {
 
 .registration__form-input {
   display: block;
-  width: 360px;
+  max-width: 360px;
+  width: 100%;
   margin-bottom: 20.5px;
   padding: 12.5px 0 16px 17px;
   font-weight: 300;
@@ -748,6 +831,8 @@ input:hover, :focus {
 
 .registration__loyalty-item {
   position: relative;
+  margin-bottom: 16px;
+  left: 43px;
 }
 
 .registration__loyalty-item::before {
@@ -771,9 +856,43 @@ input:hover, :focus {
   margin-bottom: 21px;
 }
 
-.registration__loyalty-item {
-  margin-bottom: 16px;
-  left: 43px;
+@media (max-width: 1140px) {
+  .registration__loyalty {
+    width: 55%;
+    margin-left: 50px;
+  }
+  .registration__loyalty-item {
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .registration__loyalty {
+    width: 47%;
+    margin-left: 23px;
+  }
+}
+
+@media (max-width: 767px) {
+  .registration__form {
+    flex-direction: column;
+  }
+  .registration__title {
+    text-align: center;
+  }
+  .registration__form {
+    align-items: center;
+    padding-top: 40px;
+  }
+  .registration__form-button {
+    margin-top: 39px;
+    margin-bottom: 40px;
+  }
+  .registration__loyalty {
+    width: 100%;
+    max-width: 358px;
+    margin-left: 0;
+  }
 }
 
 .sales__list {
@@ -830,7 +949,19 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1140px) {
+  .sales__item {
+    max-width: 31.5%;
+    height: 167px;
+  }
+  .sales__item--accesories {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 65px;
+  }
+}
+
+@media (max-width: 1024px) {
   .sales__item {
     max-width: 31.5%;
     height: 167px;
@@ -839,32 +970,36 @@ input:hover, :focus {
     max-width: 100%;
     min-height: 116px;
     margin-top: 20px;
-    margin-bottom: 155px;
-  }
-  .sales__title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    color: #F16D7F;
+    margin-bottom: 96px;
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
+@media (max-width: 767px) {
   .sales__list {
     justify-content: center;
+    flex-direction: column;
+  }
+  .sales__item {
+    max-width: 100%;
+    min-height: 247px;
   }
   .sales__item--women {
     margin-bottom: 32px;
+    width: 100%;
   }
   .sales__item--men {
     margin-bottom: 32px;
+    width: 100%;
   }
   .sales__item--kids {
     margin-bottom: 32px;
+    width: 100%;
   }
   .sales__item--accesories {
     margin-top: 0;
     margin-bottom: 64px;
+    min-height: 111px;
+    object-fit: cover;
   }
 }
 
@@ -900,26 +1035,40 @@ input:hover, :focus {
   color: #FFFFFF;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1140px) {
   .services__list {
-    flex-direction: column;
-    height: 610px;
+    height: 341px;
   }
   .services__item {
-    margin-top: 48px;
+    width: 31.5%;
   }
 }
 
-@media (min-width: 375px) and (max-width: 668px) {
-  .services {
+@media (max-width: 1024px) {
+  .services__list {
+    flex-direction: column;
     min-height: 610px;
-    padding-top: 2px;
+  }
+  .services__item {
+    margin-top: 48px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .services {
+    height: 610px;
   }
   .services__list {
     justify-content: center;
+    padding-bottom: 65px;
   }
   .services__item {
     margin-top: 46px;
+  }
+  .services__title {
+    margin-top: 24px;
+    margin-bottom: 14px;
   }
 }
 

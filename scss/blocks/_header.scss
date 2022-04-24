@@ -129,8 +129,18 @@
    }
 }
 
+//media
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width){
+@media (max-width: $table-S-max-width){
+	.header{
+		&__button-burger {
+			right: 180px;
+		}
+	}
+}
+
+
+@media (max-width: $table-max-width){
 
    .header{
 
@@ -154,16 +164,19 @@
 
 
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+
+
+
+@media (max-width: $mobile-max-width){
 
    .header{
 
 	&__wrapper-burger{
-      max-width: 667px;    
+      max-width: 767px;    
    } 
       
    &__button-burger {
-      right: 16px;
+      right: 70px;
       }
    
    &__link-account{
@@ -171,6 +184,10 @@
    }
 
    &__link-basket{
+      display: none;
+   }
+
+	&__item {
       display: none;
    }
 

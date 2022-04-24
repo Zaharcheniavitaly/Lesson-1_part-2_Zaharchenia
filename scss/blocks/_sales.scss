@@ -55,9 +55,30 @@
    }
 }
 
+//media
 
 
-@media (min-width: $table-min-width) and (max-width: $table-max-width){
+@media (max-width: $table-S-max-width){
+
+   .sales{
+
+		&__item{
+         max-width: 31.5%;
+			height: 167px; 
+      }
+
+      &__item--accesories {
+         max-width: 100%;
+         margin-top: 20px;
+         margin-bottom: 65px;
+      }
+      
+   }
+}
+
+
+
+@media (max-width: $table-max-width){
 
    .sales{
 
@@ -70,43 +91,49 @@
          max-width: 100%;
          min-height: 116px;
          margin-top: 20px;
-         margin-bottom: 155px;
+         margin-bottom: 96px;
       }
       
-      &__title {
-         font-size: 24px;
-         font-weight: 700;
-         line-height: 32px;
-         color: $pink;
-      }
    }
 }
 
 
 
-@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+
+@media (max-width: $mobile-max-width){
 
 	.sales{
 
 		&__list {
-			justify-content: center;			
+			justify-content: center;
+			flex-direction: column;			
 		}
+
+		&__item{
+         max-width: 100%;
+			min-height: 247px; 
+      }
 		
 		&__item--women {      
 			margin-bottom: 32px;
+			width: 100%;
 		}
 		
 		&__item--men {      
 			margin-bottom: 32px;
+			width: 100%;
 		}
 		
 		&__item--kids {
 			margin-bottom: 32px;
+			width: 100%;
 		}
 
 		&__item--accesories {
 			margin-top: 0;
-			margin-bottom: 64px;		
+			margin-bottom: 64px;
+			min-height: 111px;
+			object-fit: cover;		
 		}		
 	}
 

@@ -1,11 +1,11 @@
 .registration{
 
    &__heading {
-      @include regitrat_cart_heading
+      @include registrat_cart_heading
    }
    
    &__title {
-      @include regitrat_cart_title;
+      @include registrat_cart_title;
    }
    
    &__form{
@@ -25,7 +25,8 @@
    
    &__form-input{
       display: block;
-      width: 360px;
+      max-width: 360px;
+		width: 100%;
       margin-bottom: 20.5px;
       padding: 12.5px 0 16px 17px;
       font-weight: 300;
@@ -97,6 +98,8 @@
    
    &__loyalty-item{
       position: relative;
+		margin-bottom: 16px;
+      left: 43px;
    }
    
    &__loyalty-item::before{
@@ -120,12 +123,60 @@
       margin-bottom: 21px;
    }
    
-   &__loyalty-item{
-      margin-bottom: 16px;
-      left: 43px;
-   }
 
 }
 
 
+@media (max-width: $table-S-max-width){
+	
+	.registration{
+		&__loyalty{
+			width: 55%;
+			margin-left: 50px;
+		}
+		&__loyalty-item{
+			margin-right: 16px;
+		}
+	}
+	
+}
 
+@media (max-width: $table-max-width){
+	.registration{
+		&__loyalty{
+			width: 47%;
+			margin-left: 23px;
+		}
+	}
+
+}
+
+@media (max-width: $mobile-max-width){
+	.registration{
+		&__form {
+			flex-direction: column;
+		}
+
+		&__title {
+			text-align: center;
+		}
+
+		&__form{
+			align-items: center;
+			padding-top: 40px;
+		}
+		&__form-button{
+			margin-top: 39px;
+			margin-bottom: 40px;
+		}
+
+		&__loyalty{
+			width: 100%;
+			max-width: 358px;
+			margin-left: 0;
+		}
+
+	}
+	
+
+}
