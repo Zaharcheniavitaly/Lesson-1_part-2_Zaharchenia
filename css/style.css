@@ -1195,6 +1195,31 @@ input:hover, :focus {
   color: #B1B1B1;
 }
 
+.cart__button-wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cart__form-buttom-shopping {
+  display: block;
+  margin: 32px 0 127.5px 0;
+  padding: 16px 40px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #6F6E6E;
+  border: 1px solid #6F6E6E;
+  background-color: #FFFFFF;
+}
+
+.cart__form-buttom-shopping:hover, .cart__form-buttom-shopping:focus, .cart__form-buttom-shopping:active {
+  background-color: #F16D7F;
+  color: #FFFFFF;
+  border: #F16D7F;
+}
+
 .cart__form-adress-input-quote {
   max-width: 101px;
   padding: 11px 15px;

@@ -126,6 +126,35 @@
       color: $light-gray;		
 		}
 
+		&__button-wrapp{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content:space-between;
+		}
+
+		&__form-buttom-shopping{
+				display: block;
+				margin: 32px 0 127.5px 0;
+				padding: 16px 40px;
+				font-weight: 300;
+				font-size: 14px;line-height: 17px;
+				text-transform: uppercase;
+				color: $grey-pink;
+				border: 1px solid $grey-pink;
+				background-color: #FFFFFF;
+		}
+
+		&__form-buttom-shopping:hover,
+		&__form-buttom-shopping:focus, 
+		&__form-buttom-shopping:active{
+			background-color: $pink;
+			color: $white;
+			border: $pink;
+			}
+		
+
+
+
 		&__form-adress-input-quote{
 			max-width: 101px;
 			padding: 11px 15px;
