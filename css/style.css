@@ -868,7 +868,7 @@ input:hover, :focus {
 
 @media (max-width: 1024px) {
   .registration__loyalty {
-    width: 47%;
+    width: 45%;
     margin-left: 23px;
   }
 }
