@@ -858,8 +858,11 @@ input:hover, :focus {
 
 @media (max-width: 1140px) {
   .registration__loyalty {
-    width: 57%;
+    width: 55%;
     margin-left: 50px;
+  }
+  .registration__loyalty-item {
+    margin-right: 16px;
   }
 }
 

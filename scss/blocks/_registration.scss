@@ -100,7 +100,6 @@
       position: relative;
 		margin-bottom: 16px;
       left: 43px;
-
    }
    
    &__loyalty-item::before{
@@ -132,8 +131,11 @@
 	
 	.registration{
 		&__loyalty{
-			width: 57%;
+			width: 55%;
 			margin-left: 50px;
+		}
+		&__loyalty-item{
+			margin-right: 16px;
 		}
 	}
 	
