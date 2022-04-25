@@ -1,4 +1,5 @@
 .cart{
+	
    &__heading{
       @include registrat_cart_heading;
    }
@@ -7,4 +8,434 @@
 		@include registrat_cart_title;
    }
 
+	&__form{
+		margin-top: 96px;
+		
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+	}
+
+	&__form-shopping{
+		max-width: 652px;
+		min-height: 306px;
+		margin-bottom: 40px;
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
+	&__form-img{
+		max-width: 262px;
+		min-height: 100%;
+	}
+
+	&__form-shirt{
+		max-width: 390px;
+		margin-top: 22px;	
+		margin-left: 31px;	
+	}
+
+	&__form-legend{
+		margin-bottom: 42px;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+	}
+
+	
+
+	&__form-icon-close{
+		border: 0;
+		background-color: transparent;
+		position: absolute;
+		top: 28px;
+		right: 22px;
+	}
+
+	&__form-input, 
+	&__form-input-size,
+	&__form-input-color,
+	&__form-input-size{
+		border: none;
+	}
+
+	&__form-input-color{
+		font-size: 22px;
+		color: $grey-pink;
+	}
+
+	&__form-input-number{
+		max-width: 43px;
+		min-height: 24px;
+		margin-bottom: 2px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 22px;		
+	}
+
+	&__form-price, 
+	&__form-input{
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	&__form-input::-webkit-input-placeholder { 
+		color: $pink;
+	}
+
+	&__form-input-size::-webkit-input-placeholder{
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	&__form-number{
+		margin-right: 24px;
+	}
+	
+
+	&__form-label{
+		display: block;
+		margin-bottom: 6px;
+	}
+	
+
+	&__form-adress{
+		max-width: 360px;
+	}
+
+	&__form-adress-title{
+		margin-bottom: 20px;
+		font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+		text-transform: uppercase;
+	}
+
+	&__form-input-adress, 
+	&__form-adress-input-quote{
+      max-width: 360px;
+		width: 100%;
+      margin-bottom: 20.5px;
+      padding: 12.5px 0 16px 17px;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: $light-gray;		
+		}
+
+		&__button-wrapp{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content:space-between;
+		}
+
+		&__form-buttom-shopping{
+				display: block;
+				margin: 32px 0 127.5px 0;
+				padding: 16px 40px;
+				font-weight: 300;
+				font-size: 14px;line-height: 17px;
+				text-transform: uppercase;
+				color: $grey-pink;
+				border: 1px solid $grey-pink;
+				background-color: #FFFFFF;
+		}
+
+		&__form-buttom-shopping:hover,
+		&__form-buttom-shopping:focus, 
+		&__form-buttom-shopping:active{
+			background-color: $pink;
+			color: $white;
+			border: $pink;
+			}
+		
+
+
+
+		&__form-adress-input-quote{
+			max-width: 101px;
+			padding: 11px 15px;
+   }
+
+	&__form-input-adress:hover, &__form-input:focus{
+      color: $pink;
+      border: 2px solid $pink;
+		opacity: .6;
+   }
+
+	&__form-label-total{
+		display: block;
+		text-align: right;
+		margin-bottom: 12px;
+		font-size: 11px;
+		line-height: 13px;
+		color: #4A4A4A;
+	}
+
+	&__form-total{
+		text-transform: uppercase;
+	}
+
+	&__form-input-total{
+		margin-top: 39px;
+		margin-left: 30px;
+		max-width: 60px;
+		border: none;
+		
+		background: #F5F3F3;
+		
+	}
+
+	&__form-label-grand{
+		display: block;
+		text-align: right;
+		margin-bottom: 12px;
+	}
+
+	&__form-grand{
+		max-width: 360px;
+		min-height: 214px;
+		margin-top: 45px;
+		background: #F5F3F3;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;		
+	}
+
+	&__form-input-grand{
+		margin-top: 12px;
+		margin-left: 30px;
+		max-width: 60px;
+		border: none;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+		text-transform: uppercase;
+		background: #F5F3F3;		
+		color: #222222;
+				
+	}
+
+	&__form-input-grand::-webkit-input-placeholder { 
+		color: $pink;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	&__form-buttom-grand{
+		display: block;
+		margin: 17px auto 42px auto;
+		padding: 15px 42px;
+		font-weight: 300;
+		font-size: 14px;line-height: 17px;
+		text-transform: uppercase;
+		color: $grey-pink;
+		border: 1px solid $grey-pink;
+		background-color: #FFFFFF;
+	}
+
+	&__form-buttom-grand:hover,
+	&__form-buttom-grand:focus, 
+	&__form-buttom-grand:active{
+		background-color: $pink;
+		color: $white;
+		border: $pink;
+	}
+
+	&__hr{
+		max-width: 275px;
+		margin-top: 21px;
+		background: #E2E2E2;
+	}	
 }
+
+
+
+@media (max-width: $table-S-max-width){
+	.cart{
+		&__wrapp{
+			width: 100%;
+		}
+
+		&__form-shirt {
+			width: 50%;
+			margin-top: 22px;
+			margin-left: 15px;
+	  }
+
+
+
+		&__form-grand{
+			width: 50%;
+			height: 50%;
+			margin-left: 15px;				
+		}
+	}
+	
+}
+	
+
+
+@media (max-width: $table-max-width) {
+	.cart{
+		&__form{			
+			flex-direction: column;
+		}
+
+		&__form-adress{
+			max-width: 48%;
+			margin-top: 9px;
+		}
+
+		&__form-input-adress{
+			max-width: 100%;
+		}
+
+		&__form-shopping{
+			max-width: 100%;
+			justify-content: left;
+			margin-left: 31px;
+		}
+
+		&__form-shirt {
+			max-width:100%;
+		}
+
+		&__button-wrapp {			
+		justify-content: space-around;
+	  }
+
+	&__form-adress-wrapp{
+		margin-bottom: 147px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+		&__form-grand{
+			max-width: 48%;
+			height: 50%;
+			margin-left: 15px;				
+		}
+
+		&__form-buttom-shopping{
+			margin-bottom: 64px;
+		}
+	}
+
+}
+
+
+
+
+@media (max-width: $mobile-max-width){   
+   .cart{
+		&__title{
+			text-align: center;
+		}
+		&__form{
+			margin-top: 39px;
+		}				
+	&__form-price,
+	&__form-input{
+		width: 50%;
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	&__form-input::-webkit-input-placeholder { 
+		color: $pink;
+	}
+
+	&__form-input-size::-webkit-input-placeholder{
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	&__form-input-color{
+		font-size: 14px;
+	}
+
+	&__form-input-number {
+		max-width: 24px;
+		min-height: 15px;
+		margin-bottom: 2px;
+		font-size: 10px;
+		line-height: 12px;
+  }
+
+		&__form-img {
+			max-width: 144px;
+			min-height: 100%;
+		}
+
+		&__form-legend{
+			margin-bottom: 42px;
+			font-size: 16px;
+			line-height: 19px;
+		}
+
+		&__wrapp {
+			width: 100%;
+			margin-right: 9px;
+			margin-left: 9px;
+	}
+
+		&__form-shopping{
+			width: 100%;
+			min-height: 188px;
+			margin-bottom: 32px;
+			justify-content: left;
+			margin-left: 0;
+		}
+
+		&__form-adress {
+			max-width: 100%;
+		}
+
+		&__form-adress-wrapp{
+			width: 100%;
+			margin-right: 9px;
+			margin-bottom: 147px;
+			margin-left: 9px;
+			flex-direction: column;
+		}
+
+		&__form-icon-close-img{
+		width: 50%;;
+		}
+
+	&__form-adress-input-quote {
+		display: block;
+	}
+
+	&__form-grand {
+		max-width: 767px;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	&__form-input-grand, &__form-input-total	{
+		margin-right: 43px;
+	}
+
+	&__form-buttom-shopping {
+		margin: 0 0 48px 0;
+		font-size: 12px;
+		line-height: 14px;
+		text-transform:none;
+  }
+
+  &__form-buttom-grand{
+	  max-width: 275px;
+  }
+
+
+	}
+   }
