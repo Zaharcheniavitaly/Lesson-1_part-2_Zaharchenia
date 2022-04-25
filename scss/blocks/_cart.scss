@@ -1,4 +1,5 @@
 .cart{
+	
    &__heading{
       @include registrat_cart_heading;
    }
@@ -287,6 +288,11 @@
 			flex-direction: column;
 		}
 
+		&__form-adress{
+			max-width: 48%;
+			margin-top: 9px;
+		}
+
 		&__form-input-adress{
 			max-width: 100%;
 		}
@@ -307,12 +313,19 @@
 
 	&__form-adress-wrapp{
 		margin-bottom: 147px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 
 		&__form-grand{
-			width: 50%;
+			max-width: 48%;
 			height: 50%;
 			margin-left: 15px;				
+		}
+
+		&__form-buttom-shopping{
+			margin-bottom: 64px;
 		}
 	}
 
@@ -322,46 +335,106 @@
 
 
 @media (max-width: $mobile-max-width){   
-      .cart{
-			&__form-input{
-				width: 50%;
-			}
+   .cart{
+		&__title{
+			text-align: center;
+		}
+		&__form{
+			margin-top: 39px;
+		}				
+	&__form-price,
+	&__form-input{
+		width: 50%;
+		font-size: 14px;
+		line-height: 17px;
+	}
 
-			.cart__form-img {
-				max-width: 54%;
-				min-height: 100%;
-		  }
+	&__form-input::-webkit-input-placeholder { 
+		color: $pink;
+	}
 
-		  &__wrapp {
-			width: 94%;
+	&__form-input-size::-webkit-input-placeholder{
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	&__form-input-color{
+		font-size: 14px;
+	}
+
+	&__form-input-number {
+		max-width: 24px;
+		min-height: 15px;
+		margin-bottom: 2px;
+		font-size: 10px;
+		line-height: 12px;
+  }
+
+		&__form-img {
+			max-width: 144px;
+			min-height: 100%;
+		}
+
+		&__form-legend{
+			margin-bottom: 42px;
+			font-size: 16px;
+			line-height: 19px;
+		}
+
+		&__wrapp {
+			width: 100%;
 			margin-right: 9px;
 			margin-left: 9px;
-	  }
+	}
 
 		&__form-shopping{
 			width: 100%;
+			min-height: 188px;
+			margin-bottom: 32px;
 			justify-content: left;
 			margin-left: 0;
 		}
 
+		&__form-adress {
+			max-width: 100%;
+		}
+
 		&__form-adress-wrapp{
+			width: 100%;
+			margin-right: 9px;
 			margin-bottom: 147px;
+			margin-left: 9px;
 			flex-direction: column;
+		}
+
+		&__form-icon-close-img{
+		width: 50%;;
 		}
 
 	&__form-adress-input-quote {
 		display: block;
 	}
 
-	&__form-adress {
-		max-width: 94%;
+	&__form-grand {
+		max-width: 767px;
+		width: 100%;
+		margin-left: 0;
 	}
 
-	&__form-grand {
-		width: 94%;
-		margin-right: 9px;
-		margin-left: 9px;
-   }
+	&__form-input-grand, &__form-input-total	{
+		margin-right: 43px;
+	}
+
+	&__form-buttom-shopping {
+		margin: 0 0 48px 0;
+		font-size: 12px;
+		line-height: 14px;
+		text-transform:none;
+  }
+
+  &__form-buttom-grand{
+	  max-width: 275px;
+  }
 
 
 	}

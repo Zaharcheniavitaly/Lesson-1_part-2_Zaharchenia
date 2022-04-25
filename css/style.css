@@ -1334,6 +1334,10 @@ input:hover, :focus {
   .cart__form {
     flex-direction: column;
   }
+  .cart__form-adress {
+    max-width: 48%;
+    margin-top: 9px;
+  }
   .cart__form-input-adress {
     max-width: 100%;
   }
@@ -1350,46 +1354,102 @@ input:hover, :focus {
   }
   .cart__form-adress-wrapp {
     margin-bottom: 147px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .cart__form-grand {
-    width: 50%;
+    max-width: 48%;
     height: 50%;
     margin-left: 15px;
+  }
+  .cart__form-buttom-shopping {
+    margin-bottom: 64px;
   }
 }
 
 @media (max-width: 767px) {
-  .cart__form-input {
-    width: 50%;
+  .cart__title {
+    text-align: center;
   }
-  .cart .cart__form-img {
-    max-width: 54%;
+  .cart__form {
+    margin-top: 39px;
+  }
+  .cart__form-price, .cart__form-input {
+    width: 50%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cart__form-input::-webkit-input-placeholder {
+    color: #F16D7F;
+  }
+  .cart__form-input-size::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cart__form-input-color {
+    font-size: 14px;
+  }
+  .cart__form-input-number {
+    max-width: 24px;
+    min-height: 15px;
+    margin-bottom: 2px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .cart__form-img {
+    max-width: 144px;
     min-height: 100%;
   }
+  .cart__form-legend {
+    margin-bottom: 42px;
+    font-size: 16px;
+    line-height: 19px;
+  }
   .cart__wrapp {
-    width: 94%;
+    width: 100%;
     margin-right: 9px;
     margin-left: 9px;
   }
   .cart__form-shopping {
     width: 100%;
+    min-height: 188px;
+    margin-bottom: 32px;
     justify-content: left;
     margin-left: 0;
   }
+  .cart__form-adress {
+    max-width: 100%;
+  }
   .cart__form-adress-wrapp {
+    width: 100%;
+    margin-right: 9px;
     margin-bottom: 147px;
+    margin-left: 9px;
     flex-direction: column;
+  }
+  .cart__form-icon-close-img {
+    width: 50%;
   }
   .cart__form-adress-input-quote {
     display: block;
   }
-  .cart__form-adress {
-    max-width: 94%;
-  }
   .cart__form-grand {
-    width: 94%;
-    margin-right: 9px;
-    margin-left: 9px;
+    max-width: 767px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .cart__form-input-grand, .cart__form-input-total {
+    margin-right: 43px;
+  }
+  .cart__form-buttom-shopping {
+    margin: 0 0 48px 0;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: none;
+  }
+  .cart__form-buttom-grand {
+    max-width: 275px;
   }
 }
 /*# sourceMappingURL=style.css.map */
