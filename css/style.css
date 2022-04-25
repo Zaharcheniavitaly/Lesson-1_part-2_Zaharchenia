@@ -1314,9 +1314,28 @@ input:hover, :focus {
   background: #E2E2E2;
 }
 
+@media (max-width: 1140px) {
+  .cart__wrapp {
+    width: 100%;
+  }
+  .cart__form-shirt {
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 15px;
+  }
+  .cart__form-grand {
+    width: 50%;
+    height: 50%;
+    margin-left: 15px;
+  }
+}
+
 @media (max-width: 1024px) {
   .cart__form {
     flex-direction: column;
+  }
+  .cart__form-input-adress {
+    max-width: 100%;
   }
   .cart__form-shopping {
     max-width: 100%;
@@ -1325,6 +1344,52 @@ input:hover, :focus {
   }
   .cart__form-shirt {
     max-width: 100%;
+  }
+  .cart__button-wrapp {
+    justify-content: space-around;
+  }
+  .cart__form-adress-wrapp {
+    margin-bottom: 147px;
+  }
+  .cart__form-grand {
+    width: 50%;
+    height: 50%;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cart__form-input {
+    width: 50%;
+  }
+  .cart .cart__form-img {
+    max-width: 54%;
+    min-height: 100%;
+  }
+  .cart__wrapp {
+    width: 94%;
+    margin-right: 9px;
+    margin-left: 9px;
+  }
+  .cart__form-shopping {
+    width: 100%;
+    justify-content: left;
+    margin-left: 0;
+  }
+  .cart__form-adress-wrapp {
+    margin-bottom: 147px;
+    flex-direction: column;
+  }
+  .cart__form-adress-input-quote {
+    display: block;
+  }
+  .cart__form-adress {
+    max-width: 94%;
+  }
+  .cart__form-grand {
+    width: 94%;
+    margin-right: 9px;
+    margin-left: 9px;
   }
 }
 /*# sourceMappingURL=style.css.map */

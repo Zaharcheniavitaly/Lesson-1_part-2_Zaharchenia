@@ -257,7 +257,26 @@
 
 
 @media (max-width: $table-S-max-width){
+	.cart{
+		&__wrapp{
+			width: 100%;
+		}
 
+		&__form-shirt {
+			width: 50%;
+			margin-top: 22px;
+			margin-left: 15px;
+	  }
+
+
+
+		&__form-grand{
+			width: 50%;
+			height: 50%;
+			margin-left: 15px;				
+		}
+	}
+	
 }
 	
 
@@ -266,6 +285,10 @@
 	.cart{
 		&__form{			
 			flex-direction: column;
+		}
+
+		&__form-input-adress{
+			max-width: 100%;
 		}
 
 		&__form-shopping{
@@ -277,6 +300,20 @@
 		&__form-shirt {
 			max-width:100%;
 		}
+
+		&__button-wrapp {			
+		justify-content: space-around;
+	  }
+
+	&__form-adress-wrapp{
+		margin-bottom: 147px;
+	}
+
+		&__form-grand{
+			width: 50%;
+			height: 50%;
+			margin-left: 15px;				
+		}
 	}
 
 }
@@ -285,5 +322,47 @@
 
 
 @media (max-width: $mobile-max-width){   
-      
-      }
+      .cart{
+			&__form-input{
+				width: 50%;
+			}
+
+			.cart__form-img {
+				max-width: 54%;
+				min-height: 100%;
+		  }
+
+		  &__wrapp {
+			width: 94%;
+			margin-right: 9px;
+			margin-left: 9px;
+	  }
+
+		&__form-shopping{
+			width: 100%;
+			justify-content: left;
+			margin-left: 0;
+		}
+
+		&__form-adress-wrapp{
+			margin-bottom: 147px;
+			flex-direction: column;
+		}
+
+	&__form-adress-input-quote {
+		display: block;
+	}
+
+	&__form-adress {
+		max-width: 94%;
+	}
+
+	&__form-grand {
+		width: 94%;
+		margin-right: 9px;
+		margin-left: 9px;
+   }
+
+
+	}
+   }
