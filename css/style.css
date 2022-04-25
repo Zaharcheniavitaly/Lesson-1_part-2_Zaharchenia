@@ -1452,4 +1452,17 @@ input:hover, :focus {
     max-width: 275px;
   }
 }
+
+.product__button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*# sourceMappingURL=style.css.map */
