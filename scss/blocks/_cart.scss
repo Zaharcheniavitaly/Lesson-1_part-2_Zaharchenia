@@ -251,11 +251,39 @@
 		max-width: 275px;
 		margin-top: 21px;
 		background: #E2E2E2;
+	}	
+}
+
+
+
+@media (max-width: $table-S-max-width){
+
+}
+	
+
+
+@media (max-width: $table-max-width) {
+	.cart{
+		&__form{			
+			flex-direction: column;
+		}
+
+		&__form-shopping{
+			max-width: 100%;
+			justify-content: left;
+			margin-left: 31px;
+		}
+
+		&__form-shirt {
+			max-width:100%;
+		}
 	}
-
-	
-
-	
 
 }
 
+
+
+
+@media (max-width: $mobile-max-width){   
+      
+      }

@@ -1313,4 +1313,18 @@ input:hover, :focus {
   margin-top: 21px;
   background: #E2E2E2;
 }
+
+@media (max-width: 1024px) {
+  .cart__form {
+    flex-direction: column;
+  }
+  .cart__form-shopping {
+    max-width: 100%;
+    justify-content: left;
+    margin-left: 31px;
+  }
+  .cart__form-shirt {
+    max-width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
