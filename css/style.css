@@ -583,7 +583,7 @@ input:hover, :focus {
 }
 
 .header__logo {
-  margin-right: 41px;
+  margin-right: 20px;
 }
 
 .header__loupe {
@@ -717,7 +717,7 @@ input:hover, :focus {
     max-width: 767px;
   }
   .header__button-burger {
-    right: 70px;
+    right: 30px;
   }
   .header__link-account {
     display: none;
