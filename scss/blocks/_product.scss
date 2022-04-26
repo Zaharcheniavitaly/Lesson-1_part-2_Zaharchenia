@@ -1,0 +1,81 @@
+.product{
+	&__heading{
+		@include registrat_cart_heading;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__title{
+		@include registrat_cart_title;
+	}
+
+	&__menu{
+		font-weight: 300;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 17px;
+		color: #636363;
+		text-transform: uppercase;
+	}
+
+	&__menu-span{
+		color: $pink;
+		font-weight: 700;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	&__button{
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto;
+			border: 1px solid $pink;
+			background-color: transparent;			
+		}
+
+		&__btn-basket-img{
+			display: block;
+			padding-top: 10.8px;
+			padding-right: 23px;
+			padding-bottom: 8px;
+			padding-left: 24px;
+		}
+
+		&__btn-text {
+			padding-top: 14px;
+			padding-right: 56px;
+			padding-bottom: 14px;
+			color: $pink;
+		}
+	
+
+
+			
+}
+	
+
+
+
+
+
