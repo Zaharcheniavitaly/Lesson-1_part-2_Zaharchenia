@@ -1498,6 +1498,18 @@ ol, ul, li, a {
   font-weight: 700;
 }
 
+.product__carousel {
+  max-width: 1600px;
+  min-height: 777px;
+  background-color: #6F6E6E;
+}
+
+.product__form {
+  min-height: 601px;
+  background-color: #B1B1B1;
+  transform: translateY(-65px);
+}
+
 .product__button {
   display: flex;
   justify-content: center;

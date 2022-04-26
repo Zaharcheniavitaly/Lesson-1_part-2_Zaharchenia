@@ -27,6 +27,18 @@ ol, ul, li, a {
 		color: $pink;
 		font-weight: 700;
 	}
+
+	&__carousel{
+		max-width: 1600px;
+		min-height: 777px;
+		background-color: $grey-pink;
+	}
+
+	&__form{
+		min-height: 601px;
+		background-color: $light-gray;
+		transform: translateY(-65px);
+	}
 	
 
 
