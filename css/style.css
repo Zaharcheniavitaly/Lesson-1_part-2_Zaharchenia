@@ -583,7 +583,7 @@ input:hover, :focus {
 }
 
 .header__logo {
-  margin-right: 41px;
+  margin-right: 20px;
 }
 
 .header__loupe {
@@ -717,7 +717,7 @@ input:hover, :focus {
     max-width: 767px;
   }
   .header__button-burger {
-    right: 70px;
+    right: 30px;
   }
   .header__link-account {
     display: none;
@@ -1136,7 +1136,7 @@ input:hover, :focus {
   right: 22px;
 }
 
-.cart__form-input, .cart__form-input-size, .cart__form-input-color, .cart__form-input-size {
+.cart__form-input, .cart__form-input-size, .cart__form-input-color {
   border: none;
 }
 
@@ -1388,7 +1388,11 @@ input:hover, :focus {
   .cart__form-input::-webkit-input-placeholder {
     color: #F16D7F;
   }
+  .cart__form-input-size {
+    max-width: 50px;
+  }
   .cart__form-input-size::-webkit-input-placeholder {
+    max-width: 50px;
     font-size: 14px;
     line-height: 17px;
   }
@@ -1404,10 +1408,10 @@ input:hover, :focus {
   }
   .cart__form-img {
     max-width: 144px;
-    min-height: 100%;
+    min-height: 188px;
   }
   .cart__form-legend {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 19px;
   }
