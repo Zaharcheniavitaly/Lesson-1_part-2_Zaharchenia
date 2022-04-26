@@ -45,9 +45,38 @@ ol, ul, li, a {
 
 	&__form{
 		min-height: 601px;
-		background-color: $light-gray;
 		transform: translateY(-65px);
+		border: 1px solid #F7F7F7;
+		background-color: $white;
 	}
+
+	&__form-price {
+	}
+
+	&__form-hr{
+		max-width: 641px;
+		border: 1px solid #EAEAEA;
+	}
+
+	&__form-input-color {
+	}
+
+	&__form-label {
+	}
+
+	&__button {
+	}
+
+	&__btn-basket-img {
+	}
+
+	&__btn-text {
+	}
+
+
+			
+
+
 	
 
 

@@ -1513,8 +1513,14 @@ ol, ul, li, a {
 
 .product__form {
   min-height: 601px;
-  background-color: #B1B1B1;
   transform: translateY(-65px);
+  border: 1px solid #F7F7F7;
+  background-color: #FFFFFF;
+}
+
+.product__form-hr {
+  max-width: 641px;
+  border: 1px solid #EAEAEA;
 }
 
 .product__button {
