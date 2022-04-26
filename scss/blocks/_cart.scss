@@ -58,8 +58,7 @@
 
 	&__form-input, 
 	&__form-input-size,
-	&__form-input-color,
-	&__form-input-size{
+	&__form-input-color,{
 		border: none;
 	}
 
@@ -353,7 +352,12 @@
 		color: $pink;
 	}
 
+	&__form-input-size{
+		max-width: 50px;
+	}
+
 	&__form-input-size::-webkit-input-placeholder{
+		max-width: 50px;
 		font-size: 14px;
 		line-height: 17px;
 	}

@@ -1136,7 +1136,7 @@ input:hover, :focus {
   right: 22px;
 }
 
-.cart__form-input, .cart__form-input-size, .cart__form-input-color, .cart__form-input-size {
+.cart__form-input, .cart__form-input-size, .cart__form-input-color {
   border: none;
 }
 
@@ -1388,7 +1388,11 @@ input:hover, :focus {
   .cart__form-input::-webkit-input-placeholder {
     color: #F16D7F;
   }
+  .cart__form-input-size {
+    max-width: 50px;
+  }
   .cart__form-input-size::-webkit-input-placeholder {
+    max-width: 50px;
     font-size: 14px;
     line-height: 17px;
   }
