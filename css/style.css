@@ -611,6 +611,11 @@ input:hover, :focus {
   margin: 0 auto;
 }
 
+.header__button {
+  background-color: transparent;
+  border: none;
+}
+
 .header__button-burger {
   border: none;
   background-color: transparent;
@@ -1451,6 +1456,10 @@ input:hover, :focus {
   .cart__form-buttom-grand {
     max-width: 275px;
   }
+}
+
+ol, ul, li, a {
+  text-decoration: none;
 }
 
 .product__heading {

@@ -48,6 +48,11 @@
    margin: 0 auto;
 }
 
+&__button{
+	background-color: transparent;
+	border: none;
+}
+
 &__button-burger {
    border: none;
    background-color: transparent;

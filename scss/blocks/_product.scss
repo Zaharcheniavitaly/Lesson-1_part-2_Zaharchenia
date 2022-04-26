@@ -1,3 +1,7 @@
+ol, ul, li, a {
+	text-decoration: none;
+}
+
 .product{
 	&__heading{
 		@include registrat_cart_heading;
