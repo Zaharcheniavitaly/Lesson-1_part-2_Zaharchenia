@@ -1404,10 +1404,10 @@ input:hover, :focus {
   }
   .cart__form-img {
     max-width: 144px;
-    min-height: 100%;
+    min-height: 188px;
   }
   .cart__form-legend {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 19px;
   }
