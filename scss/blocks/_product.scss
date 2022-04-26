@@ -28,9 +28,19 @@ ol, ul, li, a {
 		font-weight: 700;
 	}
 
+
+
 	&__carousel{
+		margin: 0 auto;
 		max-width: 1600px;
 		min-height: 777px;
+		background: #F7F7F7;
+	}
+
+	&__carousel-wrapp{
+		margin: 0 auto;
+		max-width: 597px;
+		min-height: 724px;
 	}
 
 	&__form{

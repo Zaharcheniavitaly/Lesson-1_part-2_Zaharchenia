@@ -1499,8 +1499,16 @@ ol, ul, li, a {
 }
 
 .product__carousel {
+  margin: 0 auto;
   max-width: 1600px;
   min-height: 777px;
+  background: #F7F7F7;
+}
+
+.product__carousel-wrapp {
+  margin: 0 auto;
+  max-width: 597px;
+  min-height: 724px;
 }
 
 .product__form {
