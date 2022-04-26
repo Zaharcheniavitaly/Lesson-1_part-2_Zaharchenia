@@ -1516,11 +1516,38 @@ ol, ul, li, a {
   transform: translateY(-65px);
   border: 1px solid #F7F7F7;
   background-color: #FFFFFF;
+  text-align: center;
+}
+
+.product__form-title {
+  font-weight: 300;
+  color: #F16D7F;
+  text-transform: uppercase;
+}
+
+.product__form-subtitle {
+  text-transform: uppercase;
+}
+
+.product__form-text {
+  margin: 0 auto;
+  max-width: 555px;
+  font-weight: 300;
+  text-align: center;
+  color: #5E5E5E;
+}
+
+.product__form-line {
+  max-width: 63px;
+  min-height: 3px;
+  margin: 0 auto;
+  background: #EF5B70;
 }
 
 .product__form-hr {
   max-width: 641px;
   border: 1px solid #EAEAEA;
+  margin: 0 auto;
 }
 
 .product__button {

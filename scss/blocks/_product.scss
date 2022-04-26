@@ -14,6 +14,8 @@ ol, ul, li, a {
 		@include registrat_cart_title;
 	}
 
+	
+
 	&__menu{
 		font-weight: 300;
 		font-weight: 300;
@@ -48,6 +50,34 @@ ol, ul, li, a {
 		transform: translateY(-65px);
 		border: 1px solid #F7F7F7;
 		background-color: $white;
+		text-align: center;
+	}
+
+	&__form-title {
+		font-weight: 300;
+		color: $pink;
+		text-transform: uppercase;
+	}
+
+	&__form-subtitle {
+		text-transform: uppercase;
+
+	}
+
+	&__form-text {
+		margin: 0 auto;
+		max-width: 555px;
+		font-weight: 300;
+		text-align: center;
+		color: #5E5E5E;
+	}
+
+
+	&__form-line{
+		max-width: 63px;
+		min-height: 3px;
+		margin: 0 auto;
+		background: #EF5B70;
 	}
 
 	&__form-price {
@@ -56,6 +86,7 @@ ol, ul, li, a {
 	&__form-hr{
 		max-width: 641px;
 		border: 1px solid #EAEAEA;
+		margin: 0 auto;
 	}
 
 	&__form-input-color {
@@ -64,14 +95,6 @@ ol, ul, li, a {
 	&__form-label {
 	}
 
-	&__button {
-	}
-
-	&__btn-basket-img {
-	}
-
-	&__btn-text {
-	}
 
 
 			
