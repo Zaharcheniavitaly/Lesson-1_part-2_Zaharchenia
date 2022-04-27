@@ -155,6 +155,7 @@ ol, ul, li, a {
 		&__heading{
 		max-width: 90%;	
 	}
+	
 	&__cart{
 		display: none;
 	}
@@ -173,30 +174,35 @@ ol, ul, li, a {
    .product{
 
 		&__heading{
-		flex-direction: column;
-		flex-direction: column;
-		justify-content: space-around;
-		margin-top: 24PX;
-
+			flex-direction: column;
+			flex-direction: column;
+			justify-content: space-around;
+			margin-top: 24PX;
 		}
 
 		&__title {
-		text-align: center;
-	}
-
-	&__menu{
-		text-align: center;
-	}
-
-	&__button {		
-		margin-top: 65px;
-	}
+			text-align: center;
+			}
+		
+			&__menu{
+				text-align: center;
+			}
+		
+			&__button {		
+				margin-top: 65px;
+			}
+		
+			&__form-label{
+				font-size: 10px;
+				line-height: 12px;
+			}
+		
+		}
+		.catalog__wrapp {
+			margin: 2px auto 64px auto;
+		}
 
 	
-}
-.catalog__wrapp {
-	margin: 2px auto 128px auto;
-}
 }
 
 

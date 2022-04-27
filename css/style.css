@@ -1627,8 +1627,12 @@ ol, ul, li, a {
   .product__button {
     margin-top: 65px;
   }
+  .product__form-label {
+    font-size: 10px;
+    line-height: 12px;
+  }
   .catalog__wrapp {
-    margin: 2px auto 128px auto;
+    margin: 2px auto 64px auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
