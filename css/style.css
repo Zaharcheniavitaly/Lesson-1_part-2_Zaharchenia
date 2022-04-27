@@ -1526,6 +1526,10 @@ ol, ul, li, a {
 }
 
 .product__form-subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
   text-transform: uppercase;
 }
 
@@ -1544,10 +1548,22 @@ ol, ul, li, a {
   background: #EF5B70;
 }
 
+.product__form-price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
+
 .product__form-hr {
   max-width: 641px;
   border: 1px solid #EAEAEA;
   margin: 0 auto;
+}
+
+.product__form-label {
+  text-transform: uppercase;
+  color: #6F6E6E;
 }
 
 .product__button {
