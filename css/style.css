@@ -1601,4 +1601,34 @@ ol, ul, li, a {
 .catalog__wrapp {
   margin: 63px auto 128px auto;
 }
+
+@media (max-width: 1024px) {
+  .product__heading {
+    max-width: 90%;
+  }
+  .product__cart {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .product__heading {
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 24PX;
+  }
+  .product__title {
+    text-align: center;
+  }
+  .product__menu {
+    text-align: center;
+  }
+  .product__button {
+    margin-top: 65px;
+  }
+  .catalog__wrapp {
+    margin: 2px auto 128px auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
