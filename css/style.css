@@ -1558,6 +1558,10 @@ ol, ul, li, a {
   color: #F16D7F;
 }
 
+.product__form-input-color {
+  margin-right: 23px;
+}
+
 .product__form-hr {
   max-width: 641px;
   border: 1px solid #EAEAEA;
