@@ -51,7 +51,8 @@ ol, ul, li, a {
 		border: 1px solid #F7F7F7;
 		background-color: $white;
 		text-align: center;
-	}
+		padding: 65px 0;
+		}
 
 	&__form-title {
 		font-weight: 300;
@@ -71,6 +72,8 @@ ol, ul, li, a {
 	&__form-text {
 		margin: 0 auto;
 		max-width: 555px;
+		margin-top: 48px;
+		margin-bottom: 32px;
 		font-weight: 300;
 		text-align: center;
 		color: #5E5E5E;
@@ -80,7 +83,7 @@ ol, ul, li, a {
 	&__form-line{
 		max-width: 63px;
 		min-height: 3px;
-		margin: 0 auto;
+		margin: 12px auto;
 		background: #EF5B70;
 	}
 
@@ -94,7 +97,7 @@ ol, ul, li, a {
 	&__form-hr{
 		max-width: 641px;
 		border: 1px solid #EAEAEA;
-		margin: 0 auto;
+		margin: 65px auto;
 	}
 
 	&__form-label {
@@ -102,28 +105,7 @@ ol, ul, li, a {
 		color: $grey-pink;
 	}
 
-
-
-			
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
 
 
 
@@ -134,6 +116,7 @@ ol, ul, li, a {
 			justify-content: center;
 			text-align: center;
 			margin: 0 auto;
+			margin-top: 49px;
 			border: 1px solid $pink;
 			background-color: transparent;			
 		}
@@ -156,6 +139,10 @@ ol, ul, li, a {
 
 
 			
+}
+
+.catalog__wrapp{
+	margin: 63px auto 128px auto;
 }
 	
 
