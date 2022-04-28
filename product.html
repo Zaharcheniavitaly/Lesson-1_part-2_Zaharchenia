@@ -165,11 +165,71 @@
 	<section class="product__carousel">
 		<div class="product__carousel-wrapp">
 			<h2 class="visually-hidden">carousel</h2>
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+						aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/product-carusel.jpg" class="d-block w-100" alt="product-carusel">
+					</div>
+					<div class="carousel-item">
+						<img src="img/bike-.jpg" class="d-block w-100" alt="product-carusel">
+					</div>
+					<div class="carousel-item">
+						<img src="img/blazer-carousel.jpg" class="d-block w-100" alt="product-carusel">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Предыдущий</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Следующий</span>
+				</button>
+			</div>
 		</div>
 	</section>
 
-	<section class="product__form">
-		<h2 class="visually-hidden">form</h2>
+	<section class="product__form container">
+		<h3 class="product__form-title">women collection</h3>
+		<div class="product__form-line"></div>
+		<h4 class="product__form-subtitle">moschino cheap and chic</h4>
+		<p class="product__form-text">
+			Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
+			collaborative architectures before cutting-edge services. Completely visualize parallel core competencies
+			rather than exceptional portals.
+		</p>
+
+		<p class="product__form-price">$561</p>
+
+		<div class="product__form-hr"></div>
+
+		<label class="product__form-label">
+			<span class="product__form-choose">choose color:</span>
+			<select class="product__form-input-color" name="color">
+			</select>
+		</label>
+
+		<label class="product__form-label">
+			<span class="product__form-choose">choose size :</span>
+			<select class="product__form-input-color" name="number">
+			</select>
+		</label>
+
+		<label class="product__form-label">
+			<span class="product__form-choose">quantity:</span>
+			<select class="product__form-input-color" name="number">
+			</select>
+		</label>
 
 		<button type="button" class="product__button">
 			<img class="product__btn-basket-img" src="img/svg/btn-basket-r.svg" alt="btn">
@@ -177,7 +237,7 @@
 		</button>
 	</section>
 
-	<section class="catalog container">
+	<section class="catalog catalog__wrapp  container">
 		<h2 class="visually-hidden">catalog</h2>
 
 
@@ -219,7 +279,7 @@
 				<p class="catalog__card-price">$52.00</p>
 			</li>
 
-			<li class="catalog__card">
+			<li class="catalog__card product__cart">
 				<div class="catalog__card-wrp">
 					<img class="catalog__card-img" src="img/blouse.jpg" alt="blouse">
 					<div class="catalog__card-overlay"></div>
