@@ -5,6 +5,10 @@ ol, ul, li, a {
 .product{
 	&__heading{
 		@include registrat_cart_heading;
+		
+	}
+
+	&__heading-wrapp{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -146,7 +150,7 @@ ol, ul, li, a {
 @media (max-width: $table-max-width){
 	.product{
 		&__heading{
-		max-width: 90%;	
+		width: 100%;	
 	}
 	
 	&__cart{
@@ -166,14 +170,17 @@ ol, ul, li, a {
 @media (max-width: $mobile-max-width){
    .product{
 
-		&__heading{
-			flex-direction: column;
+		&__heading{			
+			margin-top: 24px;
+		}
+
+		&__heading-wrapp{
 			flex-direction: column;
 			justify-content: space-around;
-			margin-top: 24PX;
 		}
 
 		&__title {
+			margin-bottom: 32px;
 			text-align: center;
 			}
 		
