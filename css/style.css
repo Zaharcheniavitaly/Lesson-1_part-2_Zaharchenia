@@ -1847,27 +1847,27 @@ ol, ul, li, a {
 
 @media (max-width: 767px) {
   .catalog-page__list {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 16px;
-    row-gap: 16px;
-  }
-  .catalog-page__menu {
-    margin-top: 24px;
-    margin-bottom: 40px;
-    margin-left: 0;
-    justify-content: space-between;
-  }
-  .catalog-page__card {
-    max-width: 200%;
-  }
-  .catalog-page__card:nth-child(3) {
-    display: none;
-  }
-  .catalog-page__card-img {
-    width: 200%;
+    grid-template-columns: repeat(1, 1fr);
   }
   .catalog-page__menu-trend {
     margin-left: 0;
+  }
+  .catalog-page__menu-filter-link {
+    display: none;
+  }
+  .catalog-page__menu-filter-link-img {
+    margin-left: 0;
+  }
+  .catalog-page__form-input-trend {
+    margin-right: 24px;
+  }
+  .catalog-page__form-trend {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .catalog-page__menu-filter-img {
+    max-width: 37.5px;
+    min-height: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
