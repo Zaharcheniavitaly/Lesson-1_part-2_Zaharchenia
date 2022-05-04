@@ -1,0 +1,101 @@
+.catalog-page {
+
+	&__menu {
+	}
+
+	&__menu-filter {
+	}
+
+	&__menu-filter-link {
+	}
+
+	&__menu-trend {
+	}
+
+	&__form-label {
+	}
+
+	&__form-trend {
+	}
+
+	&__form-input-trend {
+	}
+
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 30px;
+		row-gap: 30px;
+
+	}
+
+	&__card {
+		width: 360px;
+      min-height: 581px;
+      background: $F8F8F8;
+	}
+
+
+
+
+
+
+	&__card-wrp {   
+      position: relative;
+   }
+   
+   &__card-overlay{
+      width: 100%;
+      min-height: 420px;
+      position: absolute;
+      top: 0;
+      background: rgba(58, 56, 56, 0.86);   
+   }
+   
+   &__button-overlay{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+      border: 1px solid $white;
+      background-color: transparent;
+      position: absolute;
+      top: 50%;  
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+      
+   &__card-overlay{
+      display: none;
+   }
+   
+   &__button-overlay{
+      display: none;
+   }
+         
+   &__card:hover &__button-overlay,
+   &__card:hover &__card-overlay,
+   &__card:hover:before {
+      display: block;
+      display: flex;
+   }
+
+	&__btn-basket-img{
+      display: block;
+      padding-top: 10.8px;
+      padding-right: 11px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+   }
+   
+   &__btn-text{
+      padding-top: 13.7px;
+      padding-right: 12.3px;
+      padding-bottom: 12.3px;
+      color: $white;
+   }
+
+	
+}
+
