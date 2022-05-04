@@ -87,6 +87,19 @@ input:hover, :focus {
   }
 }
 
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .brand {
   display: flex;
   margin: 0 auto;
@@ -731,6 +744,21 @@ input:hover, :focus {
   }
 }
 
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 .registration__heading {
   width: 100%;
   height: 148px;
@@ -744,6 +772,7 @@ input:hover, :focus {
   line-height: 29px;
   text-transform: uppercase;
   color: #F16D7F;
+  animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .registration__form {
@@ -1078,6 +1107,21 @@ input:hover, :focus {
   }
 }
 
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 .cart__heading {
   width: 100%;
   height: 148px;
@@ -1091,6 +1135,7 @@ input:hover, :focus {
   line-height: 29px;
   text-transform: uppercase;
   color: #F16D7F;
+  animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .cart__form {
@@ -1463,6 +1508,21 @@ input:hover, :focus {
   }
 }
 
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 ol, ul, li, a {
   text-decoration: none;
 }
@@ -1486,6 +1546,7 @@ ol, ul, li, a {
   line-height: 29px;
   text-transform: uppercase;
   color: #F16D7F;
+  animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .product__menu {
