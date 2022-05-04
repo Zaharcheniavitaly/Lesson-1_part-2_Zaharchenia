@@ -114,6 +114,7 @@ input:hover, :focus {
   font-style: normal;
   text-transform: uppercase;
   position: relative;
+  animation: tracking-in-expand 2.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .brand__heading::after {
