@@ -761,7 +761,7 @@ input:hover, :focus {
 
 .registration__heading {
   width: 100%;
-  height: 148px;
+  min-height: 148px;
   margin-top: 75px;
   padding-top: 59px;
   background: #F8F3F4;
@@ -1124,7 +1124,7 @@ input:hover, :focus {
 
 .cart__heading {
   width: 100%;
-  height: 148px;
+  min-height: 148px;
   margin-top: 75px;
   padding-top: 59px;
   background: #F8F3F4;
@@ -1529,7 +1529,7 @@ ol, ul, li, a {
 
 .product__heading {
   width: 100%;
-  height: 148px;
+  min-height: 148px;
   margin-top: 75px;
   padding-top: 59px;
   background: #F8F3F4;
@@ -1725,18 +1725,12 @@ ol, ul, li, a {
   color: #222222;
 }
 
-.catalog-page__menu-filter::after {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  content: '';
-  top: 4px;
-  left: 55px;
-  background: url(../img/svg/icon-filter.svg) no-repeat;
+.catalog-page__menu-filter-link-img {
+  margin-left: 11px;
 }
 
 .catalog-page__menu-trend {
-  margin-left: 330px;
+  margin-left: 304px;
   color: #6F6E6E;
   text-transform: uppercase;
 }
@@ -1818,5 +1812,13 @@ ol, ul, li, a {
   display: flex;
   justify-content: center;
   margin: 48px auto 96px auto;
+}
+
+@media (max-width: 1024px) {
+  .catalog-page__list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
