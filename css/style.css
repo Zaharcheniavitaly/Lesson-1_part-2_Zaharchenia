@@ -1749,7 +1749,7 @@ ol, ul, li, a {
 }
 
 .catalog-page__card {
-  width: 360px;
+  max-width: 360px;
   min-height: 581px;
   background: #F8F8F8;
 }
@@ -1815,6 +1815,26 @@ ol, ul, li, a {
 }
 
 @media (max-width: 1024px) {
+  .catalog-page__list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+  .catalog-page__menu {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    justify-content: space-between;
+  }
+  .catalog-page__card {
+    width: 48%;
+  }
+  .catalog-page__form-label-price {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
   .catalog-page__list {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 16px;
