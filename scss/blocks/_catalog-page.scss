@@ -1,25 +1,53 @@
 .catalog-page {
 
-	&__menu {
+	&__menu{
+		margin-top: 51px;
+		margin-bottom: 64px;
+		margin-left: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: left;
+		
 	}
 
-	&__menu-filter {
+	&__menu-filter{
+		position: relative;
 	}
 
-	&__menu-filter-link {
+	&__menu-filter-link{
+		font-weight: 600;
+		text-transform: uppercase;
+		color: $black;
 	}
 
-	&__menu-trend {
+	&__menu-filter::after{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+      content: '';
+      top: 4px;
+      left: 55px;
+		background: url(../img/svg/icon-filter.svg) no-repeat;
+	}
+
+	&__menu-trend{
+		margin-left: 330px;
+		color: $grey-pink;
+		text-transform: uppercase;
 	}
 
 	&__form-label {
 	}
 
 	&__form-trend {
+		
 	}
 
 	&__form-input-trend {
-	}
+		margin-right: 31px;
+		border: none;
+		color: $grey-pink;
+		}
 
 
 	&__list {
@@ -35,11 +63,6 @@
       min-height: 581px;
       background: $F8F8F8;
 	}
-
-
-
-
-
 
 	&__card-wrp {   
       position: relative;
@@ -95,6 +118,16 @@
       padding-bottom: 12.3px;
       color: $white;
    }
+	
+	&__number-page {
+		display: flex;
+		justify-content: center;
+		margin: 48px auto 96px auto;
+	}
+
+	
+
+	
 
 	
 }
