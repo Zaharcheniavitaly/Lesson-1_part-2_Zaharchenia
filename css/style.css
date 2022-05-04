@@ -1741,6 +1741,12 @@ ol, ul, li, a {
   color: #6F6E6E;
 }
 
+.catalog-page__form-input-trend-price {
+  margin-right: 0;
+  border: none;
+  color: #6F6E6E;
+}
+
 .catalog-page__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1827,10 +1833,7 @@ ol, ul, li, a {
     justify-content: space-between;
   }
   .catalog-page__card {
-    width: 48%;
-  }
-  .catalog-page__form-label-price {
-    margin: 0;
+    width: 100%;
   }
 }
 

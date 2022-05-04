@@ -35,6 +35,12 @@
 		color: $grey-pink;
 		}
 
+		&__form-input-trend-price{
+			margin-right: 0;
+			border: none;
+			color: $grey-pink;
+		}
+
 	&__list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -133,12 +139,10 @@
 			}
 
 			&__card {
-				width: 48%;			
+				width: 100%;			
 			}
 
-			&__form-label-price{
-				margin: 0;
-			}
+			
 	}
 }
 
