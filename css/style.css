@@ -1834,6 +1834,9 @@ ol, ul, li, a {
     margin-left: 0;
     justify-content: space-between;
   }
+  .catalog-page__menu-trend {
+    margin-left: 0;
+  }
   .catalog-page__card {
     max-width: 200%;
   }
