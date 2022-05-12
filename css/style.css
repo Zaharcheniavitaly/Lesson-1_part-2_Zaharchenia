@@ -1720,22 +1720,22 @@ ol, ul, li, a {
 
 .catalog-page__menu-filter {
   width: 100%;
-  height: 100%;
   position: relative;
 }
 
 .catalog-page__nav {
+  display: none;
   position: absolute;
   top: -13px;
   left: -20px;
-  box-shadow: 0 0 60px rgba(25, 24, 24, 0.7);
+  box-shadow: 0 0 20px rgba(25, 24, 24, 0.7);
   transition: .2s all;
   z-index: 1;
 }
 
-.catalog-page__button-burger:hover + .catalog-page__nav,
-.catalog-page__button-burger:focus + .catalog-page__nav,
-.catalog-page__button-burger:active + .catalog-page__nav {
+.catalog-page__menu-filter-link-img:hover + .catalog-page__nav,
+.catalog-page__menu-filter-link-img:focus + .catalog-page__nav,
+.catalog-page__menu-filter-link-img:active + .catalog-page__nav {
   display: block;
   transition: .2s all;
 }
@@ -1744,6 +1744,7 @@ ol, ul, li, a {
   width: 360px;
   height: 531px;
   padding-top: 54px;
+  padding-right: 15px;
   padding-left: 33px;
   background-color: #FFFFFF;
 }
@@ -1758,6 +1759,8 @@ ol, ul, li, a {
 
 .catalog-page__menu-filter-link-img {
   position: absolute;
+  border: 0;
+  background-color: transparent;
   top: 0;
   left: 54px;
   z-index: 2;
@@ -1860,9 +1863,19 @@ ol, ul, li, a {
 }
 
 .nav-sub-item__title-cat {
-  color: #F16D7F;
+  color: #5D5D5D;
   text-transform: uppercase;
   position: relative;
+}
+
+.nav-sub-item__title-cat-brand {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.nav-sub-item__title-cat:hover, .nav-sub-item__title-cat:focus, .nav-sub-item__title-cat:active {
+  color: #F16D7F;
+  opacity: 1;
 }
 
 .nav-sub-item__title-cat::after {
@@ -1875,13 +1888,9 @@ ol, ul, li, a {
   background-color: #F16D7F;
 }
 
-.nav-sub-item__title-line {
-  width: 327px;
-  height: 0;
-  border: 1px solid #EBEBEB;
-  position: absolute;
-  top: 77px;
-  right: 12px;
+.nav-sub-item__list-cat {
+  padding-top: 36px;
+  padding-bottom: 32px;
 }
 
 @media (max-width: 1024px) {
@@ -1897,7 +1906,7 @@ ol, ul, li, a {
     justify-content: space-between;
   }
   .catalog-page__menu-trend {
-    margin-left: 0;
+    margin-left: 377px;
   }
   .catalog-page__card {
     max-width: 200%;
@@ -1915,13 +1924,13 @@ ol, ul, li, a {
     grid-template-columns: repeat(1, 1fr);
   }
   .catalog-page__menu-trend {
-    margin-left: 0;
+    margin-left: 58px;
   }
   .catalog-page__menu-filter-link {
     display: none;
   }
   .catalog-page__menu-filter-link-img {
-    margin-left: 0;
+    margin-left: -53px;
   }
   .catalog-page__form-input-trend {
     margin-right: 24px;
