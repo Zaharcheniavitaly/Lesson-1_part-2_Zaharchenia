@@ -6,25 +6,72 @@
 		margin-left: 20px;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: left;		
-	}
-
-	&__menu-filter{
+		justify-content: left;
 		position: relative;
 	}
 
+	&__menu-filter{
+		width: 100%;
+		position: relative;
+	}
+
+	&__nav {
+		display: none;
+		position: absolute;
+		top: -13px;
+		left: -20px;
+		box-shadow: 0 0 20px rgba(25, 24, 24, 0.7);
+		transition: .2s all;
+		z-index: 1;
+	}
+
+	&__menu-filter-link-img:hover + &__nav, 
+	&__menu-filter-link-img:focus + &__nav, 
+	&__menu-filter-link-img:active + &__nav{
+   display: block;
+   transition: .2s all;
+}
+
+	&__nav-wrp{
+		width: 360px;
+		height: 531px;
+		padding-top: 54px;
+		padding-right: 15px;
+		padding-left: 33px;  
+		background-color: $white;
+	}
+
+
 	&__menu-filter-link{
+		position: absolute;
 		font-weight: 600;
 		text-transform: uppercase;
 		color: $black;
+		z-index: 2;
 	}
 
 	&__menu-filter-link-img{
-		margin-left: 11px;
+		position: absolute;
+		border: 0;
+		background-color: transparent;
+		top: 0;
+		left: 54px;
+		z-index: 2;
 	}
 
+	&__menu-filter-link:hover, 
+	&__menu-filter-link:focus,
+	&__menu-filter-link:active{
+		color: $pink;
+		opacity: 1;
+	}
+
+	
+
+
+
 	&__menu-trend{
-		margin-left: 304px;
+		margin-left: 370px;
 		color: $grey-pink;
 		text-transform: uppercase;
 	}
@@ -117,6 +164,46 @@
 	
 }
 
+.nav-sub-item{
+	
+&__title-cat{
+	color: $dark-gray;
+   text-transform: uppercase;
+	position: relative;
+}
+
+&__title-cat-brand{
+	display: flex;
+	margin-bottom: 32px;
+}
+
+&__title-cat:hover,
+&__title-cat:focus,
+&__title-cat:active{
+	color: $pink;
+	opacity: 1;
+}
+
+ &__title-cat::after {
+	position: absolute;
+	content: '';
+	width: 5px;
+	height: 37px;
+	top: -7px;
+	left: -12px;
+	background-color: #F16D7F;
+	}
+
+
+	&__list-cat{
+		padding-top: 36px;
+		padding-bottom: 32px;
+	}
+
+
+
+}
+
 
 @media (max-width: $table-S-max-width){
 	
@@ -139,7 +226,7 @@
 			}
 
 			&__menu-trend{
-				margin-left: 0;
+				margin-left: 377px;
 			}
 
 			&__card {
@@ -167,7 +254,8 @@
 		}
 		
 		&__menu-trend{
-			margin-left: 0;
+			
+			margin-left: 58px;
 		}
 
 		&__menu-filter-link{
@@ -175,14 +263,16 @@
 		}
 
 		&__menu-filter-link-img {
-			margin-left: 0;
+			margin-left: -53px;
 	   }
 
 		&__form-input-trend {
+			
 			margin-right: 24px;
 		}
 
 		&__form-trend {
+			
 			font-size: 12px;
 			line-height: 14px;
 		}
