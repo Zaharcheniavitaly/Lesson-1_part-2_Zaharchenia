@@ -1,4 +1,6 @@
-@import url(c:\Users\Admin\Desktop\GitHab_Project\Lesson-1_part-2_Zaharchenia\css\reset.css);
+/* @import url(c:\Users\Admin\Desktop\GitHab_Project\Lesson-1_part-2_Zaharchenia\css\reset.css); */
+
+
 img {
   max-width: 100%;
   height: auto;
@@ -617,6 +619,25 @@ input:hover, :focus {
 .header__link-account {
   margin-right: 42px;
 }
+.headerBasket{
+	position: relative;
+}
+
+.headerBasketCount{
+   display: inline-block;
+    width: 19px;
+    height: 19px;
+    color: white;
+    background: #f16d7f;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    right: -8px;
+    top: -19px;
+    font-size: 14px;
+    line-height: 19px;}
+
+
 
 .header__wrapper-burger {
   max-width: 1600px;
