@@ -1,6 +1,5 @@
 'use.strict';
 
-let button = document.querySelector('.header__button-burger');
+let productsData = [];
+let productCards = document.querySelectorAll('.catalog__card');
 
-console.log(button.style);
-button.style.dispay = 'block';
