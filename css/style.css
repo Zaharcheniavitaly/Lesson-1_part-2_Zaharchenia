@@ -761,6 +761,10 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
+.header__item {
+	position: relative;;
+ }
+
 @media (max-width: 1140px) {
   .header__button-burger {
     right: 180px;
@@ -787,7 +791,7 @@ input:hover, :focus {
     max-width: 767px;
   }
   .header__button-burger {
-    right: 30px;
+    right: 130px;
   }
   .header__link-account {
     display: none;
@@ -795,10 +799,13 @@ input:hover, :focus {
   .header__link-basket {
     display: none;
   }
-  .header__item {
+  /* .header__item {
     display: none;
-  }
+  } */
 }
+
+
+
 
 @keyframes tracking-in-contract-bck {
   0% {

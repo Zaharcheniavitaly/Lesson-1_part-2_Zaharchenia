@@ -35,9 +35,9 @@ function addEventListenersForAddToCartButtons() {
 function addedProductHandler(event) {
 	const productId = event.currentTarget.getAttribute('data-productId');
 	addProductIntoBasket(productId);
-	console.log(productId);
+	//console.log(productId);
 }
 
-//insertProductsIntoPage(products, featuredItemsEl);
+//insertProductsIntoPage(productsData, featuredItemsEl);
 addEventListenersForAddToCartButtons();
 
