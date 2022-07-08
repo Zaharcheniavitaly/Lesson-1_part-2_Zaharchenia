@@ -15,7 +15,7 @@ productCards.forEach(productCard => {
 	});
 });
 
-console.log(productsData);
+//console.log(productsData);
 
 /**
  * Функция назначает обработку клика на все кнопки "Add to cart".
