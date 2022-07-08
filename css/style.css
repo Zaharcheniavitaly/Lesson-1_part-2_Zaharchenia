@@ -648,6 +648,7 @@ input:hover, :focus {
 		border: 1px solid #ebebeb;
 		border-radius: 3px;
 		font-size: 14px;
+		width: 500px;
   }
 
   .hidden{
@@ -799,9 +800,19 @@ input:hover, :focus {
   .header__link-basket {
     display: none;
   }
+
+  
+	.basket {
+	width: 300px;
+  }
   /* .header__item {
     display: none;
   } */
+}
+
+@media (max-width: 400px){
+	width: 300px;
+  }
 }
 
 
