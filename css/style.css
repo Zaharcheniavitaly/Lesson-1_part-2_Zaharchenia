@@ -642,12 +642,16 @@ input:hover, :focus {
 		position: absolute;
 		z-index: 3;
 		right: 0;
-		top: 37px;
+		top: 75px;
 		background: white;
 		padding: 10px;
 		border: 1px solid #ebebeb;
 		border-radius: 3px;
 		font-size: 14px;
+  }
+
+  .hidden{
+	display: none;
   }
 
 
