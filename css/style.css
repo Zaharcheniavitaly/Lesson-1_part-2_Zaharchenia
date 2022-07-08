@@ -654,6 +654,24 @@ input:hover, :focus {
 	display: none;
   }
 
+  .basketRow {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 10px;
+}
+
+.basketHeader {
+	font-weight: bold;
+}
+
+.basketTotal {
+	font-weight: bold;
+	text-align: right;
+}
+
 
 
 .header__wrapper-burger {
