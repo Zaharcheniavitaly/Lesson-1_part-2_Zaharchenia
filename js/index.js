@@ -8,6 +8,11 @@ productCards.forEach(productCard => {
 	let desc = productCard.querySelector('.catalog__card-text').innerText;
 	let price = +productCard.querySelector('.catalog__card-price-value').innerText;
 
+	productsData.push({
+		name,
+		desc,
+		price
+	});
 });
 
-
+console.log(productsData);
