@@ -704,10 +704,15 @@ input:hover, :focus {
   transition: .2s all;
 }
 
-.header__button-burger:hover + .header__nav,
+/* .header__button-burger:hover + .header__nav,
 .header__button-burger:focus + .header__nav,
 .header__button-burger:active + .header__nav {
   display: block;
+  transition: .2s all;
+} */
+
+.header__button-burger-active{
+	display: block;
   transition: .2s all;
 }
 
