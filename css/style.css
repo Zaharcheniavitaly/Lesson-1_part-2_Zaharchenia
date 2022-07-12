@@ -701,7 +701,7 @@ input:hover, :focus {
   top: 75px;
   right: 0;
   box-shadow: 0 0 60px rgba(25, 24, 24, 0.7);
-  transition: .3s all linear;
+  transition: .5s all linear;
 }
 
 /* .header__button-burger:hover + .header__nav,
