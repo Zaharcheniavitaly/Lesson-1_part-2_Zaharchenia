@@ -37,6 +37,5 @@ function addedProductHandler(event) {
 	//console.log(productId);
 }
 
-//insertProductsIntoPage(productsData, featuredItemsEl);
 addEventListenersForAddToCartButtons();
 
