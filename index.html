@@ -124,29 +124,6 @@
 					</a>
 				</li>
 
-				<li class="header__logo">
-					<a href="catalog.html">
-						<img src="img/icon-catalog.png" alt="logo">
-					</a>
-				</li>
-
-				<li class="header__logo">
-					<a href="product.html">
-						<img src="img/icon-product.png" alt="logo">
-					</a>
-				</li>
-
-				<li class="header__logo">
-					<a href="cart.html">
-						<img src="img/icon-cart.png" alt="logo">
-					</a>
-				</li>
-
-				<li class="header__logo">
-					<a href="registration.html">
-						<img src="img/icon-registration.png" alt="logo">
-					</a>
-				</li>
 
 				<li class="header__loupe">
 					<a href="#!">
@@ -164,9 +141,25 @@
 				</li>
 
 				<li class="header__item">
-					<a class="header__link" href="!#">
-						<img class="header__link-basket" src="img/svg/basket.svg" alt="basket">
+					<a class="header__link" href="#!">
+						<span class="headerBasket">
+							<img src="img/svg/basket-.png" alt="basket">
+							<span class="headerBasketCount">0</span>
+						</span>
 					</a>
+					<div class="basket hidden">
+						<div class="basketRow basketHeader">
+							<div>Название товара</div>
+							<div>Количество</div>
+							<div>Цена за шт.</div>
+							<div>Итого</div>
+						</div>
+
+						<div class="basketTotal">
+							Товаров в корзине на сумму:
+							$<span class="basketTotalValue">0</span>
+						</div>
+					</div>
 				</li>
 			</ul>
 
@@ -232,17 +225,17 @@
 					<div class="catalog__card-wrp">
 						<img class="catalog__card-img" src="img/jacket.jpg" alt="jacket">
 						<div class="catalog__card-overlay"></div>
-						<button type="button" class="catalog__button-overlay">
+						<button data-productId="0" type="button" class="catalog__button-overlay">
 							<img class="catalog__btn-basket-img" src="img/svg/btn-basket.svg" alt="btn">
 							<span class="catalog__btn-text">Add to Cart</span>
 						</button>
 					</div>
 
-					<h3 class="catalog__card-title">ellery x m'o capsule</h3>
+					<h3 class="catalog__card-title">Товар 1</h3>
 					<p class="catalog__card-text">Known for her sculptural takes on traditional tailoring, Australian arbiter
 						of cool Kym Ellery teams
 						up with Moda Operandi.</p>
-					<p class="catalog__card-price">$52.00</p>
+					<p class="catalog__card-price">$<span class="catalog__card-price-value">41.90</span></p>
 				</li>
 
 				<li class="catalog__card">
@@ -251,34 +244,34 @@
 						<img class="catalog__card-img" src="img/dress.jpg" alt="dress">
 
 						<div class="catalog__card-overlay"></div>
-						<button type="button" class="catalog__button-overlay">
+						<button data-productId="1" type="button" class="catalog__button-overlay">
 							<img class="catalog__btn-basket-img" src="img/svg/btn-basket.svg" alt="btn">
 							<span class="catalog__btn-text">Add to Cart</span>
 						</button>
 					</div>
 
-					<h3 class="catalog__card-title">ellery x m'o capsule</h3>
+					<h3 class="catalog__card-title">Товар 2</h3>
 					<p class="catalog__card-text">Known for her sculptural takes on traditional tailoring, Australian arbiter
 						of cool Kym Ellery teams
 						up with Moda Operandi.</p>
-					<p class="catalog__card-price">$52.00</p>
+					<p class="catalog__card-price">$<span class="catalog__card-price-value">51.40</span></p>
 				</li>
 
 				<li class="catalog__card">
 					<div class="catalog__card-wrp">
 						<img class="catalog__card-img" src="img/bike.jpg" alt="bike">
 						<div class="catalog__card-overlay"></div>
-						<button type="button" class="catalog__button-overlay">
+						<button data-productId="2" type="button" class="catalog__button-overlay">
 							<img class="catalog__btn-basket-img" src="img/svg/btn-basket.svg" alt="btn">
 							<span class="catalog__btn-text">Add to Cart</span>
 						</button>
 					</div>
 
-					<h3 class="catalog__card-title">ellery x m'o capsule</h3>
+					<h3 class="catalog__card-title">Товар 3</h3>
 					<p class="catalog__card-text">Known for her sculptural takes on traditional tailoring, Australian arbiter
 						of cool Kym Ellery teams
 						up with Moda Operandi.</p>
-					<p class="catalog__card-price">$52.00</p>
+					<p class="catalog__card-price">$<span class="catalog__card-price-value">50.60</span></p>
 				</li>
 
 				<li class="catalog__card">
@@ -286,53 +279,53 @@
 					<div class="catalog__card-wrp">
 						<img class="catalog__card-img" src="img/trousers.jpg" alt="trousers">
 						<div class="catalog__card-overlay"></div>
-						<button type="button" class="catalog__button-overlay">
+						<button data-productId="3" type="button" class="catalog__button-overlay">
 							<img class="catalog__btn-basket-img" src="img/svg/btn-basket.svg" alt="btn">
 							<span class="catalog__btn-text">Add to Cart</span>
 						</button>
 					</div>
 
 
-					<h3 class="catalog__card-title">ellery x m'o capsule</h3>
+					<h3 class="catalog__card-title">Товар 4</h3>
 					<p class="catalog__card-text">Known for her sculptural takes on traditional tailoring, Australian arbiter
 						of cool Kym Ellery teams
 						up with Moda Operandi.</p>
-					<p class="catalog__card-price">$52.00</p>
+					<p class="catalog__card-price">$<span class="catalog__card-price-value">52.80</span></p>
 				</li>
 
 				<li class="catalog__card">
 					<div class="catalog__card-wrp">
 						<img class="catalog__card-img" src="img/blazer.jpg" alt="blazer">
 						<div class="catalog__card-overlay"></div>
-						<button type="button" class="catalog__button-overlay">
+						<button data-productId="4" type="button" class="catalog__button-overlay">
 							<img class="catalog__btn-basket-img" src="img/svg/btn-basket.svg" alt="btn">
 							<span class="catalog__btn-text">Add to Cart</span>
 						</button>
 					</div>
 
-					<h3 class="catalog__card-title">ellery x m'o capsule</h3>
+					<h3 class="catalog__card-title">Товар 5</h3>
 					<p class="catalog__card-text">Known for her sculptural takes on traditional tailoring, Australian arbiter
 						of cool Kym Ellery teams
 						up with Moda Operandi.</p>
-					<p class="catalog__card-price">$52.00</p>
+					<p class="catalog__card-price">$<span class="catalog__card-price-value">34.50</span></p>
 				</li>
 
 				<li class="catalog__card">
 					<div class="catalog__card-wrp">
 						<img class="catalog__card-img" src="img/blouse.jpg" alt="blouse">
 						<div class="catalog__card-overlay"></div>
-						<button type="button" class="catalog__button-overlay">
+						<button data-productId="5" type="button" class="catalog__button-overlay">
 							<img class="catalog__btn-basket-img" src="img/svg/btn-basket.svg" alt="btn">
 							<span class="catalog__btn-text">Add to Cart</span>
 						</button>
 					</div>
 
-					<h3 class="catalog__card-title">ellery x m'o capsule</h3>
+					<h3 class="catalog__card-title">Товар 6</h3>
 					<p class="catalog__card-text">Known for her sculptural takes on traditional tailoring, Australian arbiter
 						of cool Kym Ellery teams
 						up with Moda Operandi.
 					</p>
-					<p class="catalog__card-price">$52.00</p>
+					<p class="catalog__card-price">$<span class="catalog__card-price-value">42.80</span></p>
 				</li>
 			</ul>
 
@@ -461,6 +454,8 @@
 
 
 	<script src="js/index.js"></script>
+	<script src="js/basket.js"></script>
+	<script src="js/burgerMenu.js"></script>
 </body>
 
 </html>

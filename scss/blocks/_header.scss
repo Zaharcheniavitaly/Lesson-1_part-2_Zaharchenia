@@ -53,6 +53,10 @@
 	border: none;
 }
 
+&__item{
+	position: relative;
+}
+
 &__button-burger {
    border: none;
    background-color: transparent;
@@ -132,6 +136,8 @@
    &__item-link:active{
       color: $pink;
    }
+
+	
 }
 
 //media

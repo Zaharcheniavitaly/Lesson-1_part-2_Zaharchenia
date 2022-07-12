@@ -1,4 +1,6 @@
-@import url(c:\Users\Admin\Desktop\GitHab_Project\Lesson-1_part-2_Zaharchenia\css\reset.css);
+ @import url(c:\Users\Admin\Desktop\GitHab_Project\Lesson-1_part-2_Zaharchenia\css\reset.css); 
+
+
 img {
   max-width: 100%;
   height: auto;
@@ -617,6 +619,61 @@ input:hover, :focus {
 .header__link-account {
   margin-right: 42px;
 }
+.headerBasket{
+	position: relative;
+}
+
+.headerBasketCount{
+   display: inline-block;
+    width: 19px;
+    height: 19px;
+    color: white;
+    background: #f16d7f;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    right: -8px;
+    top: -19px;
+    font-size: 14px;
+    line-height: 19px;
+	}
+
+	.basket {
+		position: absolute;
+		z-index: 3;
+		right: 0;
+		top: 54px;
+		background: white;
+		padding: 10px;
+		border: 1px solid #ebebeb;
+		border-radius: 3px;
+		font-size: 14px;
+		width: 500px;
+  }
+
+  .hidden{
+	display: none;
+  }
+
+  .basketRow {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 10px;
+}
+
+.basketHeader {
+	font-weight: bold;
+}
+
+.basketTotal {
+	font-weight: bold;
+	text-align: right;
+}
+
+
 
 .header__wrapper-burger {
   max-width: 1600px;
@@ -639,19 +696,23 @@ input:hover, :focus {
 }
 
 .header__nav {
-  display: none;
+  transform: translateY(-110%);
   position: absolute;
   top: 75px;
   right: 0;
   box-shadow: 0 0 60px rgba(25, 24, 24, 0.7);
-  transition: .2s all;
+  transition: .5s all linear;
 }
 
-.header__button-burger:hover + .header__nav,
+/* .header__button-burger:hover + .header__nav,
 .header__button-burger:focus + .header__nav,
 .header__button-burger:active + .header__nav {
   display: block;
   transition: .2s all;
+} */
+
+.header__button-burger-active{
+	transform: translateY(0);
 }
 
 .header__nav-wrp {
@@ -705,6 +766,10 @@ input:hover, :focus {
   color: #F16D7F;
 }
 
+.header__item {
+	position: relative;;
+ }
+
 @media (max-width: 1140px) {
   .header__button-burger {
     right: 180px;
@@ -731,7 +796,7 @@ input:hover, :focus {
     max-width: 767px;
   }
   .header__button-burger {
-    right: 30px;
+    right: 130px;
   }
   .header__link-account {
     display: none;
@@ -739,10 +804,23 @@ input:hover, :focus {
   .header__link-basket {
     display: none;
   }
-  .header__item {
+
+  
+	.basket {
+	width: 300px;
+  }
+  /* .header__item {
     display: none;
+  } */
+}
+
+@media (max-width: 400px){
+	width: 300px;
   }
 }
+
+
+
 
 @keyframes tracking-in-contract-bck {
   0% {
